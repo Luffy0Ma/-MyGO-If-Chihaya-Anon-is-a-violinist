@@ -1,0 +1,7 @@
+changeBg:AI/ChatGPT Image 2025年4月23日 19_28_57.png -transform={"position":{"y":400},"scale":{"x":1.5,"y":1.5}};
+changeBg:AI/ChatGPT Image 2025年4月23日 19_28_56.png -next -transform={"position":{"y":200},"scale":{"x":1.5,"y":1.5}};
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":-150,"y":-150},"scale":{"x":0.8,"y":0.8}} -next -motion=sakiko_surprised02 -expression=sakiko_surprised02;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -transform={"position":{"x":650,"y":-150},"scale":{"x":0.8,"y":0.8}} -motion=mutsumi_surprised01 -expression=mutsumi_surprised01;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":-150,"y":-150},"scale":{"x":0.8,"y":0.8}} -next -motion=sakiko_nnf_right01 -expression=sakiko_surprised02;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -transform={"position":{"x":650,"y":-150},"scale":{"x":0.8,"y":0.8}} -next -motion=mutsumi_sad01 -expression=mutsumi_surprised01;
+睦:soyo，已经坏掉了。 -fontSize=default;

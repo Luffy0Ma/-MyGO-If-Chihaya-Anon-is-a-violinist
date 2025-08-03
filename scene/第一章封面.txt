@@ -1,0 +1,3 @@
+changeBg:flowerfield.png -transform={"blur":10};
+changeFigure:anon/school_winter/model.json -right -id=11 -transform={"position":{"x":100,"y":-200}} -motion=soyo_sad01 -expression=mana_surprised01;
+changeFigure:sakiko/school_winter/model.json -left -id=22 -transform={"position":{"y":-200},"blur":10} -motion=sakiko_smile01 -expression=sakiko_smile01;

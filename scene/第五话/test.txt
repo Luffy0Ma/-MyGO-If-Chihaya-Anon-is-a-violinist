@@ -1,0 +1,2 @@
+changeFigure:anon/birthday_2024_ssr_sweat_exhasted/model.json -motion=umiri_surprised01 -expression=anon_tired;
+changeFigure:sakiko/casual/model.json -motion=sakiko_angry01 -expression=sakiko_surprised02;

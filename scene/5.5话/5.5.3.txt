@@ -1,0 +1,75 @@
+changeBg:K（生活地点）/K2.jpg -next;
+bgm:Special/悲伤类/Tchaikovsky_Six Pieces.mp3;
+:祥是不会因为生病而请病假的。睦对此深信不疑。;
+:所以如果她请病假了，一定是因为别的事情。;
+:电车上，睦困惑地翻着谷歌地图，试图从中获取更多的信息。她并不知道祥究竟在哪里打工，但她的所有线索指向了一个位置可知的车站。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_thinking01 -expression=mutsumi_serious01 -id=mutsumi -next;
+睦:（……代代木。）
+睦:（祥，以前提到过这一站……）
+广播音:東新宿站到了，需要换乘大江户线的乘客请在此站下车……
+changeBg:K（生活地点）/K26.png -next;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……
+changeBg:K（生活地点）/K2.jpg -next;
+:这样寻找……恐怕是大海捞针，但是…必须得试一试。
+changeBg:Z/Yoyogi-Station-01.jpg -next -transform={"colorRed":224,"colorGreen":213,"colorBlue":177} -unlockname=station;
+:代代木站 · 出口
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_thinking01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:（可是……在哪里？）
+:睦从车站走出，傍晚的冷风让她下意识地裹紧了校服外套。她站在人来人往的街口，抬头望着眼前一片由玻璃和钢铁构成的、冰冷的森林。;
+changeBg:Z/2c452523e0444e1b82e2f72a1951d02c.jpg -next;
+:睦站在一栋气派的、玻璃幕墙闪闪发光的写字楼下。她仰着头，看着大楼水牌上一长串陌生的公司名字。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:（……不是这里。太新了，不像她会选择的地方。）;
+changeBg:M（街道）/M6.png -next;
+:走在一条稍显僻静的商业街上，路过一家正在打烊的服装店。她透过玻璃窗，看到里面店员正在整理衣物。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_thinking01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:（……她不会做这个。她不想被任何人看到。）;
+changeBg:M（街道）/M19.png -next -transform={"colorRed":255,"colorGreen":255,"colorBlue":255} -unlockname=bg;
+:睦焦急地看着手机。屏幕上，密密麻麻的建筑图标让她眼花缭乱。她的手指在屏幕上滑动，自己都不知道到底在翻找什么。
+:……太多了。根本……找不到。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad02 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……
+:……我是不是，猜错了？
+:……如果，她根本不在这里呢？
+:……我好笨。
+changeBg:M（街道）/M15.png -next;
+:天色已经完全黑透了。
+:她遍历了所有她认为可能的写字楼和商业街，却没有任何线索。希望被一点点地消磨殆尽，只剩下冰冷的失望和对自己的怀疑。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad01 -id=mutsumi -next;
+changeBg:Z/Yoyogi-Station-01.jpg -transform={"brightness":0.8,"contrast":0.8,"saturation":1.1,"gamma":0.8,"colorRed":138,"colorGreen":165,"colorBlue":194} -unlockname=station;
+睦:（……该回去了。）
+睦:（明天……明天再来吧。）
+changeBg:bestdori/bg00988.png -next -transform={"brightness":1,"colorRed":255,"colorGreen":255,"colorBlue":255} -unlockname=gate;
+:她低下头，转身准备走向检票口。
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_surprised01 -expression=mutsumi_surprised01;
+:就在她迈出脚步的那一刻，一个熟悉的身影映入眼帘。睦的身体，像被电流击中一样，瞬间僵住了。
+:只见车站入口的灯光下，丰川祥子正站在那里。她穿着已经有些旧了的便服，手里提着一个便利店的透明塑料袋。袋子里，装着一个打折的三明治，一瓶矿泉水，还有……一罐小小的、印着水果图案的、低度数的啤酒。
+setTransform:{"position":{"x":-500}} -target=mutsumi -duration=1000 -next;
+changeFigure:sakiko/casual_tired/model.json -right -id=sakiko -next -motion=sakiko_surprised01 -expression=sakiko_desperate;
+:祥子也注意到了那道灼人的视线。她抬起头，看到了那个她做梦也想不到会出现在这里的，若叶睦。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_surprised01 -expression=mutsumi_surprised01 -id=mutsumi -left -next;
+:四目相对。
+changeFigure:sakiko/casual_tired/model.json -right -id=sakiko -next -motion=sakiko_surprised02 -expression=sakiko_cry03;
+:祥子的瞳孔猛地收缩，在那一瞬间，她脸上所有的疲惫都被一种极度的惊慌所取代。
+:她想逃跑。
+changeFigure:sakiko/casual_tired/model.json -right -id=sakiko -next -motion=sakiko_cry01 -expression=sakiko_cry03;
+:但她的脚，却像灌了铅一样，一步也迈不出去。她知道，睦已经看到她了。现在逃跑，只会显得更加狼狈，更加可悲。
+:空气凝固了，只有车站的广播声和远处车流的噪音，在她们之间流动。几十秒，像一个世纪那么漫长。
+setTransform:{"position":{"x":-200}} -target=mutsumi -duration=3000 -next;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -left -next;
+:最终，是睦先动了。她只是默默地、一步一步地，走到了祥子的身侧，与她并排站着，目光看着前方来来往往的人群，而不是祥子的脸。
+
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_sad01 -expression=sakiko_sad01 -id=sakiko -right -next;
+祥子:……
+:祥子能感觉到身旁那小小的、安静的气场。她那颗因为惊慌而狂跳的心，在这种沉默的对峙中，反而一点点地平复了下来，取而代之的，是更深、更沉的疲惫和苦涩。
+changeFigure:sakiko/casual_tired/model.json -right -id=sakiko -next -motion=uika_sad01 -expression=sakiko_sad01;
+:终于，她放弃了抵抗。;
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_sad01;
+祥子:……找个地方，坐坐吧。这里……人太多了。
+changeFigure:none -id=mutsumi -next;
+changeFigure:none -id=sakiko -next;
+:…… -notend;
+bgm:none -enter=1500;
+:……;
+changeScene:5.5话/5.5.4.txt

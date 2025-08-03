@@ -1,0 +1,220 @@
+changeBg:Z/Farori/frontdoor1.png -next -transform={"position":{"x":50},"scale":{"x":1.35,"y":1.35}};
+bgm:Special/教会に咲く花.m4a;
+:FAVORI Restaurant是一家比较正宗的法式餐厅，从目白站步行只需要 6 分钟。这家餐厅的主厨兼主人曾在东京的著名餐厅学习，并拥有超过 25 年的厨师职业生涯……;
+changeBg: -next;
+changeBg:Z/Farori/top_gally9.jpg -next -transform={"position":{"x":0,"y":0},"scale":{"x":1.1,"y":1.1}};
+:餐厅的门轻轻响起，微弱的灯光映照着她们的身影。走进这家静谧的法式餐厅，空气中弥漫着温暖的香气。二人来到一个僻静的位置坐了下来。;
+
+changeBg:Z/Farori/indoor.png -next -transform={"position":{"x":50},"scale":{"x":1.35,"y":1.35},"blur":3};
+changeFigure:BackGround/indoor.png -id=restaurant -transform={"position":{"x":50},"scale":{"x":1.35,"y":1.35}} -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":500,"y":-200}} -next -motion=anon_nnf02 -expression=anon_shame01 -zIndex=5;
+changeFigure:soyo/school_winter/model.json -id=soyo -transform={"position":{"x":-500,"y":-200}} -next -motion=soyo_nf01 -expression=soyo_thinking01 -zIndex=6;
+爱音:抱歉，刚才有些失态了……好久没回到月之森，一时间想起了好多事……;
+:爱音低下头，指尖轻轻拨弄着桌上的水杯。杯中的水微微晃动，映出她有些模糊的倒影。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":500,"y":-200}} -next -motion=anon_nnf_left01 -expression=anon_shame01;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf_right01 -expression=soyo_smile03;
+素世:在这里就不用担心撞其他熟人了。藤原同学的话，今天晚上应该是要和朋友一起去看演唱会，辉夜她们的话现在应该已经到家了，也不用担心会在车站撞见她们什么的—— -fontSize=default;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf_left01 -expression=soyo_serious02;
+:她说着，眼神从爱音脸上移开，似乎怕自己话说得太多。手下意识抓起餐巾，又放下。;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf_right01 -expression=soyo_serious02;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_smile02 -expression=soyo_smile03;
+爱音:素世，你误会我啦，我也不是非要躲着她们不可……;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf04 -expression=soyo_smile03;
+:爱音抬起头，有点无奈地笑笑。素世这么体贴的关心反倒有些让她不适应。 -fontSize=default;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf04 -expression=soyo_sad01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nf01 -expression=anon_smile03;
+爱音:放心，我没事。说起来，这家餐厅是预约制的吧？那……;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_sad01 -expression=soyo_sad01 -id=soyo -next;
+:素世别过了视线，有些落寞地望向窗外。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nf01 -expression=anon_surprised01;
+素世:嗯……母亲前几天预定的，但是她临时又有了工作上的事情来不了……;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_sad01 -expression=sakiko_surprised01;
+:似乎意识到自己的情绪不太对，素世连忙打起了圆场。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nf_left01 -expression=anon_surprised01;
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile01 -expression=soyo_smile01 -id=soyo -next;
+素世:不过，能在今天遇到爱音还是很开心的！真的是好久不见了……看看菜单吧，我也算是这里的常客了，你应该会很喜欢最后面的这个晚餐限定高级套餐的。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nod01 -expression=sakiko_idle01;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_smile03;
+:她把菜单递过去时，边想着爱音的事情边将自己的情绪调整开心起来。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nod01 -expression=anon_thinking01;
+:爱音看起了菜单，蒸鸡配酸豆奶油酱、西班牙火腿、A5和牛牛排……;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf_left01 -expression=soyo_smile01;
+:素世叫来了服务员，点完自己的份以后准备帮爱音点上那个她应该会喜欢的套餐—— -fontSize=default;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf_right01 -expression=soyo_surprised01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nnf04 -expression=L_Boby;
+爱音:这个……我还是算了吧。素世要的哪个套餐？;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf02 -expression=sakiko_surprised01;
+素世:诶？我要的是这个晚餐A套餐来着……;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_smile01 -expression=anon_smile01;
+:爱音看了看素世指的套餐：鲜鱼沙拉、芜菁巴伐露、香煎鲜鱼......;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=sakiko_nnf_right01 -expression=sakiko_surprised01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nf01 -expression=anon_smile01;
+爱音:我也要这个吧。前菜我选这几个……这个蒸鸡不要奶油酱汁，这个鱼麻烦和巴萨米克酱分开上，少油煎制，其它都和我的朋友一样，谢谢。;
+服务员:好的，请二位稍等片刻。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nod01 -expression=anon_smile01;
+changeFigure:soyo/school_winter/model.json -motion=soyo_sad02 -expression=soyo_sad02 -id=soyo -next;
+素世:…… -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_thinking03 -expression=anon_thinking03 -id=anon -next;
+爱音:月之森变了好多……各种社团宣传海报风格和以前完全不一样，原本熟悉的教室变成了陌生的样子……连进出管理都变松了，我还以为进来的时候会被盘问一番呢。;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious01 -expression=soyo_smile01;
+素世:嗯，一般来说只要看着不是社会闲散人士的样子就不会拦了。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_smile02 -expression=anon_smile02;
+爱音:不过最让我惊讶的还是吹奏乐部的节目！真的好热闹啊，我还以为我走到行进管乐团的片场了。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_smile06 -expression=anon_smile01;
+最后的那个曲目好像还是什么动漫的曲子吧……？ -concat -fontSize=default;
+changeFigure:soyo/school_winter/model.json -motion=soyo_thinking02 -expression=soyo_thinking02 -id=soyo -next;
+素世:那个啊，爱音听说过新世纪福音战士吗？就是那部作品的主题曲哦。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf_right01 -expression=soyo_thinking02;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=anon_smile03;
+爱音:我以为校领导和老师们是不会允许这种类型的曲子登上舞台的。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_sad02 -expression=soyo_smile03;
+素世:嘛……这几年，月之森也是有在慢慢改变的，总体来说的确比我们刚上初中的时候宽松了不少。啊，不过还是不能随意使用手机就是了。 -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile01 -expression=anon_smile01 -id=anon -next;
+爱音:那还真是老样子呢。;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_smile03 -expression=soyo_smile04;
+素世:呵呵~;
+:二人笑了起来。光阴荏苒，时过境迁，但总有些事物似乎永远不会变——;
+bgm: -enter=3000;
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":1500,"y":-200},"scale":{"x":1.2,"y":1.2}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":400},"scale":{"x":1.7,"y":1.7}} -target=restaurant -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious02 -expression=soyo_sad01;
+:但是对素世来说并不是这样的。爱音她……虽然外表看上去还一样，但果然变了。;
+bgm:选择背景音乐;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_sad01 -expression=soyo_sad01;
+bgm:Special/Raindrops_on_the_window.m4a;
+:不只是点菜方式，她的语气语调，乃至坐姿，说话方式都"变了"……该说是"内在的气场"吗？如果是以前的话……爱音大概不会在细微的事情上这么讲究，对朋友这么谨慎……;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious04 -expression=soyo_sad02;
+:那份熟悉又陌生的距离感，就像是月之森的校门——外表依旧，却再也不是曾经的样子。;
+setTransform:{"position":{"x":-500,"y":-200},"scale":{"x":1,"y":1}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":1,"y":1}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":50},"scale":{"x":1.35,"y":1.35}} -target=restaurant -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf_right01 -expression=soyo_surprised01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_thinking02 -expression=anon_thinking01;
+爱音:大概…我也变了很多吧？ -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_surprised01 -expression=soyo_surprised01 -id=soyo -next;
+素世:诶？;
+:耳边突然响起爱音的声音。素世微微一愣，意识从思绪中回到现实里。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_smile03 -expression=anon_smile03;
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile03 -expression=soyo_smile03 -id=soyo -next;
+素世:……也许吧，不过我还是一眼就认出你来了。;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_sad02 -expression=soyo_smile03;
+:素世仔细斟酌着词句，思考着该怎么在推进话题的同时避免触碰到可能的逆鳞。或许是察觉到了素世的担忧，爱音主动地说了下去。 -fontSize=default;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_smile03 -expression=soyo_thinking01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_smile03 -expression=anon_smile01;
+爱音:不是坏的意思啦，只是……在英国的这两年，好像变得习惯了一个人生活，习惯了把很多事情都自己处理。衣食住行，上课，考试，比赛，练习……太多事都排得满满的，想一个人偷偷哭都得算着时间。 -fontSize=default;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_smile03 -expression=soyo_sad01;
+:素世怔了一下，不确定该对"一个人偷偷哭"的话语作何反应。不过，看到爱音是坦然地笑着说出这些时，她还是勉强让自己放下了心里的一些担忧。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_sigh01 -expression=umiri_smile01;
+changeFigure:soyo/school_winter/model.json -motion=soyo_nnf03 -expression=soyo_default -id=soyo -next;
+素世:是…是嘛。留学生活真是很忙碌啊。;
+changeFigure:soyo/school_winter/model.json -motion=soyo_nnf03 -expression=soyo_default -id=soyo -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nf02 -expression=anon_default;
+爱音:是啊，不过学到的东西也很多。文化课当然也要学，而且还一点也不少，老师盯得很紧……;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf04 -expression=sakiko_sad01;
+:素世望着爱音，不知不觉地攥紧了手边的餐巾。有一个心里的疑惑，必须要确认才行——;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nf02 -expression=anon_surprised01;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious01 -expression=taki_sad03;
+素世:那……爱音…没有放弃小提琴吧？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_surprised01 -expression=anon_surprised01;
+爱音:诶？;
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":1500,"y":-200},"scale":{"x":1.2,"y":1.2}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":400},"scale":{"x":1.7,"y":1.7}} -target=restaurant -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious01 -expression=uika_sad01;
+:素世咽了咽口水，几秒的沉默时间仿佛如同永远一样长。她在心中默默祈祷，祈愿自己心底最担心的情况不会发生。;
+setTransform:{"position":{"x":-500,"y":-200},"scale":{"x":1,"y":1}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":1,"y":1}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":50},"scale":{"x":1.35,"y":1.35}} -target=restaurant -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious01 -expression=umiri_surprised01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_kime01 -expression=anon_smile04;
+爱音:当然没有啊。不管是过去还是现在，我都一样热爱着音乐和演奏。我现在可比以前厉害多了哦？;
+:她说得轻快，甚至带着一点小小的骄傲。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_smile03 -expression=anon_smile04;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_smile03 -expression=soyo_default;
+素世:是…是这样嘛……;
+changeFigure:soyo/school_winter/model.json -motion=soyo_nnf02 -expression=soyo_default -id=soyo -next;
+setTransform:{"position":{"x":-2000,"y":-300},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-100,"y":-300},"scale":{"x":1.2,"y":1.2}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":-300},"scale":{"x":1.7,"y":1.7}} -target=restaurant -duration=1000 -next;
+:素世在暗中松了一口气，至少在表面上，她还能这样说、还能这样笑。自己所预想的"爱音在英国遭遇了什么不好的事情"……应该是，幸运地落空了吧？;
+setTransform:{"position":{"x":-750,"y":-300},"scale":{"x":1.2,"y":1.2}} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":300,"y":-300},"scale":{"x":1.2,"y":1.2}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1.7,"y":1.7}} -target=restaurant -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_nnf_left01 -expression=anon_surprised01;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf_right01 -expression=soyo_sad01;
+素世:那……为什么回来了呢？;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_sad02 -expression=soyo_odoodo01;
+:她听见自己问出这句话时，心脏微微收紧。她觉得自己完全不该问的，但奈何她实在太想知道了。;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_thinking02 -expression=anon_thinking02 -id=anon -next;
+爱音:嘛……大概是压力太大了吧？;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_surprised01 -expression=soyo_surprised01 -id=soyo -next;
+素世:诶……？;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile01 -expression=anon_smile01 -id=anon -next;
+爱音:因为真的很累啊——回国以后感觉整个人都松弛下来了。;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_nnf04 -expression=soyo_default -id=soyo -next;
+素世:是……是嘛？;
+changeBg: -next;
+changeFigure: -id=anon -next;
+changeFigure: -id=restaurant -next;
+setTransform:{"position":{"x":-400,"y":-300},"scale":{"x":1.3,"y":1.3}} -target=soyo -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_thinking02 -expression=soyo_sad03;
+:是这样吗？素世的内心迟疑不定。这回答听上去没什么问题，但不知为何却让她反而生出了一点不安。就像一面太干净的镜子，反射不出真实的情绪。;
+setTransform:{"position":{"x":-700,"y":-250},"scale":{"x":1.1,"y":1.1}} -target=soyo -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf_right01 -expression=uika_sad01;
+changeFigure:anon/school_winter_test1/model.json -id=shadow -transform={"position":{"x":500,"y":-250},"scale":{"x":1.1,"y":1.1},"alpha":0.5} -next -motion=sakiko_cry04 -expression=sakiko_cry01;
+素世:（那时候…爱音的样子……）;
+:素世再一次回忆起在校园里刚追到爱音的时候，她的那副目光低垂，眼里的光彩像被雨水打湿的烛火那样快要的神情。难道说，自己真的只是过度担忧了吗？;
+setTransform:{"position":{"x":0,"y":-200},"scale":{"x":1,"y":1}} -target=soyo -duration=1000 -next;
+changeFigure: -id=shadow -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_sad02;
+:她又摇了摇头，像是在赶走不该存在的多心。也许真的只是太累了吧……留学的生活确实不轻松，哪怕是对于爱音这样的好学生而言。;
+bgm: -enter=1000;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=uika_nf05 -expression=soyo_serious01;
+:素世长舒一口气，从半个小时前一直紧绷着的心终于放了下来。至少现在她没有什么需要追问的了。;
+bgm:Special/Love_Story.m4a;
+changeBg:Z/Farori/indoor.png -next -transform={"position":{"x":50},"scale":{"x":1.35,"y":1.35}};
+setTransform:{"position":{"x":-500,"y":-200}} -target=soyo -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking01;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":500,"y":-200}} -next -motion=anon_nnf01 -expression=anon_default;
+爱音:怎么了？突然一副感慨万千的样子？;
+:素世微微一愣，才反应过来自己不自觉地盯着她看了好久。;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_smile04 -expression=sakiko_smile03;
+素世:没什么……只是觉得真是太好了。;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_nnf03 -expression=anon_default -id=anon -next;
+爱音:什么事？;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_shame02 -expression=sakiko_smile06;
+素世:爱音回来了这件事。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_shame01 -expression=anon_surprised01;
+爱音:（脸红）;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_shame02 -expression=anon_surprised01;
+:爱音微微一怔，耳根泛起淡淡的红。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nnf_left01 -expression=anon_shame02;
+:就在这时，服务员轻轻靠近，把两份餐点一一放在桌上，悄然打破了桌边短暂却浓稠的沉默。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_smile02 -expression=anon_shame01;
+爱音:啊，我的鲜鱼沙拉来了。;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_smile01;
+素世:还有我的那份。;
+bgm: -enter=1000;
+changeFigure: -id=anon -next;
+changeFigure:none -id=soyo -next;
+:……;
+changeBg:none;
+changeScene:第三话/part6.txt

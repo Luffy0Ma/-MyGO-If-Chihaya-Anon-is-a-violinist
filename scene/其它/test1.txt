@@ -1,0 +1,2 @@
+changeBg:F（羽丘）/F15.png -next;
+changeFigure:sakiko/sakiko_small/model.json -motion=kokoro_smile02 -expression=default -bounds=-1000,-100,1000,-100;

@@ -1,0 +1,114 @@
+bgm:Special/追憶のとき.mp3;
+changeBg:F（羽丘）/F1.png -next;
+:第二天
+:羽丘女子学院的正门前，穿着各式校服的女孩子们三三两两地涌出，她们的笑声和交谈声混合在空气中，充满了青春特有的、无忧无虑的喧嚣。;
+羽丘学生A:她穿着月之森的校服吧？
+羽丘学生B:像洋娃娃一样，超可爱的！
+羽丘学生C:那不是搞笑艺人若叶家的女儿吗？
+羽丘学生B:真的吗，不会吧？
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_idle01 -expression=mutsumi_default;
+睦:……
+:她穿着一身蓝色的月之森校服，与周围羽丘学生轻松的氛围显得格格不入。她没有看手机，也没有左顾右盼，只是将目光投向那个不断有人走出的教学楼正门，像一个沉默的、没有感情的人偶。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_thinking01 -expression=mutsumi_default -id=mutsumi -next;
+睦:（……比赛结束以后，就一直联系不上祥了。）
+睦:（电话不接，信息也不回。）
+睦:（……只能来这里等了。）
+睦:（……祥，就在这里。）
+睦:（一定能等到她。）
+changeBg:F（羽丘）/F2.png -next;
+:放学的人潮渐渐从高峰变得稀疏。睦仔细地辨认着每一个从她面前经过的身影，但那个她最熟悉的身影，始终没有出现。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……
+:她回想起前天比赛时，面对倒下的千早爱音，祥子那惊慌失措的样子，心里止不住又一次不安起来。;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad02 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:（比赛之后……祥还好吗？）
+:她很希望祥是真的还好，但是心里不安的预感却否定了这一念头。;
+:风吹过，卷起几片落叶，在她的脚边打着旋。睦下意识地拉了拉自己的衣角，将口袋里那枚月牙形的拨片握得更紧了一些。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_thinking01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:（如果她不从这个门出来，怎么办？可是……这不就是正门吗……）
+:就在她几乎要放弃，准备转身离开的时候，一个熟悉的身影出现在了校门口。
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_thinking01 -expression=mutsumi_surprised01;
+:不是祥子。
+changeFigure:none -id=mutsumi -next;
+bgm:none -enter=2000;
+:是高松灯。
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_serious01 -expression=tomori_thinking01;
+bgm:Special/Dr.RD(Vanguard_Sound)-Lyrique.mp3;
+:灯正低着头，似乎在思考着什么心事，一个人慢慢地往校门外走。当她走出校门，抬起头的那一刻，她的视线正好与不远处的睦对上了。
+changeFigure:tomori/school_winter/model.json -motion=tomori_surprised01 -expression=tomori_surprised01 -id=tomori -right -next;
+:灯的身体瞬间僵住了。
+changeFigure:tomori/school_winter/model.json -motion=tomori_thinking01 -expression=tomori_sad01 -id=tomori -next;
+灯:（小睦……？）
+灯:（她……她是来找我的吗？是因为乐队解散的事吗？都是因为我……）
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad03 -expression=tomori_sad03;
+:愧疚和自责像潮水般涌上，灯下意识地想转身逃开。但是，她的脚像被钉在了原地，动弹不得。
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_serious02 -expression=tomori_serious02;
+:但很快，她想起了某个人的鼓励，想起了自己已经下定的决心——不能再逃避了。于是，灯深吸了一口气，鼓起勇气，主动朝着睦的方向走了过去。
+setTransform:{"position":{"x":500}} -target=tomori -duration=1500 -next;
+changeFigure:tomori/school_winter/model.json -motion=tomori_serious01 -expression=tomori_serious01 -id=tomori -next;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_surprised01 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:……
+睦:（灯……？而且还…背着吉他……？）
+:睦看到主动走过来的灯，也十分意外。
+changeFigure:tomori/school_winter/model.json -motion=tomori_shame01 -expression=tomori_sad02 -id=tomori -right -next;
+灯:……小…小睦……好久不见。
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nf04 -expression=mutsumi_default;
+睦:……灯。
+:灯的手指不安地绞着自己的衣角，她不敢直视睦的眼睛，声音里带着一丝不易察觉的颤抖。
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nf04 -expression=tomori_sad01;
+灯:那个……你是在……等我吗？对不起！之前的事……我……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -left -next;
+:睦看着灯那副快要哭出来的、拼命想要道歉的样子，轻轻地摇了摇头，打断了她的话。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -next;
+睦:……我不是在等你。
+changeFigure:tomori/school_winter/model.json -motion=tomori_surprised01 -expression=tomori_surprised01 -id=tomori -next;
+灯:欸？
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_serious01 -expression=mutsumi_default -id=mutsumi -next;
+睦:祥，今天来学校了吗？
+:灯愣住了。原来睦不是来找自己的，是来找小祥的。她内心的那块巨石稍微落下，但随之而来的是对另一个人的、更深的担忧。
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking02 -expression=tomori_sad02;
+灯:欸？小祥……她今天请假了，没来学校。我还以为……她生病了……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_surprised01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……
+:“请假了”。
+:“没来学校”。
+:这两个词，像两道闪电，瞬间劈开了睦脑中的所有迷雾。
+:她立刻将所有线索串联了起来——祥子在台上的失误，在看到那个千早爱音倒下后，脸上那瞬间褪尽血色的苍白与全然失控的表情，以及她所知道的、祥子那不为人知的家庭困境。;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_angry01 -expression=mutsumi_sad01;
+:一股非常不祥的预感爬上心头，引得她后背有些发凉。直觉告诉她，情况可能比预想的还要糟糕许多。必须立刻找到祥，确认她的状态。;
+:如果情况确实如自己所想的话，那……祥，最可能在的地方……
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking02 -expression=tomori_surprised01;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_kime01 -expression=mutsumi_serious01 -id=mutsumi -next;
+睦:……谢谢你。我知道了。
+changeFigure:tomori/school_winter/model.json -motion=tomori_surprised01 -expression=tomori_sad01 -id=tomori -next;
+灯:欸？啊，那个……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+睦:乐队解散……不是灯的错。
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nnf03 -expression=tomori_sad03;
+灯:小睦……
+:睦伸出手，把那个喂猫少女送给她的拨片递给了灯。
+changeFigure:tomori/school_winter/model.json -motion=tomori_surprised01 -expression=tomori_surprised01 -id=tomori -next;
+灯:这是……？
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -next;
+睦:吉他，加油。
+changeFigure:none -id=mutsumi -next;
+setTransform:{"position":{"x":0}} -target=tomori -duration=1500 -next;
+:说完，她不再有丝毫的停留，转身就朝着车站的方向快步离去。
+changeFigure:tomori/school_winter/model.json -motion=tomori_kandou01 -expression=tomori_kandou01 -id=tomori -next;
+灯:等等！小睦！
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf_right01 -expression=mutsumi_default -id=mutsumi -next;
+changeFigure:none -id=tomori -next;
+:背后传来了灯激动的声音，引得睦回过了头。
+changeFigure:none -id=mutsumi -next;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_kandou01 -expression=tomori_smile02;
+灯:谢谢你的拨片！我……我会加油的！
+changeFigure:none -id=tomori -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_bye01 -expression=mutsumi_default;
+睦:（点头）
+changeFigure:none -id=mutsumi -next;
+:睦转回头，小小的身影很快消失在了人群中。
+changeFigure:tomori/school_winter/model.json -motion=tomori_thinking01 -expression=tomori_default -id=tomori -next;
+bgm:none -enter=2000;
+:灯独自留在原地，摊开手心，看着那枚月牙形的蓝色拨片。夕阳将她的影子拉得好长。一阵风吹过，灯感觉，有什么新的、她无法掌控的事情，已经开始了。
+changeFigure:none -id=tomori -next;
+changeScene:5.5话/5.5.3.txt

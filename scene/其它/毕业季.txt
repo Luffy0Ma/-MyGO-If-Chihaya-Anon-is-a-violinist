@@ -1,0 +1,4 @@
+changeBg:J（未知地点）/J1.jpg -next;
+changeFigure:anon/高三爱音/model.json -id=anon -transform={"position":{"x":200,"y":-100},"scale":{"x":0.8,"y":0.8}} -next -motion=anon_nf01 -expression=anon_smile03;
+changeFigure:sakiko/高三冬校服/model.json -id=sakiko -transform={"position":{"x":900,"y":-100},"scale":{"x":0.8,"y":0.8}} -next -motion=sakiko_nf03 -expression=sakiko_thinking01;
+changeFigure:tomori/高三冬校服/model.json -id=tomori -transform={"position":{"x":-500,"y":-100},"scale":{"x":0.8,"y":0.8}} -next -motion=tomori_nf01 -expression=tomori_default;

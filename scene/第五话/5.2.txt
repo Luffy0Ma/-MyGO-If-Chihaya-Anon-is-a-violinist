@@ -1,0 +1,176 @@
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -left -id=k0 -transform={"alpha":0} -next -motion=smile01 -zIndex=1;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -left -id=k1 -transform={"alpha":0} -next -motion=smile01 -zIndex=2;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -left -id=k2 -transform={"alpha":0} -next -motion=smile01 -zIndex=3;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -left -id=k3 -transform={"alpha":0} -next -motion=smile01 -zIndex=4;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -right -id=s0 -transform={"alpha":0} -motion=nf01 -zIndex=1;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -right -id=s1 -transform={"alpha":0} -next -motion=nf01 -zIndex=2;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -right -id=s2 -transform={"alpha":0} -next -motion=nf01 -zIndex=3;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -right -id=s3 -transform={"alpha":0} -next -motion=nf01 -zIndex=4;
+changeBg:E（live house）/E12.png -next;
+bgm:Special/肖邦升c小调圆舞曲.mp3;
+
+
+
+
+
+setTransform:{"alpha":1} -target=k0 -duration=1000 -next;
+setTransform:{"alpha":1} -target=k1 -duration=1000 -next;
+setTransform:{"alpha":1} -target=k2 -duration=1000 -next;
+setTransform:{"alpha":1} -target=k3 -duration=1000 -next;
+
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -next -motion=nf01 -expression=serious01
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -next -motion=nf01 -expression=serious01
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -next -motion=nf01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -next -motion=nf01 -expression=serious01;
+
+绯月:演出结束，大家都辛苦了啦，请先在后台准备室集合一下——
+setTransform:{"alpha":1} -target=s0 -duration=1000 -next;
+setTransform:{"alpha":1} -target=s1 -duration=1000 -next;
+setTransform:{"alpha":1} -target=s2 -duration=1000 -next;
+setTransform:{"alpha":1} -target=s3 -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=smile02 -expression=smile02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=smile02 -expression=smile02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=smile02 -expression=smile02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=smile02 -expression=smile02 -next
+夕映:接下来就是等最终排名了。素世你说我们还会拿金奖吧？
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_thinking01 -expression=soyo_smile03;
+素世:诶这个嘛……
+:素世回过头来，嘴角挂着一如既往的笑，却有点勉强。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_nf01 -expression=soyo_smile02 -next
+素世:应该吧。
+:这是每年一度的高中吹奏乐比赛。月之森吹奏乐部刚刚完成演出，正陆续返回后台。
+:一身制服的学生们或轻声交谈，或低头整理乐器，热闹却有条不紊。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_sad01;
+:而素世却显得有些心不在焉。她抱着低音提琴，眼神漫无目的地在四周扫过，像是在找什么，又像是心里压着一团事。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=sigh01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=sigh01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=sigh01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=sigh01 -expression=sad01 -next
+夕映:啊啊这个点还得回学校呢。干脆直接就地解散放学了吧~
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=nf_left01 -expression=serious01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=nf_left01 -expression=serious01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=nf_left01 -expression=serious01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=nf_left01 -expression=serious01 -next
+绯月:还得回学校拿书包呢。素世，小心——
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_surprised01 -expression=soyo_surprised01 -next
+素世:哇！
+:素世一脚差点踩空，踉跄了一下，好在被绯月眼疾手快地扶住了。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=surprised01 -expression=surprised01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=surprised01 -expression=surprised01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=surprised01 -expression=surprised01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=surprised01 -expression=surprised01 -next
+changeBg:I（舞台）/theater_backstage.png -next;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -next -motion=nf_right01 -expression=serious01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -next -motion=nf_right01 -expression=serious01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -next -motion=nnf_right01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -next -motion=nf_right01 -expression=serious01;
+绯月:素世，可不要这么粗心哦，难道在想事情？;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -next -motion=nnf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -next -motion=nnf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -next -motion=nnf_left01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -next -motion=nnf_left01 -expression=sad01;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf_left01 -expression=sakiko_smile04;
+素世:这个嘛……
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=sakiko_sad01;
+:素世轻轻地笑了笑，没有作答，只是扶着乐器，低头看了一眼手机。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_smile01;
+:爱音的消息：我在音乐厅门口等你哦。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_nf_right01 -expression=soyo_thinking02 -next
+素世:现在……距离返校还有点时间吧？
+:她把乐器轻轻放下，眼角的余光扫了一下时间，又朝出口的方向看了一眼。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=nf01 -expression=idle01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=nf01 -expression=idle01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=nf01 -expression=idle01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=nf01 -expression=idle01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -next -motion=sad01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -next -motion=sad01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -next -motion=sad01 -expression=sad01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -next -motion=sad01 -expression=sad01;
+夕映:嗯，老师说咱们等到四点半再出发。;
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_bye01 -expression=soyo_smile01 -next
+素世:这样啊……失陪一下。如果点名的话，帮我和老师说一声，就说我去洗手间了。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=nod01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=nod01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=nod01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=nod01 -expression=smile01 -next
+绯月:没问题。有事我会给你发消息的。
+changeFigure:none -id=soyo -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=surprised01 -expression=surprised01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=surprised01 -expression=surprised01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=surprised01 -expression=surprised01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=surprised01 -expression=surprised01 -next
+夕映:诶诶，素世是要去——
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=angry01 -expression=angry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=angry01 -expression=angry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=angry01 -expression=angry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=angry01 -expression=angry01 -next
+绯月:（小声）别多嘴。
+:绯月低声打断夕映，悄悄拽了拽她的袖子。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=surprised01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=surprised01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=surprised01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=surprised01 -expression=sad01 -next
+夕映:唔唔——
+:等素世走远，绯月这才松开捂住夕映嘴的手。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=angry01 -expression=angry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=angry01 -expression=angry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=angry01 -expression=angry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=angry01 -expression=angry01 -next
+夕映:干嘛呀你，为什么不让我说话。
+:夕映有些不满地嘟囔，绯月却不以为然。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -next -motion=nf01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -next -motion=nf01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -next -motion=nf01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -next -motion=nf01 -expression=idle01;
+绯月:素世明显有事，你别缠着她了。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=sad01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=sad01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=sad01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=sad01 -expression=sad01 -next
+夕映:可是……她刚才的样子，看起来真的有点不高兴……;
+:夕映声音变小了一些，神情带着些懊恼。
+夕映:第一首曲子高潮的地方，单簧管声部出了点小差错……她不会是因为这个在生我气吧……
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=thinking01 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=thinking01 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=thinking01 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=thinking01 -expression=thinking01 -next
+绯月:……
+:绯月沉默了一会儿，目光望向素世离开的方向。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=nf01 -expression=serious01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=nf01 -expression=serious01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -next -motion=nf01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -next -motion=nf01 -expression=smile04;
+绯月:别瞎想了。素世不是那种会因为队友出错而迁怒的人。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=nf_left01 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=nf_left01 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=nf_left01 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=nf_left01 -expression=thinking01 -next
+夕映:那？
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=thinking02 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=thinking02 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=thinking02 -expression=thinking01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=thinking02 -expression=thinking01 -next
+绯月:大概是……有熟人要见吧，朋友什么的。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=smile01 -expression=smile01 -next
+夕映:欸？素世在校外的朋友？人家也想见见看嘛——
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=sigh02 -expression=serious02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=sigh02 -expression=serious02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=sigh02 -expression=serious02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=sigh02 -expression=serious02 -next
+绯月:都说了你别缠着她不放了，给人家留一点私人空间。
+bgm: -enter=2000;
+changeFigure:none -id=k0 -next
+changeFigure:none -id=k1 -next
+changeFigure:none -id=k2 -next
+changeFigure:none -id=k3 -next
+changeFigure:none -id=s0 -next
+changeFigure:none -id=s1 -next
+changeFigure:none -id=s2 -next
+changeFigure:none -id=s3 -next
+:……
+
+changeScene:第五话/5.3.txt
+

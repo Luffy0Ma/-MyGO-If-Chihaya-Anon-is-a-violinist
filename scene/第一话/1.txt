@@ -1,0 +1,107 @@
+: -fontSize=default;
+bgm:03_Normal.mp3 -volume=80 -unlockname=normal;
+; // 场景切换到羽丘女子学院
+changeBg:F（羽丘）/F1.png; // 羽丘女子学院的教室
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"y":-200}} -motion=anon_smile01 -expression=anon_smile01 -zIndex=1;
+changeBg:F（羽丘）/F13.jpg;
+爱音:我叫千早爱音，因为家庭的原因在这个奇怪的时间入学，希望大家愿意和我当朋友。请多指教。 -fontSize=default -center;
+:介绍完自己后，爱音在老师的安排下坐到了最后一排的空座位。 -fontSize=default -center;
+changeFigure:anon/school_winter/model.json -left -id=11 -transform={"position":{"x":-500,"y":-200}} -motion=anon_nnf01 -expression=anon_surprised01 -zIndex=1;
+爱音:啊，石头。 -fontSize=default -center;
+setTransform:{"position":{"x":-500,"y":-200}} -target=11 -duration=1000;
+changeFigure:tomori/school_winter/model.json -right -id=to -transform={"position":{"y":-200}} -motion=tomori_nf_left01 -expression=tomori_default;
+高松灯:唔......;
+:爱音认出了她的前桌，那个在校园里捡石头的女孩子。
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_smile03 -expression=anon_smile01;
+爱音:啊哈哈哈...... -fontSize=default;
+changeFigure:tomori/school_winter/model.json -right -id=to -transform={"position":{"y":-200}} -motion=tomori_kime01 -expression=tomori_default;
+高松灯:那个......千早同学。我是高松灯，请多关照......;
+
+爱音:嗯嗯......;
+
+; // 午休时间的场景
+changeBg:F（羽丘）/F13.jpg;
+
+changeFigure: -id=11;
+changeFigure: -id=to;
+ :（午休时间） -fontSize=default;
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"y":-200}} -motion=anon_serious02 -expression=anon_thinking03;
+爱音:（那边的三人组......嗯，感觉比较好搭话。） -fontSize=default;
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_smile01 -expression=anon_smile01;
+爱音:那个，我可以和你们一起吃便当吗？;
+
+舞:嗯，好啊好啊;
+
+爱音:太好了~我还在想要是找不到一起吃饭的人该怎么办呢~ -fontSize=default;
+
+绘里:嗯嗯，第一天上学，你肯定会感到不安吧？;
+
+香奈:呃，请问应该怎么称呼你呢？千早？;
+
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_smile02 -expression=anon_smile01;
+爱音:叫我爱音就好！;
+
+绘里:那就叫你小爱音吧！;
+
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_thinking02 -expression=anon_thinking02;
+爱音:（很好，看来大家都是很好相处的人。呜啊，饿了饿了。）;
+
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_smile01 -expression=anon_smile01;
+爱音:我刚刚注意到，咱们班里带乐器的人很多啊。你们也在玩乐队吗？;
+
+舞:我们才刚刚开始玩。不过，我们学校玩乐队的人还挺多的。;
+
+绘里:班里没有加入乐队的，应该只有小灯了吧？;
+
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"y":-200}} -motion=anon_surprised01 -expression=anon_surprised01;
+爱音:欸，大家都在玩乐队啊。;
+
+绘里:小爱音呢？有加入乐队的想法吗？;
+
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"y":-200}} -motion=anon_wink01 -expression=anon_smile04;
+爱音:欸？有的哦！我初中的时候可是在管弦乐团里当小提琴手呢！;
+:爱音自豪地指了指放在后面的小提琴，那是她从家里背过来，准备找管弦乐团的时候用的。
+香奈:哇，好厉害！;
+
+绘里:小爱音有兴趣加入我们吗？小提琴也可以做主音哦。;
+
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_thinking03 -expression=anon_thinking03;
+爱音:哎？可以吗？我以为你们应该是缺键盘手才对...... -fontSize=default;
+
+香奈:你可能不太了解，不过月之森的Morfonica是有小提琴手的。;
+
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_thinking01 -expression=anon_thinking03;
+爱音:（唔，小提琴组这种乐队......？）;
+:爱音还是觉得对这种组合稍微有些陌生，沉默了片刻。
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_smile02 -expression=anon_smile01;
+爱音:唔，谢谢你们邀请我！不过我还是想再看看管弦乐团之类的......;
+
+舞:欸？可是我们学校没有管弦乐团......;
+
+香奈:听学姐说以前是有的，后来就只剩下管乐团了。;
+
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_sad01 -expression=anon_sad01; // 千早爱音的立绘，表情为悲伤
+爱音:哎，怎么这样。;
+
+绘里:如果你想自己组建乐队的话，可以看看LIVEHOUSE的公告板哦。;
+
+; // 场景切换到走廊
+changeBg:F（羽丘）/F20.jpg;
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_tired01 -expression=anon_tired01; // 千早爱音的立绘，表情为疲惫
+:爱音继续和同学们聊其它的话题。时间似乎过得很快，转眼间，入学的第一天就要结束了。 -fontSize=default;
+
+爱音:哈，笑了一天，脸都快僵了。跟人打交道好累......
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_thinking02 -expression=anon_thinking02; // 千早爱音的立绘，表情为思考
+:不过，怎么这个学校会没有管弦乐团呢？不过管乐团的话......不知道还缺不缺低音提琴？;
+
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_thinking02 -expression=anon_smile01;
+:爱音想起了一个古早笑话。笑话说，学不会小提琴的人才去学中提琴，学不会中提琴的人才去学低音提琴。
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_shame01 -expression=anon_shame01; // 千早爱音的立绘，表情为羞愧
+:爱音急忙拍了拍脸，她的良知不允许她对着这种笑话笑出来。
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_thinking03 -expression=anon_smile03;
+:正当她感到良心谴责的时候，一段旋律打乱了她的思绪。
+changeFigure:anon/school_winter/model.json -id=11 -motion=sakiko_thinking01 -expression=sakiko_surprised01;
+bgm:none;
+
+bgm:ShJie-德彪西-亚麻色头发的少女.mp3 -unlockname=debusy1;
+changeScene:2.txt

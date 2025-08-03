@@ -1,0 +1,328 @@
+bgm:Special/古典/悲怆第二乐章.mp3;
+changeBg:bestdori/bg00922.png -next -transform={};
+
+:音乐厅正门前的台阶上，人影寥落。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_left01 -expression=mana_sad01;
+:爱音穿着整齐的校服，独自坐在台阶边缘。阳光穿过流云的缝隙洒下，在她灿烂的长发上描出淡金色的轮廓。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=uika_sad01 -expression=Down_look;
+:手机的屏幕静静地亮着，无声地播放着往年月之森吹奏乐部的演出。
+:她点下暂停键，慢慢放大画面，认真端详着台上每一个熟悉的身影。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_sad02 -expression=soyo_sad01;
+爱音:真是……过了好久呢。
+:记忆翻涌上来，这两年，她总说要来看她们的演出，却总被各种事情绊住，一次次失约，直到今天。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_sad02 -expression=mana_cry01;
+:终于……赶上了。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_sad02 -expression=umiri_surprised01;
+setTransform:{"position":{"x":-500}} -target=anon -duration=3000 -next;
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_bye01 -expression=soyo_smile03;
+素世:爱音~我来啦。
+:爱音回头，只见素世正快步走来，脸上带着笑意，远远地朝她挥着手。
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_ando01 -expression=soyo_smile03;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_smile01 -expression=sakiko_smile01;
+爱音:素世。
+:爱音抬起头，浮现起一抹柔和的笑容，顺手将手机收进了一旁的挎包。
+changeFigure:anon/school_winter_test/model.json -id=anon -motion=anon_nf01 -expression=anon_smile02 -next
+爱音:辛苦了，这段时间排练不少吧？
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_sad01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_nnf_right01 -expression=anon_smile03;
+素世:还好吧……往年临近比赛，加练是家常便饭，今年反而松懈了不少。
+:素世在她身边坐下，语气里带着一丝自嘲。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_sad01 -expression=anon_thinking03;
+素世:而且……羽丘的吹奏乐部今年是真的厉害，尤其是她们的自选曲，水准太高了。我觉得——今年我们恐怕要与金奖无缘了。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_surprised01 -expression=umiri_surprised01;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_sad01 -expression=anon_thinking02;
+:爱音微微睁大了眼睛，神情里满是意外。素世见了，只能苦笑着耸了耸肩。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=taki_sad01;
+素世:嘛，也没办法，都已经结束了。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_smile03 -expression=mana_smile01;
+爱音:不……我只是有点意外，素世会这么想。;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf03 -expression=soyo_serious02;
+素世:毕竟我们指定曲目的中段出了差错，要不是菊乃老师指挥得稳，我们可能当场就乱了。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=nyamu_smile01 -expression=anon_smile04;
+bgm:none -enter=3000;
+爱音:不……我是说，嗯，素世的耳朵，也变得这么敏锐了呢。
+素世:……
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=uika_angry01 -expression=sakiko_smile04;
+bgm:Special/MANYO-アイリス.mp3;
+哈？ -concat;
+:素世愣了几秒才反应过来，又好气又好笑地叹了口气。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=anon_angry01 -expression=soyo_odoodo01;
+素世:这要是都听不出来，我在吹奏乐部这几年不是白待了？
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_smile05 -expression=anon_smile04;
+爱音:哈哈哈……
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=umiri_angry02 -expression=angrysmile;
+素世:别笑了！你这根本是拐着弯说我迟钝，太坏心眼了。
+:素世嘴上抱怨着，嘴上的笑意却藏不住。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_smile02 -expression=anon_smile03;
+爱音:才不是啦。
+:爱音歪着脑袋看她，眼神像被雨水洗过的天空一样，清澈又认真。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf03 -expression=sakiko_smile01;
+爱音:我是真心觉得，素世进步了好多好多。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious02 -expression=taki_serious02;
+素世:有吗……
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_serious01 -expression=sakiko_thinking01;
+爱音:我听得出来哦。无论指定曲目还是自选曲目，你都演绎得非常出色。低音提琴声音沉稳扎实，就像一幅宏伟油画的深邃底色，悄然托举着所有明亮的色彩，让人感觉特别安心……;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_shame01 -expression=soyo_surprised01;
+素世:欸？
+:来自爱音少有的称赞让素世的耳根“唰”地一下红了，她低下头，一时不知该如何接话。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_serious02 -expression=anon_wink01;
+
+爱音:所以啊，别去想什么金奖不金奖的了。有素世在的乐团，就是我心里最棒的乐团哦？
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_shame01 -expression=soyo_smile03;
+:这句话像一支裹着暖意的羽箭，轻盈地擦过心尖，在某个最柔软的角落里激起一阵细密的涟漪。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=tomori_shame02 -expression=umiri_surprised01;
+素世:不…不说这个了，
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=tomori_smile02 -expression=soyo_shame01;
+爱音你呢？最近怎么样，一切都好吗？ -concat;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nf03 -expression=anon_smile01;
+爱音:嗯，都挺好的。而且……我打算继续试着参加比赛了。;
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_surprised01 -expression=soyo_surprised01 -next
+素世:真的？
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_sigh01 -expression=anon_smile01;
+爱音:嗯。这周末就要开始了。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_thinking01 -expression=soyo_surprised01 -next
+素世:欸？这么快？这周末……藤和音乐比赛？直接进入第二轮预选赛吗？
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_odoodo01 -expression=sakiko_sigh01;
+爱音:呃，嗯……我父亲他，以前在这个比赛当过评委。他听我说还想再试试以后，就……帮我打了声招呼。;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf_left01 -expression=soyo_default;
+素世:哦……
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_thinking01 -expression=anon_thinking03;
+爱音:而且这种规模的预选赛也不是很严，和更高级别的赛事比起来要轻松很多。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_nf01 -expression=soyo_thinking01 -next
+素世:那伴奏呢？找到合适的了吗？
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_thinking01 -expression=anon_surprised01;
+:一提到伴奏，爱音的眼睛“噌”地一下亮了，连坐姿都挺直了几分。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_kandou01 -expression=anon_smile01;
+爱音:啊！对，钢伴！
+:她的声音里满是藏不住的雀跃，像捧着稀世珍宝。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_nf01 -expression=soyo_smile04 -next
+素世:看样子很顺利呢？
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf03 -expression=sakiko_smile03;
+爱音:嗯，是隔壁班的同学。虽然一开始好像有些犹豫的样子，但最后还是答应了。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_smile02 -expression=anon_smile04;
+她真的、真的好厉害的！ -concat;
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_idle01 -expression=soyo_sad02 -next
+素世:……
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious02 -expression=soyo_sad02;
+:素世看着她兴奋的模样，心底泛起一阵微微的酸涩。那种全然信赖、热情满溢的眼神，她曾那么熟悉。可现在，那份光芒却是为了别人而闪耀了。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_kime01 -expression=soyo_smile03;
+:她强压下心头的情绪，扯出一个微笑。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_serious04 -expression=soyo_smile03;
+素世:听起来……挺顺利的嘛。
+changeFigure:anon/school_winter_test/model.json -id=anon -motion=anon_serious01 -expression=anon_smile01 -next
+爱音:嗯，她音乐素养非常高，基本功也特别扎实，而且……;
+:爱音顿了顿，语气变得有些微妙的郑重。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_serious01 -expression=mutsumi_smile01;
+爱音:她能听懂我的音乐。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_thinking01;
+素世:是吗……
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nod01 -expression=anon_smile01;
+爱音:我是这么感觉的。我们是通过即兴演奏认识的，虽然还不算很熟，但……就是觉得和她特别合拍。感觉无论我怎么演奏，她都能稳稳地接住……
+:流云在湛蓝的天幕上重新聚拢，挡住了阳光，空气似乎也随之凉了几分。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_nf01 -expression=soyo_sad02 -next
+素世:……太好了呢。
+changeFigure:anon/school_winter_test/model.json -id=anon -motion=anon_smile02 -expression=anon_smile02 -next
+爱音:以后有机会也让你们认识一下吧，感觉和素世也会很能合得来呢。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_nf_right01 -expression=soyo_serious02 -next
+素世:或许吧，等你们上场以后就能见识到了。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=anon_smile04;
+爱音:啊~？
+:爱音眨了眨眼，也不知道是对什么感到意外。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_smile03;
+素世:就算你不说我也会来的。毕竟，终于能再次听到爱音的小提琴了。
+changeFigure:anon/school_winter_test/model.json -id=anon -motion=anon_kime01 -expression=anon_kime01 -next
+爱音:哼哼~那就好好期待吧~
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_surprised01 -expression=sakiko_thinking02;
+啊，我差不多该走了。 -concat;
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_surprised01 -expression=soyo_surprised01 -next
+素世:欸？
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_left01 -expression=sakiko_thinking02;
+:素世顺着她的视线望去，音乐厅的大门已经敞开，月之森的学生正三三两两地走出来。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking02;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf_left01 -expression=soyo_serious02;
+素世:等一下，爱音——
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mana_nnf_right01 -expression=anon_default;
+爱音:嗯？
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf_left01 -expression=sakiko_sigh01;
+:素世深吸了一口气，站得笔直，像是要为自己的情绪划上一个句号。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_kime01 -expression=soyo_smile01 -next
+素世:谢谢你，愿意来看我们的演出。
+
+
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -transform={"position":{"y":-3000},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -transform={"position":{"y":-3000},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -transform={"position":{"y":-3000},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -transform={"position":{"y":-3000},"alpha":0} -motion=idle01 -expression=idle01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=uika_nf04 -expression=anon_default;
+:爱音脸上的笑容绽开，像初夏的阳光。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_bye01 -expression=anon_wink01;
+setTransform:{"position":{"x":-1300},"alpha":0} -target=anon -duration=1500 -next;
+setTransform:{"position":{"x":-400}} -target=soyo -duration=2500 -next;
+爱音:嘻嘻~
+
+
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -right -id=k0 -transform={"position":{"y":-3000},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -right -id=k1 -transform={"position":{"y":-3000},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -right -id=k2 -transform={"position":{"y":-3000},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -right -id=k3 -transform={"position":{"y":-3000},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_kime01 -expression=soyo_sad01;
+
+:她笑着朝素世挥挥手，灵巧地汇入散场的人潮中，很快就消失不见。素世独自站在原地，望着那道背影消失的方向，许久没有动弹。
+changeFigure:none -id=anon -next
+setTransform:{"position":{"y":0},"alpha":0} -target=s0 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":0} -target=s1 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":0} -target=s2 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":0} -target=s3 -duration=3000 -next;
+素世:……
+setTransform:{"position":{"y":0},"alpha":0} -target=k0 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":0} -target=k1 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":0} -target=k2 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":0} -target=k3 -duration=3000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=sakiko_sad02 -expression=sakiko_sad01;
+
+:素世还怔怔地望着爱音消失的方向，直到身后传来同伴的声音。
+
+setTransform:{"position":{"y":0},"alpha":1} -target=s0 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":1} -target=s1 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":1} -target=s2 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":1} -target=s3 -duration=3000 -next;
+
+setTransform:{"position":{"y":0},"alpha":1} -target=k0 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":1} -target=k1 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":1} -target=k2 -duration=3000 -next;
+setTransform:{"position":{"y":0},"alpha":1} -target=k3 -duration=3000 -next;
+
+
+setTransform:{"position":{"x":-1150}} -target=soyo -duration=1500 -next;
+
+
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -next -motion=smile01 -expression=smile01 -zIndex=1;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -next -motion=smile01 -expression=smile01 -zIndex=2;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -next -motion=smile01 -expression=sad01 -zIndex=3;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -next -motion=smile01 -zIndex=4;
+
+
+夕映:素世——
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nf_right01 -expression=sakiko_sad01;
+:她回过神，转头看见夕映和绯月正结伴向这边走来。
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -right -id=k0 -next -motion=nf01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -right -id=k1 -next -motion=nf01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -right -id=k2 -next -motion=nf01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -right -id=k3 -next -motion=nf01;
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_nf_left01 -expression=soyo_default -next
+绯月:该返校了哦，已经四点四十了。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_surprised01 -expression=soyo_surprised01 -next
+素世:啊……都这么晚了？
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=smile01 -expression=smile01 -next
+夕映:素世，我帮你把低音提琴搬上货车了~
+bgm:none -enter=4000;
+:素世收敛心神，露出温和的笑容。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_smile04 -expression=soyo_smile04 -next
+素世:谢谢你，夕映。那么重的乐器，没累着吧？
+
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=shame01 -expression=shame01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=shame01 -expression=shame01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=shame01 -expression=shame01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=shame01 -expression=shame01 -next
+
+
+夕映:没事没事！不过……比起这个……
+bgm:Special/大島ミチル-期待と不安.mp3;
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_nf01 -expression=soyo_thinking01 -next
+:夕映的语气忽然弱了下去，手指不安地绞在一起，欲言又止。
+
+
+素世:怎么了？
+
+:话音刚落，夕映猛地向她鞠了一个九十度的躬，声音里带着些许哭腔。;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=cry01 -expression=cry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=cry01 -expression=cry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=cry01 -expression=cry01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=cry01 -expression=cry01 -next
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_surprised01 -expression=soyo_surprised01 -next
+夕映:素世……对不起！如果我练习得更努力一些的话，今天演出的时候就不会出错了！真的很抱歉！;
+:突如其来的郑重道歉让素世一时愕然，甚至让她怀疑自己是不是在做白日梦。;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf01 -expression=soyo_surprised01;
+素世:怎…怎么向我道歉起来了？我没觉得——
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=sad01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=sad01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=sad01 -expression=sad01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=sad01 -expression=sad01 -next
+夕映:因为……素世很重视这次比赛吧？从上周开始就一直在乐团里帮大家纠错，还花了那么多时间督促我练习，结果我却……
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_surprised01 -expression=soyo_surprised01;
+素世:欸？
+:素世愣住了。原来不知不觉中，自己已经因为爱音的事情而改变了这么多吗？;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -next -motion=nf02 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -next -motion=nf02 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -next -motion=nnf02 -expression=serious02;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -next -motion=nnf02 -expression=idle01;
+绯月:大概是有什么误解吧。
+:一旁的绯月抱起手臂，语气无奈。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_smile04 -expression=soyo_smile04 -next
+素世:好啦，快起来。我真的没有怪你。舞台上谁都可能犯错，我也不例外。所以，别这么自责了，好吗？再说了，最后又不是没救回来。咱们也没有比羽丘的吹奏乐部差太多嘛~;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=sigh01 -expression=serious01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=sigh01 -expression=serious01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=sigh01 -expression=serious01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=sigh01 -expression=serious01 -next
+绯月:这可不好说。不过夕映你要是真觉得愧疚，以后加倍练习不就好了，现在道歉有什么用。;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=sakiko_nnf03 -expression=soyo_smile01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -next -motion=nf_left01 -expression=serious01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -next -motion=nf_left01 -expression=smile03;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -next -motion=nf_left01 -expression=serious01;
+素世:而且，如果演奏得不开心，那音乐本身就失去意义了。我还想继续看到夕映微笑的样子呢~
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -id=s0 -motion=shame02 -expression=shame02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -id=s1 -motion=shame02 -expression=shame02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -id=s2 -motion=shame02 -expression=shame02 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -id=s3 -motion=shame02 -expression=shame02 -next
+夕映:欸？
+欸欸欸——？ -concat;
+
+
+
+:夕映的脸颊瞬间飞上两抹红晕，连道歉都忘了。看到这一幕，绯月也忍不住笑了出来。;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -motion=smile01 -expression=smile01 -next
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -motion=smile01 -expression=smile01 -next
+绯月:你看，我就说素世不会怪你的。
+changeFigure:soyo/school_winter/model.json -id=soyo -motion=soyo_smile02 -expression=soyo_smile02 -next
+素世:呵呵~                              ;
+
+
+setTransform:{"position":{"x":-500}} -target=soyo -duration=2000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_smile02 -expression=mana_smile03;
+changeFigure:none -id=k0 -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=k1 -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=k2 -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=k3 -next -motion=smile01 -expression=smile01;
+changeFigure:none -id=s0 -next -motion=shame02 -expression=shame02;
+changeFigure:none -id=s1 -next -motion=shame02 -expression=shame02;
+changeFigure:none -id=s2 -next -motion=shame02 -expression=shame02;
+changeFigure:none -id=s3 -next -motion=shame02 -expression=shame02;
+素世:……;
+
+
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf03 -expression=mana_smile03;
+:素世看着眼前一个脸红得像苹果，一个在一旁看好戏的同伴，唇边不由自主地漾开一抹真实的笑意。刚才还盘踞在心头的些许失落，此刻仿佛被这份纯粹的喧闹彻底挤走了。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf01 -expression=sakiko_sigh02;
+:她低下头，长长地、无声地呼出了一口气。那个曾悄悄许下，想要并肩站在舞台上的心愿，此刻仿佛被她亲手放飞，飘向了遥远的天空。
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf01 -expression=mutsumi_smile04;
+:是啊，爱音找到了能与她共鸣的灵魂，找到了能接住她所有即兴与热情的搭档——这是比任何奖项都更珍贵的宝物。毕竟，能让那束光尽情闪耀，不也是自己的愿望吗？
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_nnf01 -expression=soyo_sad02;
+:而自己……只要还能像现在这样，成为她偶尔可以停靠的港湾，分享她的喜悦，倾听她的烦恼……这就已经是，最奢侈的幸福了不是吗？
+素世:……
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_smile03 -expression=mutsumi_smile04;
+素世:好了，我们也差不多该回去了。再晚，老师可要念叨了。
+changeFigure:none -id=soyo -next;
+:夕映和绯月应了一声，三人一起朝着校车的方向走去。
+
+:音乐厅的喧嚣被抛在身后，傍晚的风吹拂着脸颊，裹挟着一丝寂寞的凉意。
+
+:这样……也挺好的。
+:……;
+playVideo:大忙人op.mp4;
+changeScene:第五话/5.4.txt

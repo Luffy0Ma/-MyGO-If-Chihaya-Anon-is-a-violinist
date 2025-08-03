@@ -1,0 +1,1 @@
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile04 -expression=soyo_sad02;

@@ -1,0 +1,5 @@
+:……;
+changeScene:东方x邦多利/2/1.txt
+setVar:heroine=WebGAL;
+setVar:egine=WebGAL;
+choose:简体中文:demo_zh_cn.txt|日本語:demo_ja.txt|English:demo_en.txt|Test:function_test.txt;

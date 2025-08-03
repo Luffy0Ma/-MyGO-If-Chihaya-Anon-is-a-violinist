@@ -1,0 +1,128 @@
+changeBg:F（羽丘）/F16.png -next;
+
+bgm:Special/MANYO-風花.mp3;
+:下午的阳光温和地洒进音乐教室，在灰色的地板上铺出一层轻纱似的光影。推门而入的是刚刚成立不久的古典乐社成员们——虽说，只有两人就是了。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":-500,"y":-200}} -next -motion=sakiko_nf01 -expression=sakiko_default;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":500,"y":-200}} -next -motion=anon_smile01 -expression=anon_smile01;
+
+:祥子跟在略显兴奋的爱音身后走进这个熟悉又有些陌生的空间。爱音一边走，一边谈起对几首曲子的理解和感受。祥子听着，却隐约察觉，她并不习惯主动推动对话，更像是期待有人能比她更健谈些。;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile02 -expression=anon_smile02 -id=anon -next;
+
+爱音:真没想到，社团从申请到成立只用了这么短的时间……要是我初中的学校，这种流程怕是得拖上一个月不止呢。 -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh02 -expression=sakiko_smile03;
+
+:祥子听着，默默地笑了笑。她当然知道，爱音初中上的那所学校是怎样的地方。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf05 -expression=sakiko_sad01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf03 -expression=anon_smile01;
+:她走到那台熟悉的雅马哈三角钢琴前，轻轻掀开琴盖。黑白键依旧无瑕，但在这一刻，却仿佛比过去任何时候都更加亲切。 -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_shame02;
+:不再是独奏，也不是偶遇。这一次，是"社团活动"。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_left01 -expression=anon_smile01;
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile02 -expression=sakiko_smile02 -id=sakiko -next;
+
+祥子:说是社团时间……你有特别想演奏的曲子吗？还是说，你其实更喜欢听我弹？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious01 -expression=soyo_ando01;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile02 -expression=sakiko_surprised01;
+爱音:我想给你伴奏。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile05 -expression=sakiko_smile03;
+
+祥子:噗。 -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_odoodo01 -expression=sakiko_smile05;
+
+祥子:小提琴给钢琴伴奏，那可真是太阳从西边出来了呢。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_kime01 -expression=anon_kime01;
+;
+爱音:有什么不行嘛，虽然钢琴音域宽广，经常独奏，非常能够自成一体，但从实验性音乐角度来看，没有什么是不可以的。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile06 -expression=umiri_smile02;
+
+:祥子再一次被逗笑了出来。她已经快分不清爱音这类话到底是玩笑，还是认真的了。;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile06 -expression=sakiko_smile06 -id=sakiko -next;
+
+祥子:好啦，别闹了。你想让我给你伴奏就直说嘛，难道觉得我会拒绝？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious02 -expression=soyo_sad01;
+
+爱音:唔……我只是在想，祥子同学会不会更想一个人练琴…… -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf03 -expression=sakiko_smile01;
+
+祥子:（笑）;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile02 -expression=sakiko_smile02 -id=sakiko -next;
+
+祥子:说什么呢。我不是说过了吗？我很欢迎你来。而且——现在可是社团时间，要做什么事情，难道不是你说了算吗，千～早～社～长～？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_surprised01 -expression=anon_surprised01;
+
+爱音:！;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_shame01 -expression=anon_angry03;
+
+爱音:呜啊啊啊不要用这种称呼啊好羞耻—— -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_shame01 -expression=anon_angry01;
+:爱音仿佛被击中了弱点，整张脸瞬间涨红，像只炸毛的小动物。;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile03 -expression=sakiko_smile03 -id=sakiko -next;
+
+祥子:呵呵~;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nod01 -expression=anon_shame01;
+:祥子开心地笑出声来，惹得爱音更害臊了。不过也好，现在她终于不需要担心爱音会再一次逃跑了。;
+
+:这样轻松地一起欢笑的日子……她究竟有多久没有体会过了呢？;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile03 -expression=umiri_surprised01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious04 -expression=anon_serious02;
+
+爱音:不……不管怎么样，既然祥子同学加入了我的社团，那我也必须负起责任来。;
+
+:爱音深呼吸了一口气，笑容也渐渐收敛下来，眼神里透出一丝郑重。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf05 -expression=sakiko_smile06;
+
+祥子:好好~看来爱音同学对社团活动已经有很充足的想法了呢？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_thinking01 -expression=anon_thinking01;
+
+爱音:这个……嗯。我……;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_serious02 -expression=soyo_serious01;
+
+:爱音深吸了一口气，表情也严肃了起来。;
+
+爱音:我有一个请求。;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_serious01 -expression=sakiko_serious01 -id=sakiko -next;
+
+祥子:嗯。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=uika_nnf03 -expression=sakiko_kime01;
+
+:爱音认真地看着祥子，眼睛中仿佛装进了整个暖春的午后阳光。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_kime02 -expression=soyo_kime01;
+
+爱音:祥子同学……我想以古典乐社社长的身份，请你在下周的音乐比赛上，为我担任钢琴伴奏。;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+
+祥子:……;
+
+:空气仿佛一下子静止了。;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised02 -expression=sakiko_surprised02 -id=sakiko -next;
+
+祥子:欸？;
+changeFigure:none -id=anon -next -motion=anon_kime02 -expression=soyo_kime01;
+changeFigure:none -id=sakiko -next -motion=sakiko_surprised02 -expression=sakiko_surprised02;
+bgm: -enter=1500;
+:心灵的节拍器再一次轻轻回响，仿佛某段停摆已久的旋律被重新唤醒了。;
+playVideo:ED.mp4;

@@ -1,0 +1,48 @@
+changeBg:S （机场）/机场.png;
+:希斯罗机场的大厅里，昏暗的微光透过巨大的玻璃窗洒落在地上。
+bgm:离别曲_audio_index0.aac -volume=100 -enter=10;
+:这里的人们匆匆而过，拖着沉重的行李，鞋跟在冰冷的大理石地面上发出清脆的回响。 -fontSize=default;
+:喧嚣的步伐与远处广播中断断续续的提示声交织在一起，空气中弥漫着一股淡淡的、陌生的气息。 -fontSize=default;
+广播音:乘坐全日空777次航班，前往成田机场的乘客请注意，777次航班已经开始登机。 -fontSize=default;
+changeBg:S （机场）/机场2.png -unlockname=bg2;
+
+:千早爱音在沉默中来到登机口附近，有些落寞地看向外面的沥沥细雨。明明自己一直都很讨厌下雨的天气，现在反而感到有些不舍。 -fontSize=default;
+changeFigure:anon/casual/model.json -transform={"position":{"x":-500,"y":-200}} -motion=anon_sad01 -expression=anon_sad01;
+
+爱音:...... -fontSize=default;
+......到头来还是逃走了...... -fontSize=default;
+
+:爱音摇了摇头，把复杂的思绪抛开一边。无论如何，离起飞前的最后几十分钟就是她在英国最后的时光了。 -fontSize=default;
+changeFigure:anon/casual/model.json -motion=anon_kime02 -expression=anon_thinking03 -bounds=-200;
+
+爱音:如果哪天重新找回了勇气的话，或许我还会回到这里吧。 -fontSize=default;
+
+changeFigure:anon/casual/model.json -motion=anon_serious01 -expression=anon_serious02;
+:孤独的少女放下了手中的行李，将小提琴和琴弓取了出来，缓缓架在肩上。 -fontSize=default;
+changeFigure:anon/casual/model.json -expression=anon_smile03;
+爱音:在那之前......就以这首《离别曲》告别我这短暂的留学生活吧。 -fontSize=default;
+:空灵的音乐在广阔的空间中缓缓飘荡，渐行渐远……逐渐消失在无尽的回音中。 -fontSize=default;
+:爱音的思绪随着琴声的流动悄然起伏，她不由自主地回忆起了许多往事—— -fontSize=default;
+changeFigure:anon/casual/model.json -expression=soyo_angry01;
+自我介绍时的紧张，班级里那些陌生的眼神，老师那充满鼓励的话语，还有安静的校园生活，日复一日，平静又单调。 -fontSize=default;
+:在英国的留学生活，既没有她所期待的那般光鲜，也不像她曾经想象的那么沉重。
+changeFigure:anon/casual/model.json -expression=soyo_angry03;
+:她只是……始终未能找到自己在这里到底追求的是什么。
+changeFigure:anon/casual/model.json -expression=soyo_serious02;
+:每当面临挑战，内心便涌现出一股深深的无力感，仿佛一切都变得模糊，而她的勇气，也在一点一点地消耗殆尽。 -fontSize=default;
+:或许是连绵的阴雨遮蔽了阳光的缘故？
+:即便如此，她知道，就像每一场雨总有停歇的时候，太阳也终究会穿透云层，重新洒下温暖的光芒，照亮大地。
+:她也相信，总有一天，自己会重新获得勇气，再次回到这个地方。
+changeFigure:anon/casual/model.json -expression=anon_smile03;
+:爱音自嘲地笑了笑，明明都已经决定逃避了，此时此刻却又有些后悔，真是不像话呀。 -fontSize=default;
+爱音:再见了，再见...... -fontSize=default -left;
+changeFigure:none;
+changeBg:J（未知地点）/J9.png -transform={"alpha":1} -unlockname=sky;
+:洁白的飞鸟在久久难以散去的琴声中悠然起飞，带着孤独的少女越过云霄，消失在天际，带她回到那片她永远牵挂的家乡。 -fontSize=default;
+; // 音乐演奏的场景，背景为希斯罗机场外景
+changeFigure:none; // 关闭立绘
+changeScene:1.txt
+
+bgm: -enter=50;
+:  -fontSize=default;
+changeBg:none;

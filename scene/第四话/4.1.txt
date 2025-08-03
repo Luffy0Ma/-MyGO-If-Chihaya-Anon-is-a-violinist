@@ -1,0 +1,129 @@
+changeBg:bestdori/bg00823.png -next;
+bgm:Special/沉思.mp3;
+:自从上周五见到素世之后，时间仿佛就停滞了。每一天都在重复，机械、沉闷，仿佛什么都没有改变，又仿佛一切都已经变了。
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=anon_sad01 -expression=anon_sad01;
+她没有再去找素世，也没有再见到那个弹钢琴的女孩。在音乐教室的短暂邂逅像一场梦，醒来之后什么都没留下，只剩下挥之不去的空虚。
+爱音:哎……;
+:爱音感觉心好累。别人看不出来，她在学校里依旧周到得体，像个努力适应新环境的模范学生，但只有她自己知道，内心的空虚并没有随着时间的流逝消散。
+changeBg:bestdori/bg00879.png -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=sakiko_nnf03 -expression=anon_sad02;
+:有时，她想安静一会儿； -fontSize=default;
+changeBg:F（羽丘）/F23.png -next;
+setTransform:{"position":{"x":-500,"y":-200}} -target=anon -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_right01 -expression=anon_smile01;
+changeFigure:tomori/school_winter/model.json -transform={"position":{"x":500,"y":-200}} -next -motion=tomori_smile02 -expression=tomori_smile02;
+而有时，她又渴望热闹。 -concat -fontSize=default -id;
+changeFigure: -next;
+changeBg: -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_right01 -expression=anon_sad01;
+但每当人群散去、喧嚣归于平静时，那份空洞感反而更强烈。 -concat -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -motion=anon_sad01 -expression=anon_sad01 -id=anon -next;
+setTransform:{"position":{"y":-200}} -target=anon -duration=1000 -next;
+changeBg:bestdori/bg00823.png -next;
+爱音:为什么……明明以前不是这样的……;
+:她总觉得，生活里好像缺了某个至关重要的东西。一个支点，一个归处，一双能让她再次翱翔的翅膀。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_nnf01 -expression=anon_thinking02;
+:她甚至开始希望自己的学习任务更重一些，这样她至少能有借口去避开心中那些无解的困惑和内耗。
+changeBg:Z/Farori/original.png -next;
+setTransform:{"position":{"x":500,"y":-200}} -target=anon -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=rana_sigh01 -expression=anon_sad01;
+changeFigure:soyo/school_winter/model.json -id=soyo -transform={"position":{"x":-500,"y":-200}} -next -motion=soyo_smile04 -expression=sakiko_smile03;
+上周五在FAVORI时，她觉得自己应该是在素世面前撒了谎的。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_angry04 -expression=anon_sad01;
+changeFigure:soyo/school_winter/model.json -id=soyo -transform={"position":{"x":-500,"y":-200}} -next -motion=soyo_smile03 -expression=sakiko_smile01;
+:仅仅是因为"压力大"，哪能解释她从英国逃回来背后的原因呢？好在素世也没有追究下去，爱音如是想。;
+setTransform:{"position":{"y":-200}} -target=anon -duration=1000 -next;
+changeBg:F（羽丘）/教室雨天.png -next;
+changeFigure: -id=soyo -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_nnf01 -expression=sakiko_thinking01;
+:下课铃声响起，她没有急着离开教室。今天的阳光被厚重的云层吞噬，整个校园弥漫着一种沉闷的氛围。原本她是打算去食堂的，但突然间，她发现自己并不想待在那喧嚣的地方。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf04 -expression=sakiko_thinking01;
+爱音:换个地方吧……;
+
+; 场景：天台
+changeBg:H（花咲川）/H9.png -next;
+:她抱起小提琴，独自走向天台。空气中弥漫着一丝雨水的味道，地面上积水的倒影默默映照着阴沉的天空。内心有太多的困惑无法解答，也无力去思考……爱音讨厌这种感觉。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_serious01 -expression=sakiko_sigh01;
+:她将小提琴架起，轻轻地开始拉起弓，感受着心里忧郁的情绪。她没有选择巴赫。她觉得巴赫的旋律此时有些过于浓郁，无法与她此时的心境相契合。她选择了《沉思》，或者说，《泰伊斯冥想曲》。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_serious01 -expression=sakiko_thinking01;
+:音符如流水般滑入寂静的湖面，破开了天台上的沉寂，也在她的内心泛起了涟漪。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nf02 -expression=anon_thinking01;
+爱音:（这旋律……是虚假的。）;
+:她的眉头微微一蹙，心里有些沮丧。她不是埃及名妓泰伊斯，也不是创作这首曲子的马斯奈。即使她像电子钟那般精准地按照乐谱演奏，她也感到自己永远无法触及原曲的真正内涵。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nf02 -expression=anon_thinking03;
+:然而……有一点是一样的。爱音也像乐曲的主角那样，陷入了梦乡。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nod01 -expression=anon_thinking03;
+爱音:（这样就好。）;
+:杂乱的思绪开始慢慢消退，那些无法解答的问题，竟然也不再让她感到那么疲惫了。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nod01 -expression=sakiko_thinking01;
+:她甚至开始觉得……自己似乎融入了泰伊斯的内心世界。过往的回忆、现实的困惑，以及她所追寻的东西……追寻的东西……;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_sad01 -expression=sakiko_thinking01;
+爱音:（我在……追寻什么呢？）;
+:爱音想不明白。又或许，在她能够深入思考之前，早已沉浸在音乐的世界里。如果小提琴代表着泰伊斯的沉思，那么钢琴便是修道士阿塔纳尔的声音。这两者交织在一起，构建起了泰伊斯内心的一场梦——;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_surprised01 -expression=anon_surprised01;
+爱音:？;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nnf02 -expression=anon_surprised01;
+爱音:（哪来的钢琴声……？） -fontSize=default;
+:一瞬间，爱音从冥想中惊醒。她不是一个人在演奏。这个意识涌上心头时，她几乎有些慌乱。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_left01 -expression=anon_thinking03;
+setTransform:{"position":{"x":-300,"y":-200}} -target=anon -duration=1000 -next;
+爱音:（在哪里……？）;
+setTransform:{"position":{"x":300,"y":-200}} -target=anon -duration=2000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_nf_right01 -expression=anon_thinking03;
+:她没有停下演奏，生怕那钢琴声也会随她停下来，便再也听不见了。边拉着弓，她的目光边在天台上四处寻找，最终落在了小广场对面那栋楼的一间教室。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_nf_right01 -expression=anon_surprised01;
+:是那间教室，那间她曾多次满怀期待去过的音乐教室。她透过窗户看见了钢琴，还有钢琴的演奏者——;
+ -notend -fontSize=default;
+changeFigure: -id=anon -next;
+changeBg:AI/sakipiano1.png -next;
+爱音:！！！ -fontSize=default -id -figureId=anon;
+:是她，那个她连名字都不知道的弹钢琴的女孩子。 -fontSize=default;
+:爱音的指尖微微颤抖，但她强迫自己保持住对小提琴的控制，琴弓依旧在弦上滑动，音符依旧在空中飘荡。然而，她的注意力已经不再集中在自己的演奏上，而是被那位蓝发女孩牢牢吸引。;
+:她的手指在钢琴键盘上跳动，音符与爱音的小提琴旋律交织成一体，仿佛两条平行的线慢慢靠近，直到在某一刻完美交汇。;
+changeBg:none -next;
+changeFigure:BackGround/H9.png -id=roof -transform={"scale":{"x":1.8,"y":1.8}} -next -zIndex=1;
+changeFigure:BackGround/阴沉音乐教室.png -id=pianoroom -transform={"position":{"x":2600},"scale":{"x":1.8,"y":1.8}} -next -zIndex=2;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=anon_surprised01 -expression=anon_kandou01 -zIndex=5;
+爱音:！;
+:音乐似乎突然从她的掌控中滑脱。她的心跳加速，那位钢琴演奏者不是单纯的"伴奏"，而是与她一样，作为"演奏者"，带着自己的理解，和她共奏。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=anon_kandou01;
+爱音:（她在……回应我？）;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=R_boby_Down;
+:她的视线紧紧锁定在女孩身上。那张专注的脸庞，柔软的蓝色长发随着她的动作轻轻飘动，仿佛整个世界都被她的演奏所感染，静止了下来。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_thinking02 -expression=R_boby_Down;
+:爱音无法理解，为什么这段演奏让她感觉如此陌生。明明只是她最熟悉不过的旋律，却在此时此刻，绽放出一种完全不同的色彩。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":1900,"y":-200},"alpha":0} -next -motion=sakiko_idle01 -expression=sakiko_sigh01 -zIndex=6;
+bgm: -enter=5000;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_nf_right01 -expression=tomori_thinking02;
+:她几乎忘记自己是在演奏，直到她终于奏完了沉思曲。屏住呼吸，爱音死死盯着那间音乐教室的窗户，仿佛怕这份静谧的时光会被她最细微的动作打破。;
+
+; 场景：从远处看到祥子
+setTransform:{"position":{"x":700,"y":-200},"alpha":1} -target=sakiko -duration=1000 -next;
+setTransform:{"position":{"x":1300},"scale":{"x":1.8,"y":1.8}} -target=pianoroom -duration=1000 -next;
+setTransform:{"position":{"x":-1250},"scale":{"x":1.8,"y":1.8}} -target=roof -duration=1000 -next;
+setTransform:{"position":{"x":-700,"y":-200}} -target=anon -duration=1000 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_kime01 -expression=sakiko_thinking01;
+bgm:Special/舒伯特《降G大调即兴曲》D.899Op.90No.3.mp3;
+祥子:……;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_nf_right01 -expression=tomori_thinking02;
+爱音:……;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_thinking01;
+
+:仿佛感应到她的目光，那个女孩缓缓转过头来，四目相对，凝视交织。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -expression=anon_surprised01;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_smile02;
+祥子:……（笑）;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_surprised01 -expression=anon_surprised01;
+setTransform:{"position":{"x":1900,"y":-200},"alpha":0} -target=sakiko -duration=1000 -next;
+setTransform:{"position":{"x":2600},"scale":{"x":1.8,"y":1.8}} -target=pianoroom -duration=1000 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1.8,"y":1.8}} -target=roof -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-200}} -target=anon -duration=1000 -next;
+爱音:！;
+changeFigure:none -id=sakiko -next;
+changeBg: -next;
+:她只是对爱音轻轻一笑，随即继续演奏。钢琴声再度响起，爱音微微一愣，心底涌出了一股急切的感情。
+changeFigure: -id=anon -next;
+她匆忙收拾好小提琴，朝着音乐教室的方向奔去。 -concat -fontSize=default;
+changeFigure:none -id=roof -next;
+changeFigure:none -id=pianoroom -next;
+changeScene:第四话/4.2.txt

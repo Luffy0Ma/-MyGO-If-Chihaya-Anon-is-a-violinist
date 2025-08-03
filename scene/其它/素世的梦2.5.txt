@@ -1,0 +1,72 @@
+changeBg:原画截图/08 为什么.mkv_20250525_163013.964.png -next;
+:——也不记得什么时候，手机出现在了我手里。 -fontSize=default;
+
+:屏幕亮了起来。 -fontSize=default;
+
+
+:【素世：爱音……还有半个月我们就要演出了。我们排了好多好多新曲子，真希望你能来看呀】 -fontSize=default;
+
+:【爱音：会有视频录像吧？】 -fontSize=default;
+
+
+:【素世：嗯，我也打算演出的时候偷偷拿手机录音。低音提琴的声音可能会比较大吧（流汗emoji）】 -fontSize=default;
+
+:【爱音：没事啦，你愿意给我发录音录像我就很高兴了。】 -fontSize=default;
+
+:…… -fontSize=default;
+
+
+:【素世：爱音，你看看这个~】 -fontSize=default;
+
+:【素世：（乐谱照片）】 -fontSize=default;
+
+:【素世：很奇怪吧？这样写谱子。】 -fontSize=default;
+
+:【素世：爱音……最近很忙吗？】 -fontSize=default;
+
+:【爱音：抱歉啦！最近彩排和训练都排得满满的，手机都不太敢看……】 -fontSize=default;
+
+:【素世：没事没事！你看一眼我就已经很开心了~】 -fontSize=default;
+
+:…… -fontSize=default;
+
+:【素世：这个假期，会回来吗？】 -fontSize=default;
+
+:【爱音：唔……应该不会吧。最近比赛多得吓人，而且还有好多课。】 -fontSize=default;
+
+
+:【素世：……哦，那……下次也好。】 -fontSize=default;
+
+:【爱音：嗯！说好了，春天的时候回来看你们的演出~】 -fontSize=default;
+
+:【素世：真的吗？】 -fontSize=default;
+
+:【爱音：真的啦。我想和你一起吃月之森门口那家三明治~还记得吗？】 -fontSize=default;
+
+:…… -fontSize=default;
+
+:【素世：夏天快到了，天气好热啊。】 -fontSize=default;
+:【素世：爱音……你上次说，春天会回来……】 -fontSize=default;
+
+:【爱音：真的很对不起……那段时间好多事情都堆在一起了，我走不开。】 -fontSize=default;
+
+:【爱音：总会有机会的，对吧？】 -fontSize=default;
+
+:【爱音：还有下个假期呢，又不是再也见不到了。】 -fontSize=default;
+:【素世：嗯】 -fontSize=default;
+:【素世：我等你回来。】 -fontSize=default;
+changeBg: -next;
+:手机屏幕缓缓熄灭，像落幕的舞台灯。 -fontSize=default;
+:雨还在下，窗外的天一点点暗了下去。 -fontSize=default;
+
+:两年过去了。 -fontSize=default;
+
+:爱音她……一次也没有回来过。 -fontSize=default;
+
+:一次也没有。 -fontSize=default;
+:…… -fontSize=default;
+
+bgm: -enter=1500;
+:………… -fontSize=default;
+
+changeScene:其它/素世的梦3.txt

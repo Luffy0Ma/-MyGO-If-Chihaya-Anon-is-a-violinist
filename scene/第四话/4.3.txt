@@ -1,0 +1,242 @@
+changeFigure:BackGround/食堂.png -id=dinningroom -transform={"scale":{"x":1.8,"y":1.8}} -next -zIndex=1;
+bgm:Special/MANYO-Tea party.mp3;
+:这个时间点的食堂已经褪去了喧闹的高峰热潮，空气中只剩下锅勺收尾时碰撞的余音。爱音与祥子并肩走进时，只有零星几位学生坐在角落，整个空间显得出奇安静。;
+
+:两人找了个靠窗的位置落座。窗外阳光柔和，午后的光影斜斜地落在她们面前的桌面上。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"y":-200}} -next -motion=sakiko_thinking01 -expression=sakiko_thinking01 -zIndex=5;
+
+:祥子看着爱音的餐盘，微微皱起了眉。;
+setTransform:{"position":{"x":-500,"y":-200}} -target=sakiko -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":500,"y":-200}} -next -motion=soyo_nnf04 -expression=taki_thinking01 -zIndex=3;
+
+祥子:爱音同学就吃这些吗……？ -fontSize=default;
+
+:白粥、烫青菜，还有几块处理得极其清淡的鱼肉，色彩和香气都寡淡得几乎让人忽略。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious01 -expression=soyo_ando01;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_surprised01;
+爱音:最近胃口不太好……吃清淡点比较舒服。 -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf03 -expression=sakiko_smile03;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious01 -expression=R_boby_Down;
+:两人默默吃了一会儿饭。爱音的动作细小却有些分神，眼神不时飘向窗外，又慢慢收回来。;
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking02 -expression=sakiko_thinking02 -id=sakiko -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious02 -expression=Down_look;
+setTransform:{"position":{"x":-1600,"y":-200},"alpha":0} -target=sakiko -duration=1000 -next;
+setTransform:{"position":{"x":-300},"scale":{"x":2.3,"y":2.3}} -target=dinningroom -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-400},"scale":{"x":1.35,"y":1.35}} -target=anon -duration=1000 -next;
+:祥子看着她，总觉得这位粉毛少女，和第一眼看上去的印象并不相符。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_smile01 -expression=uika_smile01;
+祥子:（……爱音同学原来是这么文静的人吗？） -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_nnf03 -expression=Down_look;
+:和具有冲击力的粉色不一样的是，爱音本人似乎并没有她头发的颜色那样奔放。结合她两次从自己面前跑掉的经历，祥子不得不认真思考如何与爱音正确相处。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_nnf04 -expression=soyo_serious01;
+:也许——还是少说点话比较好吧……？;
+setTransform:{"position":{"x":-500,"y":-200},"alpha":1} -target=sakiko -duration=1000 -next;
+setTransform:{"position":{"x":-0},"scale":{"x":1.8,"y":1.8}} -target=dinningroom -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":1,"y":1}} -target=anon -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious01 -expression=soyo_serious01;
+
+爱音:那个……你这段时间怎么没来弹琴了？ -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+
+:祥子愣了一下。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile03 -expression=sakiko_smile03;
+
+祥子:啊……右手有点小伤，就休息了几天。 -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_surprised01 -expression=sakiko_surprised02;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile03 -expression=sakiko_surprised01;
+setTransform:{"position":{"x":350,"y":-200}} -target=anon -duration=1000 -next;
+爱音:欸？！严重吗？ -fontSize=default;
+
+:她突然往前探了一点，语气比刚才高了不少，引来了旁边桌的一瞥。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=mutsumi_nnf01 -expression=sakiko_surprised01;
+祥子慌忙摇头，把右手伸出来晃了晃。 -concat -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_surprised01 -expression=mutsumi_surprised01;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile02 -expression=sakiko_smile02 -id=sakiko -next;
+
+祥子:真的没事，就是不小心划了一下，现在已经好了。弹琴也完全没问题。 -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf05 -expression=sakiko_smile01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_kime01 -expression=uika_serious01;
+
+:爱音低下头，盯着祥子的手掌看了几秒，看得有些出神。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_smile03 -expression=anon_smile02;
+
+setTransform:{"position":{"x":500,"y":-200}} -target=anon -duration=1000 -next;
+爱音:……没事就好。 -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking01;
+
+祥子:怎么了吗？ -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious02 -expression=anon_smile03;
+
+爱音:嗯……我虽然也靠右手拉琴，但……比起我们弓弦的控制，钢琴家的右手要复杂太多了吧。受伤的话，应该会很难调整…… -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile03 -expression=sakiko_smile03 -id=sakiko -next;
+
+祥子:（笑） -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile01 -expression=sakiko_smile01 -id=sakiko -next;
+
+祥子:都说了没事啦……
+changeFigure:anon/school_winter_test/model.json -motion=anon_shame01 -expression=anon_shame01 -id=anon -next;
+难道你很在意我的右手？ -concat -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_shame01 -expression=anon_shame01 -id=anon -next;
+
+爱音:呃…… -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_shame02 -expression=anon_shame02 -id=anon -next;
+
+爱音:嘛……大概…吧？ -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_shame02 -expression=anon_smile01;
+
+爱音:每次看钢琴家的右手演奏时都感觉很梦幻……今天也是，弹舒伯特的时候，丰川同学右手的单手复调处理得非常完美…… -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+
+祥子:是吗？ -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_smile03;
+
+:祥子轻轻咳了一声，掩饰住些微的不自在。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_serious01 -expression=sakiko_serious02;
+
+祥子:不过比起这个，我最近主要的烦恼是没地方练琴——吹奏乐部好像天天都在用音乐教室，可能是因为快要比赛了的缘故吧。 -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_sad02 -expression=anon_sad01;
+
+爱音:怎么这样……那丰川同学在学校弹琴的机会不就更少了吗…… -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_angry01 -expression=sakiko_sad02;
+
+:祥子眼睛忍不住抽搐了一下，"丰川同学"的称呼从爱音嘴里说出来让她有些不适应。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=anon_thinking02;
+
+爱音:不对啊，我记得……上周调查学校社团的时候，有看过教室使用申请清单，那间音乐教室其实并没有被每天申请使用。 -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_smile03;
+
+祥子:你还特意查过这些？ -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -motion=anon_nnf05 -expression=anon_shame01 -id=anon -next;
+
+爱音:嗯……我就是想找有没有适合练琴的地方来着，顺便看了一下…… -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious04 -expression=anon_shame01;
+:她微微有些不好意思地垂下眼，接着语速加快了半拍：;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_ando01 -expression=anon_shame01;
+
+爱音:丰川同学……要不我们来组建一个社团吧！ -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+
+祥子:欸？ -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_serious02 -expression=anon_thinking03;
+
+爱音:这样就可以自己申请音乐教室的使用时间了，而且……你也可以弹得自在一点，不用担心被吹奏乐部的人打扰。 -fontSize=default;
+
+:爱音显得很认真，和刚才那个说有些羞涩、不知道在思考些什么的她判若两人。 -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf04 -expression=sakiko_surprised01;
+:祥子看着她，沉默了几秒。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_serious02 -expression=anon_surprised01;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf04 -expression=soyo_ando01;
+祥子:……也不是不行。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_kime01 -expression=sakiko_smile05;
+
+祥子:……不过前提是，你得先别再叫我"丰川同学"了。 -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious01 -expression=anon_default;
+
+爱音:欸？ -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_serious02 -expression=sakiko_serious02 -id=sakiko -next;
+
+祥子:每次听你叫我"丰川同学"都觉得像是被你推远了半米……
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_serious02 -expression=soyo_smile01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious01 -expression=umiri_surprised01;
+叫我"祥子"吧。只要你愿意这么叫，那我就答应。 -concat -fontSize=default;
+
+
+爱音:！ -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_serious02 -expression=sakiko_surprised01;
+
+:爱音睁大了眼睛，随后嘴角慢慢扬起。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh02 -expression=sakiko_smile05;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_kandou02 -expression=anon_smile01;
+
+爱音:……祥子…同学…！太好了！ -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh02 -expression=sakiko_smile01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_serious01 -expression=soyo_kime01;
+
+爱音:社团名字我都想好了，就叫——古典乐社！ -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile05 -expression=sakiko_smile03;
+
+祥子:噗…… -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_kime01 -expression=anon_sad01;
+
+爱音:怎么了？ -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf03 -expression=tomori_smile04;
+
+祥子:我还以为你会想组建管弦乐团呢。 -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_smile02 -expression=mutsumi_smile04;
+
+爱音:哎呀，规模什么的无所谓啦，重要的是能一起练琴！ -fontSize=default;
+
+:说罢，她把剩下的几块鱼肉快速吞了下去，飞快地收拾好餐具。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_kime01 -expression=anon_smile04;
+
+setTransform:{"position":{"x":500,"y":-250}} -target=anon -duration=1000 -next;
+爱音:那，我现在就去写社团设立申请书…… -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_bye01 -expression=mana_smile01;
+setTransform:{"position":{"x":1500,"y":-250},"alpha":0} -target=anon -duration=1500 -next;
+祥子同学！谢谢你愿意和我组社团！ -concat -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_bye01 -expression=anon_smile01;
+setTransform:{"position":{"y":-200}} -target=sakiko -duration=1000 -next;
+祥子:（挥手） -fontSize=default;
+
+changeFigure:none -id=anon -next;
+
+:祥子目送着她的背影远去，嘴角不自觉地浮起一抹微笑。;
+
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile03 -expression=sakiko_smile03 -id=sakiko -next;
+
+祥子:……这不是能好好叫出我的名字嘛。 -fontSize=default;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_smile02;
+
+:她靠在椅背上，轻轻呼出一口气。午后的阳光透过窗户轻轻洒落在脸颊上，感觉暖暖的。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_thinking02 -expression=sakiko_thinking01;
+
+祥子:社团啊…… -fontSize=default;
+
+:她低声自语，食指轻轻敲了敲桌沿，又抬头望向窗外天光明净的蓝天。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile06 -expression=sakiko_smile06;
+
+bgm: -enter=1500;
+祥子:……真是个奇怪的家伙。 -fontSize=default;
+changeFigure: -id=sakiko -next;
+changeFigure: -id=anon -next;
+changeFigure: -id=dinningroom -next;
+playVideo:大忙人op.mp4;
+:…… -fontSize=default;
+changeScene:第四话/4.4.txt

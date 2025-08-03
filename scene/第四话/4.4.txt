@@ -1,0 +1,324 @@
+
+bgm:Special/MANYO-疑惑.mp3;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -transform={"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -transform={"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -transform={"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -transform={"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/后发/010_school_winter-2023model.json -left -id=s0 -transform={"position":{"x":-700,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/身体/model.json -left -id=s1 -transform={"position":{"x":-700,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/脸/model.json -left -id=s2 -transform={"position":{"x":-700,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑短发/刘海/003_school_winter-2023model.json -left -id=s3 -transform={"position":{"x":-700,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+
+changeBg:G（月之森）/G4.png -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -transform={"position":{"y":-200}} -next -motion=mutsumi_thinking01 -expression=mutsumi_thinking01 -zIndex=3;
+:若叶睦总觉得这两天有点不太对劲。
+这份不对劲的源头是长崎素世。
+changeFigure: -id=mutsumi -next;
+changeBg:G（月之森）/G2.png -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -transform={"position":{"x":-500,"y":-200}} -next -motion=soyo_smile02 -expression=soyo_smile02;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=k0 -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=k1 -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=k2 -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=k3 -duration=1000 -next;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/后发/218_story_01model.json -id=k0 -transform={"position":{"x":200,"y":-200},"scale":{"x":1,"y":1}} -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/身体/model.json -id=k1 -transform={"position":{"x":200,"y":-200},"scale":{"x":1,"y":1}} -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/脸/model.json -id=k2 -transform={"position":{"x":200,"y":-200},"scale":{"x":1,"y":1}} -next -motion=smile01 -expression=smile01;
+changeFigure:mygo_avemujica_v6/月之森吹奏部三人组/黑长直/刘海/018_casual-2023model.json -id=k3 -transform={"position":{"x":200,"y":-200},"scale":{"x":1,"y":1}} -next -motion=smile01 -expression=smile01;
+她总觉得……素世变得有些不一样了，变得，比以前更活泼了。;
+
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=s0 -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=s1 -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=s2 -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=s3 -duration=1000 -next;
+
+setTransform:{"position":{"x":700,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=k0 -duration=1000 -next;
+setTransform:{"position":{"x":700,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=k1 -duration=1000 -next;
+setTransform:{"position":{"x":700,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=k2 -duration=1000 -next;
+setTransform:{"position":{"x":700,"y":-200},"scale":{"x":1,"y":1},"alpha":1} -target=k3 -duration=1000 -next;
+setTransform:{"position":{"y":-200}} -target=soyo -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -id=soyo -transform={"position":{"x":-500,"y":-200}} -next -motion=soyo_nf_left01 -expression=soyo_smile01;
+:倒不是说素世从前不活泼——相反，她一直都是班里最受欢迎的存在之一。总是笑容满面，擅长活跃气氛，又乐于倾听别人的烦恼，是个不折不扣的知心大姐姐。;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_smile03 -expression=soyo_smile04;
+:可现在的素世，她的笑容却和以前不同了。睦说不出哪里变了，只觉得……那笑容，变得更加真实，更加鲜活了。;
+changeFigure:none -id=k0 -transform={"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:none -id=k1 -transform={"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:none -id=k2 -transform={"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:none -id=k3 -transform={"position":{"x":500,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+
+changeFigure:none -left -id=s0 -transform={"position":{"x":-700,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:none -left -id=s1 -transform={"position":{"x":-700,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure:none -left -id=s2 -transform={"position":{"x":-700,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+changeFigure: -left -id=s3 -transform={"position":{"x":-700,"y":-200},"scale":{"x":1,"y":1},"alpha":0} -next -motion=idle01 -expression=idle01;
+
+changeFigure:none -id=soyo -next;
+changeBg:G（月之森）/G4.png -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -transform={"position":{"y":-200}} -next -motion=mutsumi_thinking01 -expression=mutsumi_thinking01 -zIndex=3;
+:是因为祥吗？ -fontSize=default;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -transform={"position":{"y":-200}} -next -motion=mutsumi_nnf01 -expression=mutsumi_thinking01;
+睦轻轻摇了摇头，总觉得这种可能性不大。这段时间，祥从未再提起过素世的事，而素世也没有再追问过祥的近况。 -concat -fontSize=default;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -transform={"position":{"y":-200}} -next -motion=mutsumi_nf03 -expression=mutsumi_sad01;
+:这份沉默反而显得格外奇怪，甚至令人担忧。;
+
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_sad02 -expression=mutsumi_thinking01;
+睦:素世，要坏掉了吗？;
+
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nf01 -expression=mutsumi_sad01;
+:她当然不会真的开口问出这种话，但素世身上的变化，确实令她牵挂在心。;
+
+changeBg:G（月之森）/G6.png -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nf03 -expression=mutsumi_sad01;
+:这天中午，睦照例来到园艺部的田地照顾植物。
+setTransform:{"position":{"x":-500,"y":-200}} -target=mutsumi -duration=1000 -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf_right01 -expression=mutsumi_smile01;
+changeFigure:soyo/school_winter/model.json -id=soyo -transform={"position":{"x":500,"y":-200},"alpha":0.8} -next -motion=soyo_thinking02 -expression=soyo_thinking02;
+如果换作从前，素世大概早已跑来陪她一起浇水，顺便继续追问祥的消息了。 -concat -fontSize=default;
+changeFigure:none -id=soyo -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf_right01 -expression=mutsumi_default;
+:可这种事情，已经好几天没有再出现了。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad01 -id=mutsumi -next;
+setTransform:{"position":{"y":-200}} -target=mutsumi -duration=1000 -next;
+睦:好湿……;
+setTransform:{"position":{"y":-100}} -target=mutsumi -duration=1000 -next;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+:种着黄瓜的土壤并未因雨后放晴而干燥，湿气仍旧重得厉害。她拿起小锄头，轻轻松动表层的泥土，又细致地用纸巾擦拭叶面，希望这样能减少病害发生的可能。雨水也容易冲淡土壤的肥力……看来得等两三天再补施一次追肥。;
+setTransform:{"position":{"y":-200}} -target=mutsumi -duration=1000 -next;
+:做完这一切后，睦朝着更僻静的方向走去。她一直想试着种些蘑菇，但园艺部的活动区缺乏足够阴凉的环境，整个校园里似乎也难找到合适的地方。她抱着碰运气的心态，向小亭子的方向走去，亭子脚下那片朝向松树的阴面，会不会刚好合适呢？;
+
+changeFigure:BackGround/G11.png -id=gazebo -transform={"scale":{"x":1.8,"y":1.8}} -next -zIndex=1;
+setTransform:{"position":{"x":300,"y":-200}} -target=mutsumi -duration=1000 -next;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_surprised01 -expression=mutsumi_surprised01 -id=mutsumi -next;
+
+睦:……;
+changeBg:G（月之森）/G11.png -next;
+
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf04 -expression=mutsumi_surprised01;
+睦:（素世？）;
+
+
+:小亭子下，早已有了人影。竟是那几日不曾来找她的——长崎素世。;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_sad01 -expression=mutsumi_default;
+:睦微微一怔。像素世这样受欢迎的人，居然会独自一人在这种僻静的地方待着，实在不太常见。;
+bgm: -enter=1500;
+睦:（素世……在做什么？）;
+bgm:[240417] SPCD 01 Original Soundtrack Vol.1 (flac)/07. 表裏ー体.flac;
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nnf05 -expression=mutsumi_default;
+:她远远地看见素世坐在亭子的椅子上，整个人沉浸在眼前的画板中。炭笔在她手中灵巧游走，仿佛正随着心跳轻轻起舞。;
+
+:睦从未见过这样的素世——那样专注，那样安静，甚至比考试时还要投入得多。;
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_smile01 -expression=mutsumi_default;
+setTransform:{"position":{"x":-500,"y":-200}} -target=mutsumi -duration=2500 -next;
+:她心中微动，悄悄走近，却不忍打扰，于是放轻脚步，静静站在一旁。;
+
+changeFigure:BackGround/1604cgbg1.png -id=cg2 -next -zIndex=4;
+:画板上的线条流畅而细腻，那幅画虽未完成，却已勾勒出人物优雅而温柔的轮廓。 -fontSize=default;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf_left01 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:……;
+changeFigure: -id=cg2 -next;
+
+睦:素世……;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -left -next;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -transform={"position":{"x":500,"y":-200}} -next -motion=soyo_surprised01 -expression=soyo_surprised01 -zIndex=5;
+:素世猛地回过头，将画板紧紧抱在怀里，明显吓了一跳。她瞪大眼睛看了睦一眼，确认来人是谁之后，那份惊慌才慢慢褪去，换上一个有些尴尬的笑容。;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile01 -expression=soyo_smile03;
+素世:小睦……你走路还是这么没声音啊。;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nf01 -expression=mutsumi_default;
+:睦轻轻摇了摇头，站在一旁，看着素世略显慌乱的模样，心里却莫名泛起一阵温暖的涟漪。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:素世……原来这么擅长绘画吗？ -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_nf04 -expression=sakiko_smile03;
+素世:也不算擅长啦。说起来，我好像一直没和你讲过吧？其实我从很小的时候就很喜欢画画……只是一直没有机会让别人看到。结果今天就这么被你撞见了。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf_left01 -expression=mutsumi_default -id=mutsumi -left -next;
+:睦有点不好意思地转开了头，又忍不住偷偷瞥向素世怀里的画板。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:在画什么？;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_nnf03 -expression=soyo_smile03 -id=soyo -right -next;
+素世:是人物素描啦，突然心血来潮…… -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_nnf01 -expression=soyo_serious02;
+:她低下头，看着睦那好奇的眼神，犹豫了一下，声音也压低了些。;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile01 -expression=soyo_smile01 -id=soyo -right -next;
+素世:嗯……不要和别人说哦？;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nnf04 -expression=mutsumi_default;
+睦:嗯。;
+
+:听见睦的承诺，素世这才小心翼翼地翻过画板给她看。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf_left01 -expression=mutsumi_default -id=mutsumi -left -next;
+changeFigure:BackGround/1904cgbg1.png -id=cg3 -next -zIndex=6;
+:睦悄悄靠近了一点，画面便完整地映入眼帘。比她想象中还要精致、还要纯熟。炭笔的线条干净利落，几乎没有涂改，人物的构图流畅自然。;
+
+:画上的人影栩栩如生——及腰的长发、清透温柔的侧脸、演奏小提琴但还有点潦草的双手……那并不是祥子。 -fontSize=default;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:……她是谁？;
+changeFigure: -id=cg3 -next;
+changeFigure:soyo/school_winter/model.json -motion=soyo_nnf01 -expression=soyo_default -id=soyo -right -next;
+素世:你应该不认识啦。不过……这样也好，我可以放心跟你说了。;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_serious04 -expression=soyo_shame01;
+:她轻轻卷着自己一缕头发，像是在掩饰脸上的一点点羞涩，认真思索着措辞。;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile03 -expression=soyo_smile03 -id=soyo -right -next;
+素世:爱音，千早爱音。大概可以算是我的青梅竹马……吧？;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:是对素世很重要的人？;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_nnf04 -expression=sakiko_smile03;
+素世:……嗯。;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nnf05 -expression=mutsumi_default;
+:睦没有再说话，只是静静看着她。;
+setTransform:{"position":{"x":-500,"y":-400},"scale":{"x":1.5,"y":1.5}} -target=soyo -duration=1500 -next;
+setTransform:{"position":{"x":-300,"y":300},"scale":{"x":2.2,"y":2.2}} -target=gazebo -duration=1500 -next;
+setTransform:{"position":{"x":-2000,"y":-400},"scale":{"x":1.5,"y":1.5},"alpha":0} -target=mutsumi -duration=1500 -next;
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile03 -expression=umiri_smile04;
+:素世的脸上，浮现出一种从未有过的柔和微笑。那样的笑容，就连在CRYCHIC最闪耀的时候，睦也从未见她露出过。;
+setTransform:{"position":{"x":500,"y":-200},"scale":{"x":1,"y":1}} -target=soyo -duration=1500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1.8,"y":1.8}} -target=gazebo -duration=1500 -next;
+setTransform:{"position":{"x":-500,"y":-200},"alpha":1} -target=mutsumi -duration=1500 -next;
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile01 -expression=soyo_smile01 -id=soyo -right -next;
+素世:我们从小学就认识了……那时候的她真是个活泼得不得了的家伙啊。有事没事就来缠着我胡闹，好像永远有用不完的精力。而且她还特别坏心眼呢，有一次竟然偷偷把我十分钟的沙漏换成了五分钟的——我过了好久才发现！;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nnf01 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:……好狡猾。;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile02 -expression=soyo_smile02 -id=soyo -right -next;
+素世:对吧？那时候我正在准备速写四级考试，结果因为这个急得不得了，总觉得怎么画都来不及……结果考试的时候发现时间竟然多了好多。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_smile01 -expression=mutsumi_smile01 -id=mutsumi -left -next;
+睦:（笑）;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile03 -expression=soyo_smile03 -id=soyo -right -next;
+素世:后来，她也考进了月之森。不过我们还是没分到一个班。她的小提琴拉得真的很好，是我见过最棒的。初一的时候，还在音乐节的舞台上演出过呢。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad01 -id=mutsumi -left -next;
+睦:……后来，她转学了。;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile03 -expression=soyo_sad01;
+素世:……;
+bgm: -enter=1500;
+
+:素世脸上浮现出一抹难以掩饰的落寞，无法言喻的沉默笼罩在二人头顶。;
+bgm:Special/MANYO-逢瀬.mp3;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_sad01 -expression=soyo_sad01;
+素世:……原来，小睦你也知道她啊？;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:只是知道这个人而已。;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_sad02 -expression=soyo_sad02 -id=soyo -right -next;
+素世:……哎。;
+
+:素世垂下眼帘，语气轻得像暖春的风声。;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_nnf01 -expression=soyo_sad01;
+素世:我到现在还记得那时候的感受。爱音说她要出国留学的时候，我感觉我的心一瞬间都快要停跳了……我迫切的想要做些什么，但却发现什么也做不了。;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_sad01 -expression=soyo_sad01 -id=soyo -right -next;
+素世:爱音……一直都不喜欢月之森严肃的氛围，尤其讨厌当时的理事长。再加上她想成为职业的小提琴手，觉得必须上专业音乐学校。就这样……在初二那年转学了。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad01 -id=mutsumi -left -next;
+睦:……;
+
+:素世说话的声音低了下去，睦看着她那失落的神情，心里涌上一股说不出的难过。她下意识地伸出手。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_smile01 -expression=mutsumi_smile01 -id=mutsumi -left -next;
+睦:不是素世的错……;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_surprised01 -expression=soyo_surprised01 -id=soyo -right -next;
+素世:哎？;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nf04 -expression=mutsumi_default;
+:睦张开双臂，轻轻地说：;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_smile01 -expression=mutsumi_smile01 -id=mutsumi -left -next;
+睦:素世难过的话……可以抱抱我……;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile01 -expression=soyo_smile05;
+素世:噗……;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_kime01 -expression=mutsumi_default;
+睦:？;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile03 -expression=soyo_smile03 -id=soyo -right -next;
+素世:谢谢你，小睦~;
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile04 -expression=soyo_smile04;
+setTransform:{"position":{"x":-200,"y":-200}} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":-200}} -target=soyo -duration=1000 -next;
+:素世接受了睦的好意，轻轻抱了一下她。;
+setTransform:{"position":{"x":-500,"y":-200}} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":-200}} -target=soyo -duration=1000 -next;
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile01 -expression=soyo_smile01;
+素世:不用担心我啦，真的没事。我没有伤心，只是——;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nf03 -expression=mutsumi_default;
+睦:真的？;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile05 -expression=soyo_smile05 -id=soyo -right -next;
+素世:都是些过去的事了。而且，她现在已经回来了哦。;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_surprised01 -expression=mutsumi_surprised01 -id=mutsumi -left -next;
+睦:！;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile03 -expression=soyo_smile03 -id=soyo -right -next;
+素世:嗯，虽然那个无情的家伙从出国之后连一次假期都没回来过……但我上周五还是见到她了
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_surprised01 -expression=soyo_surprised01;
+——啊。 -concat -fontSize=default;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_smile01 -expression=mutsumi_smile01 -id=mutsumi -left -next;
+睦:太好了呢。;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_nf04 -expression=soyo_sad01;
+:素世忽然想起什么似的，神情变得犹豫。;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_sad02 -expression=soyo_sad01;
+素世:小睦，我和爱音有过一个约定……她希望我不要对别人提起她的事。;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nf02 -expression=mutsumi_default;
+睦:（认真地点头）;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile01 -expression=soyo_smile01 -id=soyo -right -next;
+素世:但小睦是特别的，我才会愿意说出来……所以，这些话，就当成是我们之间的小秘密，可以吗？;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nnf05 -expression=mutsumi_default;
+睦:嗯。;
+
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile03 -expression=soyo_smile05;
+素世:那就太好了，作为交换，小睦有什么想要我做的吗？;
+
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:我……我想看你把这张素描画完。 -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_surprised01 -expression=soyo_surprised01 -id=soyo -right -next;
+素世:欸？不会太无聊了吗？ -fontSize=default;
+
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -next -motion=mutsumi_nf01 -expression=mutsumi_default;
+睦:不无聊……;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile02 -expression=soyo_smile02 -id=soyo -right -next;
+素世:那我们可要抓紧了呢，下午的课马上就要开始了。我可不想留下半幅画没画完。;
+changeFigure: -id=soyo -next;
+changeFigure: -id=mutsumi -next;
+changeFigure: -id=gazebo -next;
+changeBg: -next;
+bgm: -enter=1500;
+素世:…… -fontSize=default;
+素世:（不知道爱音在羽丘过得怎么样呢……？） -fontSize=default;
+changeScene:第四话/4.5.txt

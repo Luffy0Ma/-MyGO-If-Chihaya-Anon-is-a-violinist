@@ -1,0 +1,219 @@
+bgm:Special/Dr.RD(Vanguard_Sound)-Lyrique.mp3;
+changeBg:F（羽丘）/F2.png -next -unlockname=door;
+:夕阳把羽丘的校门染上了一片金黄。两人并肩走着，谁也没有开口。空气里混着放学后的松弛感与一点点难以言说的沉默。 -fontSize=default;
+changeBg:M（街道）/M14.png -next -unlockname=street;
+changeFigure:tomori/school_winter/model.json -id=tomori -transform={"position":{"y":-200}} -next -motion=tomori_thinking01 -expression=tomori_thinking01 -zIndex=3;
+灯:说起来……爱音是学小提琴的吧？;
+setTransform:{"position":{"x":500,"y":-200}} -target=tomori -duration=1000 -next;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":-500,"y":-200}} -next -motion=sakiko_nf_right01 -expression=sakiko_thinking01 -zIndex=2;
+爱音:嗯。怎么了？;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking01 -expression=tomori_shame02;
+灯:就是，唔……;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking01 -expression=tomori_sad01;
+:她低着头，手指在空气中戳来戳去，脑海里浮现出那只让祥子眼中泛起异彩的乐队——Morfonica。现在并肩而行的女孩，总让她联想到那支乐队的小提琴手。 -fontSize=default;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking01 -expression=tomori_sad04;
+灯:（小提琴……小祥会喜欢吗……？） -fontSize=default;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile03 -expression=tomori_smile03;
+灯:对了……爱音对组乐队是什么看法呢？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking01 -expression=anon_thinking01;
+爱音:唔，乐队嘛……;
+setTransform:{"position":{"x":900,"y":-200},"alpha":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-200}} -target=anon -duration=1000 -next;
+changeBg: -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_serious01 -expression=anon_sad02;
+:她沉吟了一下。虽然并不排斥这个念头，但一想到小提琴出现在摇滚乐队的舞台上，她就觉得哪里有些不协调。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_left01 -expression=sakiko_shame02;
+changeFigure:sakiko/school_winter/model.json -id=saki -transform={"position":{"x":-800,"y":-200},"alpha":0.5,"blur":3} -next -motion=sakiko_nod01 -expression=sakiko_smile05;
+:而且，如果真要组乐队的话……她理想的搭档果然还是键盘手吧？ -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=saki -transform={"position":{"x":-800,"y":-200},"alpha":0.5,"blur":3} -next -motion=sakiko_nnf_right01 -expression=sakiko_smile03;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_angry03 -expression=anon_shame02;
+不对，现在不是幻想这些的时候—— -concat -fontSize=default;
+changeFigure: -id=saki -next;
+changeBg:M（街道）/M14.png -next -unlockname=street;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_nnf_right01 -expression=sakiko_thinking01;
+setTransform:{"position":{"x":500,"y":-200},"alpha":1} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":-200}} -target=anon -duration=1000 -next;
+爱音:我确实对乐队有一点兴趣啦，但是……小提琴组乐队什么的，总觉得会有点奇怪……;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking01 -expression=tomori_thinking01;
+:灯点点头，似懂非懂地"嗯"了一声。她觉得自己可能还没有资格说出"我们来试试看吧"这样的话。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad01 -expression=tomori_sad01;
+灯:唔，对不起，当我没说……;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_smile01 -expression=anon_smile01;
+爱音:不过，我也学过一点吉他……其实我还挺想回去把吉他捡起来练练看的。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile01 -expression=tomori_smile01;
+灯:嗯……;
+changeBg:M（街道）/M2.png -next;
+:二人来到了十字路口前，只要过了马路便是车站了。 -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=sakiko_thinking01;
+爱音:灯，你要继续往那边走吗？;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking01 -expression=tomori_thinking01;
+灯:嗯。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_bye02 -expression=sakiko_thinking01;
+爱音:那我们就在这里告别吧，我要去车站了。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile02 -expression=tomori_smile02;
+灯:那……下周见。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_bye01 -expression=soyo_bye01;
+setTransform:{"position":{"x":-900,"y":-200},"alpha":0} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-200}} -target=tomori -duration=1000 -next;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_bye01 -expression=tomori_bye01;
+changeFigure: -id=anon -next;
+:灯目送爱音越走越远，思绪也飘到千里之外。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -motion=tomori_thinking01 -expression=tomori_sad01;
+灯:（我一个人……能做好吗？）;
+
+:灯没有朝着家的方向而去。不如说，从出校门以后她便一直在朝着家的反方向走。告别爱音以后，她继续前进，来到了她一开始便定下的目的地—— -fontSize=default;
+
+bgm: -enter=5000;
+changeBg:E（live house）/E1.png -next;
+RiNG。 -concat -fontSize=default;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad01 -expression=tomori_sad01;
+灯:……呼。;
+
+:熟悉的招牌高挂着，像过去的记忆那样沉重地压在她心头。;
+:她站在门口犹豫了很久。梦想之地就在眼前，可她却仿佛置身千里之外。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad02 -expression=tomori_sad02;
+灯:（还是……回去吧……）;
+
+:果然，自己还是没有勇气回到这个地方。她轻轻转过身，打算离开，却在下一刻听见了一个熟悉的声音—— -fontSize=default;
+bgm:Special/Roommate.mp3;
+
+？？？:灯？ -fontSize=default;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_surprised01 -expression=tomori_surprised01;
+灯:啊……;
+setTransform:{"position":{"x":-500,"y":-200}} -target=tomori -duration=1000 -next;
+
+changeFigure:taki/arbeit/model.json -id=taki -transform={"position":{"x":500,"y":-200}} -next -motion=taki_serious01 -expression=taki_surprised01;
+立希:灯……真的是你。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_shame01 -expression=tomori_shame01;
+灯:唔……嗯。好久不见……;
+
+:立希迟疑地走近了几步，语气有些复杂。;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_thinking01 -expression=taki_sad02;
+立希:你……怎么会来这里？;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad01 -expression=tomori_sad01;
+灯:我……只是走着走着，就过来了……;
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_nf_left01 -expression=taki_sad03;
+:立希看着她身上的羽丘校服，还有背在肩上的吉他包，眼里情绪翻涌。;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_smile01 -expression=taki_smile03;
+立希:……进来吧。我请你喝点什么。;
+changeFigure: -id=tomori -next;
+changeFigure: -id=taki -next;
+
+:…… -fontSize=default;
+changeBg:E（live house）/E8.jpg -next;
+
+:店里人不多。灯坐在靠窗的位置，低着头搅着杯里的饮料，一言不发。立希坐在对面，盯着她看了很久。;
+changeFigure:tomori/school_winter/model.json -id=tomori -transform={"position":{"x":-500,"y":-200}} -next -motion=tomori_sad01 -expression=tomori_sad01;
+changeFigure:taki/arbeit/model.json -id=taki -transform={"position":{"x":500,"y":-200}} -next -motion=taki_thinking01 -expression=taki_thinking01;
+立希:真没想到……你会背起吉他。;
+
+changeFigure:tomori/school_winter/model.json -motion=tomori_sad01 -expression=tomori_sad01 -id=tomori;
+灯:嗯……是从CRYCHIC解散以后开始学的……;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_sad01 -expression=taki_sad01;
+立希:……;
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_sad02 -expression=taki_sad01;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad02 -expression=tomori_sad02;
+灯:对不起……我一直没有联系你们。我……我其实不太知道该怎么做。;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_serious01 -expression=taki_serious01;
+立希:……我以为你已经不想见我们了。;
+
+:灯咬了咬嘴唇，缓缓地说。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad03 -expression=tomori_sad03;
+灯:……我总觉得，是我拖了大家的后腿。那时候我根本不知道自己在干什么，只是一直逃避……最后连见大家的勇气都没有了。;
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_nnf01 -expression=taki_sad02;
+:立希垂下眼帘，手指轻轻扣着杯沿。;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_surprised01 -expression=tomori_sad03;
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_nnf_right01 -expression=taki_sigh01;
+立希:……其实，我也生气过。也怨过你。;
+
+:灯一怔，低下头。;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_sad02 -expression=taki_sad02;
+立希:你突然不见了，一句话都没留。我们两个……都不知道发生了什么，只能自己猜。那段时间真的很混乱。 -fontSize=default;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_cry01 -expression=tomori_cry01;
+灯:对不起……我想着…如果就这样突然出现在你们面前，是不是又会让一切变得更糟……小祥大概不会再回来了，小睦也是…… -fontSize=default;
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_sad02 -expression=taki_surprised01;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_cry02 -expression=tomori_cry01;
+灯:乐队……再也不会有吉他和键盘了……因为没用的我，所以大家分崩离析了……;
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_nnf_left01 -expression=taki_surprised01;
+:立希抬起头，欲言又止，最后只是无奈地叹了口气。 -fontSize=default;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad03 -expression=tomori_sad03;
+灯:所以……才开始学吉他。唱得，也还远远不够……可小睦已经不在了。 -fontSize=default;
+如果我还是什么都不会的话……我……真的不知道该怎么面对大家了…… -fontSize=default;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_cry01 -expression=taki_sad01;
+立希:……;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_kime01 -expression=soyo_angry03;
+立希:我……从来没有觉得灯是没用的人！是你的歌词让我留下来的，我一直都觉得只有你的歌词能唱出我的心声…… -fontSize=default;
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_kime01 -expression=soyo_surprised01;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad02 -expression=tomori_sad02;
+灯:可如果不是因为我的话……小祥为什么会离开呢……？;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_sad03 -expression=taki_sad03;
+立希:那是……;
+
+:立希沉默了，她无法给灯一个回答。空气一度凝滞了几秒。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking01 -expression=tomori_thinking01;
+灯:立希……;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_serious01 -expression=tomori_serious01;
+灯:如果……如果说，我想重新开始的话……哪怕只有我一个人……你会愿意和我一起吗……？;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_smile01 -expression=taki_smile01;
+立希:会的。;
+
+:立希站了起来，眼睛有些湿润却又十分坚定。;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_serious01 -expression=taki_smile01;
+立希:会的！如果是灯的请求的话，我一定会！;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_serious02 -expression=taki_serious01;
+立希:虽然我也怕再失败一次……但我更怕就这样一直迷茫下去。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_surprised01 -expression=tomori_surprised01;
+灯:立希……;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_surprised01 -expression=tomori_cry01;
+:灯眼眶泛红，嘴角轻轻颤抖。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_sad01 -expression=tomori_sad01;
+灯:但是……我现在还很差劲，边弹边唱都不太行。还有……我还没想好该怎么跟素世说…… -fontSize=default;
+
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_thinking01 -expression=taki_thinking01;
+立希:……;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_serious01 -expression=tomori_serious01;
+灯:再给我一点时间……可以吗？我知道我做得还不够好，但我真的想变得不一样……我想…以一个不再逃避的样子，重新站在你们面前。 -fontSize=default;
+changeFigure:taki/arbeit/model.json -id=taki -next -motion=taki_smile03 -expression=taki_smile03;
+立希:……嗯，我相信你。
+changeFigure:none -id=tomori -next;
+changeFigure: -id=taki -next;
+changeBg: -next;
+bgm: -enter=0;
+:…… -fontSize=default;
+changeScene:第三话/part4.txt

@@ -1,0 +1,133 @@
+
+
+; // 钢琴声响起
+changeBg:F（羽丘）/F21.png;
+
+爱音:钢琴声......;
+:一瞬间，爱音愣住了，完全忘记了自己原本打算干什么。她只是有些痴迷地游荡了起来，寻找着琴声的来源。
+:顺着悠扬的琴声，爱音缓缓走过走廊，最终停在了一间音乐教室前。
+:夕阳的余晖如流动的绢纱，温柔地铺展在长廊之上，映得墙壁染上一抹瑰丽的霞色。
+:她的身影被光线拉得悠长，也仿佛融入了这片静谧而梦幻的黄昏。
+:站定在音乐教室门外往里看，一位蓝色长发的少女正静静地演奏着一首爱音很喜欢的曲子。
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_idle01 -expression=anon_bye01;
+爱音:《亚麻色头发的少女》......;
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_idle01 -expression=anon_smile01;
+:爱音犹豫着要不要进去。她万分不希望打扰到这样专注的一位演奏家，就像微风不愿惊扰湖面的倒影，亦或是落日不忍催促暮色匆匆降临。
+changeFigure:anon/school_winter/model.json -id=11 -motion=mutsumi_smile02 -expression=anon_smile02;
+:然而，对美的渴望终究战胜了内心的自我克制。爱音屏住呼吸，轻轻推开门，指尖小心翼翼地拂过门框，生怕惊扰了那流淌的旋律。
+changeBg:F（羽丘）/F17.png;
+setTransform:{"position":{"y":0}} -target=11 -duration=1000;
+:待门扉无声闭合后，她悄然移步至后排，找了个角落的位子坐下。
+:钢琴的音符如涓涓细流般洒落，温柔的和弦在空气中层层晕开，如光影般轻柔地交织。
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"y":-200}} -motion=anon_kandou01 -expression=anon_kandou01;
+:似乎自有记忆以来，爱音便对德彪西情有独钟——从《美丽的黄昏》到《月光》……当然，还有此刻在蓝发少女指尖流淌的这首旋律。
+:在这方静谧的角落，世界仿佛褪去喧嚣，只余琴声回响。旋律化作微风，少女化作阳光，钢琴化作泥土，在柔和的光照下萌发出新芽。
+:不知何时，微风与阳光悄然隐去，琴音仿佛沉入更深的梦境。
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"y":-200}} -motion=anon_kandou01 -expression=anon_smile04;
+:微湿的泥土散发着淡淡的清香，爱音的目光落在那片圣洁的大地上，露珠在晨光下闪烁，映照着她心中难以言喻的悸动。
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"y":-200}} -motion=nyamu_smile02 -expression=mutsumi_smile04;
+:有什么不可思议的事情即将发生——
+changeFigure:选择立绘文件 -id=11;
+changeBg:test1_00007_.png;
+:爱音看见，无数飘舞的花瓣自那名少女的指尖流泻而出，如翩跹的蝴蝶，在空气中轻盈起舞。
+:旋律缓缓推进，钢琴的音色愈发澄澈明亮。爱音闭上双眼，将灵魂放松下来，任由那轻柔的花瓣引领她步入一方梦幻仙境。
+changeBg:flower.png -unlockname=flower;
+:在静谧的花海深处，她仿佛看见一个少女静静伫立，眺望着远方的村落，在柔和的阳光下露出浅浅微笑。
+:忽然，那少女似乎察觉到了这位意外闯入的来客，缓缓回过头来，朝她盈盈一笑。
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"x":200,"y":-200}} -motion=mana_smile01 -expression=mana_smile01;
+setTransform:{"blur":20} -target=flower -duration=1000;
+爱音:（啊啊，好美妙的感觉......这是梦吗？）;
+changeBg:flowerfield_00004_.png -transform={} -unlockname=flowerfield;
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"x":600,"y":-200}} -expression=rana_thinking01;
+:一曲终了，轻柔的花瓣依旧未曾散去，反而再次随风翩然起舞。
+
+bgm:大卫.奥伊斯特拉赫《亚麻色头发的少女》.aac;
+:小提琴的音符轻盈地浮现，如晨曦中拂过原野的微风，牵引着那亚麻色头发的少女，再次在花田间起舞。
+:她的裙摆随旋律摇曳，宛若风中轻扬的花瓣，与漫天飞舞的光影交织成诗......
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"x":600,"y":-200}} -motion=rana_smile01 -expression=soyo_smile01;
+:是诗歌！
+:田野间充满了欢声笑语，银铃般的笑声交织在一起，组成了一首献给花儿们的诗歌......
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"x":600,"y":-200}} -motion=mutsumi_smile04 -expression=taki_smile02;
+:爱音沉浸在这动人的感受里，自己也忍不住翩翩起舞。花田就是她的舞台，无数朵鲜花便是她的观众——
+:整个世界的色彩愈发鲜艳起来，阳光的暖意让她张开怀抱，高声歌唱。夕阳化作初晨，尚未到来的寒冷被新生的暖意驱散，迎接艳阳高照。
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"x":600,"y":-200}} -motion=rana_smile01 -expression=soyo_smile01;
+:紧接着，天际的歌唱中悄然融入了大地的低语。钢琴的和弦悠然响起，如不请自来的客人，娓娓道来一段早已等待多时的故事。
+:天空怎能脱离大地的怀抱，大地又何以摆脱穹顶的笼罩呢？
+changeFigure:anon/school_winter/model.json -id=11 -transform={"position":{"x":600,"y":-200}} -motion=soyo_smile03 -expression=mana_smile02;
+:二者本就应是合而为一的存在，彼此相依，哪怕恒星也在漫长的时光中冷却。
+setTransform:{"blur":20} -target=flowerfield -duration=0;
+changeFigure:anon/school_winter/model.json -id=11 -motion=mana_smile03 -expression=umiri_smile04;
+:爱爱音睁开了眼睛，映入眼帘的是那片花海，她站在其中，亚麻色头发的少女就在眼前，向她绽放出明媚的笑容。
+:“一个人跳舞很孤单吧？”
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_serious01 -expression=umiri_smile05;
+:是的，非常孤单，爱音心里应答。
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_serious02 -expression=umiri_smile04;
+
+:所以你一定也不会介意我们一起共舞吧？爱音的心跳不禁加速。
+:那少女仿佛笑了笑，没有否认。她的脚尖轻轻点地，膝盖微曲，身体轻轻倾斜，慢慢抬起一只手臂，眼中投来一个邀请的目光。
+changeFigure:anon/school_winter/model.json -id=11 -motion=mana_smile03 -expression=anon_smile04;
+:到底是谁投入了谁的怀抱呢？爱音也已分不清。她只觉得，田野间的每一朵鲜花都在为她们欢呼歌唱。
+changeFigure:anon/school_winter/model.json -id=11 -motion=mana_smile03 -expression=anon_smile02;
+:多么美妙的感觉。
+:整个世界仿佛开始旋转，越来越快……那漫山遍野的花海变成一缕温柔的光，悄然融入她的心中。
+:除去舞伴之外，爱音仿佛什么也不再看见、听不见了。
+changeFigure:anon/school_winter/model.json -id=11 -motion=mutsumi_nnf01 -expression=mutsumi_smile01;
+
+changeBg:flowerfield.png -duration=50 -transform={"blur":20} -unlockname=test2flower;
+:万丈光芒渐渐消失，然而，爱音并未感到黑暗。她的眼中依然充满光明，那光明来自于那少女温暖而坚定的怀抱。
+:然而，就像恒星终会熄灭，爱音也感觉到，二人身上的光芒开始渐渐黯淡。难道这支舞，就要结束了吗？
+changeFigure:anon/school_winter/model.json -id=11 -motion=sakiko_sad02 -expression=anon_sad01;
+:是的，结束了。土壤化作了钢琴，微风又变回了旋律，阳光——那少女本就是阳光，又何必再去追溯变化呢？
+:花田消失了，爱音也回到了音乐教室。她们的圆舞曲结束了，是时候分别了。
+changeFigure:anon/school_winter/model.json -id=11 -motion=soyo_sad01 -expression=mana_sad01;
+:分别……我会忘掉这个如同阳光一般的少女吗？爱音不禁感到一丝落寞。
+:在梦境与现实的边界上，那与她共舞的少女开始变得愈发清晰......
+changeFigure:anon/school_winter/model.json -right -id=11 -transform={"position":{"x":-200,"y":200}} -motion=soyo_sad01 -expression=mana_surprised01;
+changeFigure:sakiko/school_winter/model.json -left -id=22 -transform={"position":{"y":-200},"blur":20} -motion=sakiko_smile01 -expression=sakiko_smile01;
+:那个与她共舞的亚麻色头发的少女,便是眼前弹钢琴的蓝发女孩子。 -fontSize=default;
+changeFigure:none -id=22;
+; // 合奏结束
+changeBg:F（羽丘）/F17.png;
+
+changeFigure:anon/school_winter/model.json -id=11 -expression=anon_surprised01;
+changeFigure:sakiko/school_winter/model.json -left -id=22 -transform={"position":{"y":-200},"blur":0} -motion=sakiko_smile03 -expression=sakiko_smile03;
+:爱音睁开了双眼，从朦胧的梦境中清醒过来。她低头看了看肩上的小提琴，才意识到刚才自己经历了什么。 -fontSize=default;
+changeFigure:anon/school_winter/model.json -id=11 -expression=sakiko_shame02;
+:那名弹钢琴的少女此时正微笑着看向她，爱音忍不住觉得脸上涌起一抹羞红。
+changeFigure:anon/school_winter/model.json -right -id=11 -transform={"position":{"x":-700,"y":-200}} -motion=anon_shame01 -expression=sakiko_shame02;
+爱音:啊......啊，不好意思，因为实在太好听了所以......
+setTransform:{"position":{"x":500,"y":-200}} -target=11 -duration=1000;
+:爱音急忙将小提琴收了起来，不敢直视那位少女的目光。
+changeFigure:sakiko/school_winter/model.json -left -id=22 -transform={"position":{"y":-200},"blur":0} -motion=sakiko_smile05 -expression=sakiko_smile03;
+:她突然意识到，自己未经允许地走了进来，又毫无顾虑地拉起了小提琴，完全没考虑到会打扰对方的独处时光。 -fontSize=default;
+changeFigure:anon/school_winter/model.json -id=11 -motion=soyo_angry01 -expression=sakiko_surprised02;
+:这简直太失礼了！爱音心中忐忑不安，恨不得立刻跑出去，这样的初遇实在是太不合适了。
+changeFigure:sakiko/school_winter/model.json -id=22 -motion=sakiko_thinking02 -expression=sakiko_kime01;
+
+:不过，蓝色长发的少女鼓掌的声音却似乎在说，她并不介意这场小插曲。 -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=22 -motion=sakiko_thinking02 -expression=sakiko_smile03;
+祥子:精彩的演奏......你是吹奏乐社的吗？不过吹奏乐社好像没有小提琴...... -fontSize=default;
+changeFigure:anon/school_winter/model.json -id=11 -motion=anon_shame02 -expression=taki_ando01;
+:听到“吹奏乐社”的字眼，爱音急忙环顾四周，目光落在角落里存放的管乐器上。
+爱音:啊，不是！我就是单纯过来听听......;
+
+changeFigure:sakiko/school_winter/model.json -id=22 -motion=sakiko_smile02 -expression=sakiko_smile02; // 丰川祥子的立绘，表情为微笑
+祥子:然后又擅自演奏起来呢。 -fontSize=default;
+changeFigure:anon/school_winter/model.json -id=11 -motion=soyo_angry01 -expression=anon_shame02;
+:爱音感到更加害羞，忍不住转过了脸。见她这样，祥子连忙解释。
+changeFigure:sakiko/school_winter/model.json -id=22 -motion=sakiko_smile02 -expression=sakiko_surprised01;
+祥子:啊，我没有责怪你的意思！我是B班的丰川祥子——
+changeFigure:anon/school_winter/model.json -id=11 -motion=sakiko_shame01 -expression=sakiko_shame01;
+爱音:那...那个，不好意思耽误了你这么久。吹奏乐社的活动时间应该快到了吧？我就先不打扰了—— -fontSize=default;
+
+changeFigure:none; // 关闭立绘
+setTransform:{"position":{"x":2000,"y":-200},"alpha":0} -target=11 -duration=1000;
+:她匆匆收拾好了东西，动作利落，如行云流水般迅速离开，没有留下半点痕迹。
+; // 千早爱音离开音乐教室
+changeFigure:none; // 关闭立绘
+changeFigure:sakiko/school_winter/model.json -id=22 -motion=sakiko_thinking01 -expression=taki_surprised01;
+
+祥子:什......怎么回事，难道把我当成吹奏乐社的人了吗？真是的......;
+changeFigure: -id=22;
+changeBg:none;
+: -fontSize=default;

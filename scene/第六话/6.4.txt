@@ -1,0 +1,63 @@
+
+changeBg:bestdori/bg00351.png -next;
+bgm:none -enter=1000;
+:最后一个音符的震动，从琴键，通过指尖，传遍了她们的全身。
+:窗外城市的灯火，重新变得清晰起来。
+:两人依然并肩坐在钢琴前，双手还交握在一起。
+changeFigure:anon/casual_large/model.json -right -id=anon -transform={"position":{"x":-200}} -next -motion=anon_nnf_left01 -expression=anon_smile04;
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -transform={"position":{"x":200}} -next -motion=sakiko_nnf_right01 -expression=soyo_smile01;
+bgm:Special/温馨类/ユズリハ.mp3;
+:祥子缓缓地睁开了眼睛，看着身边的爱音。爱音也正转过头来看她，那双银灰色的眼睛里，带着一丝演奏过后的疲惫，和一个浅浅的、仿佛什么都明白的微笑。
+changeFigure:anon/casual_large/model.json -left -id=anon -next -motion=rinko_nf02 -expression=sakiko_smile01;
+changeFigure:sakiko/school_winter/model.json -right -id=sakiko -next -motion=mutsumi_nf04 -expression=sakiko_smile06;
+:她们都没有说话。
+:刚才那场盛大的、只属于她们二人的幻想之旅，似乎还萦绕在空气中，让现实的言语都显得有些多余。;
+setTransform:{"position":{"x":0}} -target=sakiko -duration=1500 -next;
+changeFigure:anon/casual_large/model.json -left -id=anon -next -motion=soyo_nnf_left01 -expression=sakiko_smile01;
+:最终，是祥子先动了。她轻轻地、有些恋恋不舍地，松开了爱音的手，站起身走到巨大的落地窗前。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=tomori_nf04 -expression=sakiko_smile05;
+祥子:……刚才，谢谢你。
+changeFigure:anon/casual_large/model.json -motion=anon_smile01 -expression=anon_smile01 -id=anon -next;
+爱音:（笑）
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking01 -expression=sakiko_default -id=sakiko -next;
+祥子:（……爱音追求的不是胜利，而是“燃烧”本身。）
+祥子:（既然如此……那对她来说，比赛这种形式，是不是已经……）;
+:祥子鼓起勇气，用一种试探性的、仿佛怕触碰到对方伤口般的语气，轻声问道。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_serious02 -expression=sakiko_default;
+祥子:……那，比赛……你还打算继续下去吗？;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nnf01 -expression=sakiko_thinking01;
+爱音:嗯，不比了。我已经得到我想要的了。而且，比赛真的太累也太耗时间了……我还有好多别的事情想做呢。;
+:祥子沉默了。她想起了自己许下的的承诺，也想起了自己那被现实捆绑得死死的、无力的双手。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_sad01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:……对不起。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=nyamu_nf_left01 -expression=uika_serious01;
+爱音:为什么？
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_shame01 -expression=sakiko_sad02 -id=sakiko -next;
+祥子:……我好像，说了很帅气的话。但是，我……可能，没有那么多时间。;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=umiri_thinking01 -expression=anon_smile02;
+爱音:我知道。祥子还有很重要的事情要做，对吧？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_smile03;
+祥子:……嗯。
+:爱音指了指自己的耳朵，露出了一个狡黠的微笑。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=rana_smile01 -expression=anon_wink01;
+爱音:你的音乐，都告诉我了啊。那里面，又和我一样的疲惫，和一种……很努力、很努力地，在支撑着什么东西的、了不起的倔强。
+setTransform:{"position":{"x":-400}} -target=anon -duration=1000 -next;
+:她从琴凳上站起来，走到祥子身边，与她并肩看着窗外的夜景。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_thinking02 -expression=anon_smile04;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_smile03;
+爱音:没关系啊。时间的长短，不重要。重要的是，“想见面的时候，知道对方也一定在想着自己”……有这份感觉，就够了。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=umiri_smile01 -expression=umiri_smile01;
+爱音:而且，古典乐社的练习室，钥匙可是在我这个社长手里哦？只要你想来，随时都可以。
+:听着爱音那理所当然的、充满包容的话语，祥子感觉自己内心最后的一点不安，也被彻底抚平了。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile06 -expression=tomori_smile04;
+祥子:嗯。
+changeFigure:anon/casual_large/model.json -motion=anon_kime01 -expression=anon_kime01 -id=anon -next;
+爱音:好啦！感性时间结束！肚子饿了，我们该出去面对最终BOSS，然后去吃点好吃的了！
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking01 -expression=sakiko_default -id=sakiko -next;
+祥子:最终……BOSS？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=anon_angry01 -expression=anon_wink01;
+bgm:none -enter=2000;
+爱音:就是我那个大概已经等得不耐烦了的、超——严格的妈妈呀。
+changeFigure:none -id=anon -next;
+changeFigure:none -id=sakiko -next;
+changeScene:第六话/6.5.txt

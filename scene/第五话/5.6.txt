@@ -1,0 +1,294 @@
+changeBg:I（舞台）/bg00036.png -next;
+:柔和的舞台灯光亮起，驱散了观众席的黑暗。掌声响起，不算热烈，是给予下一位参赛者的、礼貌性的鼓励。
+:千早爱音提着她的小提琴，与丰川祥子一前一后地走上了舞台。爱音的长裙在灯光下泛着柔和的光泽，衬得她那头粉色的长发愈发耀眼。
+changeBg:Z/ComfyUI_00465_.png -next;
+changeFigure:soyo/casual/model.json -id=soyo -transform={"brightness":0.8} -next -motion=sakiko_sad02 -expression=soyo_default;
+素世:……
+:在看到爱音登台的那一刻，素世的心跳漏了一拍，毕竟现在台上的演奏者是她今天来的唯一理由。可是，当钢琴伴奏者走到三角钢琴前，优雅地坐下，露出那张熟悉的、清丽的侧脸时，她只觉得心跳不是漏了一拍，而是停跳了。
+:那个侧脸……那头柔顺的蓝色长发……
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=sakiko_sad02 -expression=soyo_sad02;
+:不可能。
+:她的指尖因为用力而变得冰凉，颤抖着翻开手中的节目单，目光精准地找到了那个她之前完全忽略掉的名字。
+:——钢琴伴奏：丰川祥子。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=sakiko_sad02 -expression=sakiko_sigh01;
+:轰的一声，素世的脑海里一片空白。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_angry03 -expression=soyo_angry01;
+:为什么……会是小祥？
+:那个让爱音赞不绝口的、能“听懂她音乐”的搭档，竟然就是……就是自己苦苦追寻却遍寻不得的祥子？
+setTransform:{"position":{"x":-500},"brightness":0.8} -target=soyo -duration=1000 -next;
+changeFigure:mutsumi/casual/model.json -right -id=mutsumi -transform={"brightness":0.8} -next -motion=mutsumi_sad01 -expression=mutsumi_sad01;
+睦:素世……
+changeFigure:soyo/casual/model.json -left -id=soyo -next -motion=soyo_serious01 -expression=soyo_sad01;
+素世:嘘……马上要开始了。
+changeFigure:none -id=soyo -next;
+changeFigure:none -id=mutsumi -next;
+changeFigure:rinko/casual_winter-2023/model.json -left -id=rinko -transform={"brightness":0.8} -next -motion=smile02 -expression=smile01;
+燐子:啊，来了来了……
+changeFigure:rui/casual_winter-2023/model.json -right -id=rui -transform={"brightness":0.8} -next -motion=idle01 -expression=default;
+瑠唯:……
+changeFigure:none -id=rinko -next;
+changeFigure:none -id=rui -next;
+changeBg:I（舞台）/bg00036.png -next;
+changeFigure:anon/birthday_2024_ssr/model.json -left -id=anon -next -motion=rinko_smile04 -expression=sakiko_smile01;
+changeFigure:sakiko/casual/model.json -right -id=sakiko -next -motion=soyo_smile01 -expression=sakiko_smile03;
+:两人走到舞台中央，向台下深深鞠躬。起身时，爱音侧过头，与祥子对视了一眼。那眼神里没有了后台的紧张，只剩下澄澈的、燃烧着火焰的热情。;
+:那热情对祥子而言，却是分外耀眼。;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_smile02 -expression=sakiko_smile02;
+爱音:（笑）
+changeFigure:sakiko/casual/model.json -motion=sakiko_nod01 -expression=sakiko_smile01 -id=sakiko -next;
+祥子:（点头）
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_smile03 -expression=sakiko_serious02;
+setTransform:{"position":{"x":500}} -target=anon -duration=1500 -next;
+changeFigure:none -id=sakiko -next;
+bgm:Special/古典/圣桑-引子与回旋随想曲.mp3;
+:爱音将小提琴架在肩上。祥子默默深呼吸，稳住内心的波动，弹下第一个音。紧接着，随着小提琴声响，整个世界都仿佛被按下了静音键。
+:那是一声如泣如诉的、充满了忧郁色彩的独白。琴声并不响亮，甚至带着一丝刻意的收敛，却拥有着不容置疑的穿透力，瞬间攫住了所有人的心。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_nf02 -expression=soyo_serious01;
+爱音:……
+:就是这个感觉。聚光灯融化成一片温暖的、流动的光海，将我包裹起来。很温暖，却也很孤独。台下没有观众，没有评委，什么都没有。只有我和她。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_nf02 -expression=soyo_serious03;
+:祥子……你听到了吗？
+:这两年来，一直想说，却又无人倾诉的话。那些在异国他乡的雨夜里，独自一人面对着窗外无尽黑暗时的心情。那些在一次又一次的失利中，失去方向的迷茫……
+:都藏在这里面。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_nf02 -expression=sakiko_sad01;
+:你会明白吗，祥子？
+changeFigure:none -id=anon -next;
+:钢琴零星的和弦如同遥远地平线上透出的微弱晨光，不能驱散迷雾，但却温柔地回应着小提琴的探问。
+:（台下）
+changeBg:Z/ComfyUI_00465_.png -next;
+changeFigure:rinko/casual_winter-2023/model.json -left -id=rinko -transform={"brightness":0.8} -next -motion=thinking01 -expression=serious01;
+changeFigure:rui/casual_winter-2023/model.json -right -id=rui -transform={"brightness":0.8} -next -motion=serious01 -expression=serious01;
+燐子:感觉……基本功还是很扎实的……
+瑠唯:演奏风格和以前的她不一样了。
+changeFigure:rinko/casual_winter-2023/model.json -motion=idle01 -expression=default -id=rinko -next;
+燐子:……？
+changeFigure:rui/casual_winter-2023/model.json -motion=thinking01 -expression=serious01 -id=rui -next;
+瑠唯:就比如现在……她没有完全沉浸在圣桑法式的忧郁里，而是在借着圣桑的旋律，加入了更多的自我表达……以前的她是不会做这种多余的事的。
+changeFigure:rinko/casual_winter-2023/model.json -motion=thinking01 -expression=thinking01 -id=rinko -next;
+燐子:是这样吗……？
+changeFigure:rui/casual_winter-2023/model.json -motion=nf01 -expression=serious01 -id=rui -next;
+瑠唯:马上就能见识到了。
+changeFigure:none -id=rinko -next;
+changeFigure:none -id=rui -next;
+changeBg:I（舞台）/bg00036.png -next -transform={"scale":{"x":1.4,"y":1.4}};
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_serious01 -expression=sakiko_surprised01;
+祥子:……！
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_serious01 -expression=sakiko_surprised02;
+:随着谱子上一个清晰的Animato标记跃入眼帘，爱音的琴声猛然一变。一阵激昂的演奏响起，让祥子内心恍惚了一瞬。低吟与咏叹在一个弓弦的震动中同时迸发，充满了矛盾的张力。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_serious02 -expression=sakiko_sad02;
+:祥子咽了咽口水，心脏不受控制地漏跳了一拍。练习时，爱音对这一段的处理是精准而克制的，是教科书般的“活跃”。而现在，她在逐渐脱离乐谱的限制。
+:她的指尖下意识地绷紧，心里泛起一阵紧张，以及一丝难以察觉的期待。如同一场突如其来的暴风雨，刚刚还充满撕裂感的旋律，瞬间又跌回到了深沉的Tranquillo之中。
+changeFigure:none -id=sakiko -next;
+:这一收一放，这极致的动与静之间的切换，展现出了演奏者令人恐惧的控制力。祥子意识到，自己今天要面对的伴奏恐怕比原先预期的还要更有挑战。
+changeBg:Z/ComfyUI_00465_.png -next;
+changeFigure:soyo/casual/model.json -id=soyo -transform={"brightness":0.8} -next -motion=soyo_serious02 -expression=soyo_sad02;
+:素世紧紧攥着手中的节目单，指节因为用力而泛白。那种精准到可怕的技巧，那种骨子里透出的骄傲，都和记忆里一模一样。可又有什么不一样了……那琴声里，多了一层她从未听过的、浓得化不开的阴影。
+setTransform:{"position":{"x":-500},"brightness":0.8} -target=soyo -duration=1500 -next;
+changeFigure:mutsumi/casual/model.json -right -id=mutsumi -transform={"brightness":0.8} -next -motion=mutsumi_sad01 -expression=mutsumi_sad01;
+:睦没有说话，她只是侧过头，看着素世紧绷的侧脸，然后又转回头，看向舞台。心底……泛起一阵说不清的不安。那个拉琴的女孩子，连同弹钢琴的祥子，在炽热的灯光下仿佛脆弱不堪。
+changeFigure:none -id=soyo -next;
+changeFigure:none -id=mutsumi -next;
+changeBg:I（舞台）/bg00036.png -next -transform={"scale":{"x":1.4,"y":1.4}};
+:小提琴的旋律如同一道银色的瀑布，从高音区倾泻而下。一阵华丽的揉弦，尽显演奏者扎实的功力。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_smile04 -expression=sakiko_sad01;
+爱音:呼……
+:独白结束了。接下来，是战斗的开始。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=sakiko_angry01 -expression=sakiko_serious01;
+:下一秒，那段著名的、带有浓烈西班牙风情的回旋主题，如同挣脱了囚笼的红色舞裙，从她的弓弦下悍然绽放！
+changeFigure:none -id=anon -next;
+:她的身体随着音乐的节奏微微晃动，每一个动作都充满了韵律感。弓尖在琴弦上轻盈而有力地跳跃着，每一个顿弓都处理得颗粒感十足，清脆、利落，像洒落在石板上的冰雹。
+changeBg:Z/ComfyUI_00465_.png -next -transform={"scale":{"x":1.4,"y":1.4}};
+changeFigure:rinko/casual_winter-2023/model.json -left -id=rinko -transform={"brightness":0.8} -next -motion=odoodo01 -expression=rinko_smile01;
+changeFigure:rui/casual_winter-2023/model.json -right -id=rui -transform={"brightness":0.8} -next -motion=smile01 -expression=smile01;
+:瑠唯的身体靠回了椅背，双臂环抱在胸前，眼神中露出了然的神色。
+changeFigure:rui/casual_winter-2023/model.json -motion=thinking01 -expression=smile01 -id=rui -next;
+瑠唯:看吧。她对这首曲子的理解，比大多数人都深。
+changeFigure:rinko/casual_winter-2023/model.json -motion=surprised01 -expression=surprised01 -id=rinko -left -next;
+燐子:欸？
+changeFigure:rui/casual_winter-2023/model.json -motion=nf01 -expression=smile01 -id=rui -next;
+瑠唯:很多人看到Allegro就会一味求快，但圣桑在这里写的是ma non troppo——不过分地。她处理得很好。速度够快，充满了热情，但每一个乐句的收尾都带着一丝贵族式的从容和优雅。她不是在炫耀速度，而是在展现一种……游刃有余的掌控力。
+:从忧郁的自我剖析，到张扬的戏剧化登场，这中间的切换天衣无缝。她不是在“演奏”音乐，她是在“扮演”音乐，将自己化身为乐曲的主角。这种能力，不是靠练习就能得到的。
+:是纯粹的、令人嫉妒的……天赋。
+changeFigure:none -id=rinko -next;
+changeFigure:none -id=rui -next;
+changeBg:I（舞台）/bg00036.png -next -transform={"scale":{"x":1.4,"y":1.4}};
+changeFigure:BackGround/bg00036.png -id=stage -transform={"scale":{"x":2.5,"y":2.5}} -next -zIndex=1;
+:祥子的钢琴以一段明快俏皮的旋律应答，音乐瞬间转入一片充满了嬉戏与试探的氛围。爱音的弓法随之变得灵动，耳语般的颤音与欢笑般的回音交替响起，空气中弥漫着烂漫的火花。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nf04 -expression=sakiko_sad01 -zIndex=3;
+祥子:（还好……跟得上……）
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nf03 -expression=sakiko_sad01;
+:B段前半段的稳定发挥，让她紧绷的神经得到了一丝宝贵的喘息。原来，和爱音一起面对舞台，并没有想象中那么可怕。
+:就在她内心稍稍安定的这个瞬间，她的目光，几乎是出于一种长久以来的本能，不受控制地飘向了台下观众席的某个方向——那是她所有演奏的终点，是她每次鞠躬时，目光最终停泊的港湾——
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nf03 -expression=sakiko_desperate;
+:那个位置上，空无一人。
+祥子:……！
+changeFigure:none -id=sakiko -next;
+:心脏，猛地一缩。刚刚获得的那一丝安心，瞬间被冰冷的恐慌击得粉碎。
+:B段那由无数强音和强后突弱构成的、华丽而迅疾的音阶跑动，如同失控的洪水，将她吞噬。
+:她试图将那涌上来的、令人窒息的记忆压下去，但她的左手不受控制地慢了半拍。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_cry01 -expression=sakiko_cry04 -zIndex=3;
+祥子:（求你了……别在这时候……）
+:她甚至不敢去想象爱音的表情，铺天盖地的愧疚感瞬间将她淹没。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_cry01 -expression=sakiko_surprised01;
+:突然，一道尖锐而明亮的声音，像利剑一样劈开了浓雾。
+:那熟悉而倔强的回旋主题再次响起，但不再是开场时的高傲，更不是B段的嬉戏。那琴声霸道、专横，充满了不讲道理的生命力，像一声短促而有力的命令，狠狠地砸在祥子的钢琴声部上。
+:紧接着，一连串带刺的变化音与带着强烈重音的装饰音，如同毫不留情的鞭策，强行将她即将涣散的注意力拽回来。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_surprised02 -expression=sakiko_cry02;
+祥子:……！
+:跟上她！
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_angry03 -expression=soyo_serious03;
+:如果在这里跟不上，就会被她彻底抛弃！
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_angry03 -expression=sakiko_surprised02;
+:她咬紧下唇，将全部的意志力都灌注到早已冰冷的指尖上。
+:她的大脑一片空白。但她的手，终于跟上了。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=soyo_kandou01 -expression=sakiko_surprised02;
+:A'段那暴风骤雨般的鞭策结束了。音乐并未立刻平静。C段开头，是一段快速、紧张、充满不确定性的过渡。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=soyo_angry01 -expression=sakiko_surprised02;
+:祥子被那股强大的意志力，硬生生地从溺水的幻觉中拽了出来。她大口地喘息着，指尖还带着一丝残存的颤抖。她的钢琴声，像一个刚刚脱险的人，心有余悸地跟随着小提琴的脚步，进行着一场快速而略带狼狈的“重新校准”。
+changeFigure:none -id=sakiko -next;
+:爱音的琴声也放缓了攻击性，不再是命令，而是一种强势的“护航”。她用稳定而清晰的旋律线，像一根坚韧的绳索，牢牢地牵引着祥子，不让她再次掉队。
+setTransform:{"scale":{"x":2.5,"y":2.5},"brightness":10,"contrast":0.8} -target=stage -duration=1500 -next;
+changeFigure:BackGround/sakiflower.png -id=flower -transform={"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":0} -next -zIndex=5;
+:终于，在穿过那片最后的乱石滩后，音乐的海洋豁然开朗。;
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=flower -duration=1500 -next;
+:所有的紧张和激烈都消失了。世界陷入了一片梦幻般的、极致的柔情之中。
+:那是一片被静谧月光笼罩的、无边无际的蓝色花海。
+:祥子感觉自己不再坐在冰冷的琴凳上，而是赤脚站在了这片柔软的花海中央。那些蓝色的花瓣，带着海水的微凉和清咸，轻轻地拂过她的脚踝，洗刷着她灵魂上的灼痛和疲惫。
+:爱音的琴声，就是那片照亮了整个世界的、温柔的月光。它的照拂驱散了所有噩梦的阴影，仿佛在无声地告诉她：
+changeFigure:none -id=stage -next;
+changeFigure:BackGround/anonflowerfield1.png -id=anonflower -transform={"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":0} -next -zIndex=6;
+:“没关系了，有我在这里。”
+changeFigure:sakiko/casual/model.json -motion=sakiko_cry04 -expression=sakiko_kandou01 -id=sakiko -next;
+:祥子的指尖在琴键上重新流淌，不再是挣扎，而是化作了花海中随风升起的、闪闪发光的蓝色光点，回应着月光的照拂。
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=anonflower -duration=1500 -next;
+changeFigure:BackGround/anon&saki.png -id=anon&saki -transform={"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":0} -next -zIndex=7;
+changeFigure:none -id=sakiko -next;
+changeFigure:none -id=anon -next;
+:爱音也置身于这片花海。这是她第一次，敢于将自己内心那片最荒芜、最痛苦的角落，通过音乐展现出来。而祥子，没有逃开。
+:祥子的钢琴声，就是这片接住了她所有不安的、无垠的蓝色花海。它包容了她所有的尖刺和伤痕，用最温柔的方式告诉她：
+:“你的痛苦，我懂。”
+:爱音的琴声，也卸下了所有的锋芒。它化作那片温柔的月光，不再是为了战斗，而只是纯粹地、静静地，为这片只属于她们的花海，洒下光芒。她感觉自己那颗疲惫不堪的心脏，也在这片花海的安抚下，重新变得完整而安宁。
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=anon&saki -duration=1500 -next;
+:她们的音乐，不再是小提琴与钢琴。
+changeFigure: -id=anonflower -next;
+changeFigure:none -id=flower -next;
+:那是月光与花海的对话。是两个孤独的灵魂，在世界之外的某个角落，毫无保留地，向对方敞开了自己。她们的旋律交织在一起，分不清彼此，就像月光融入了花瓣的露珠，花香弥漫在清辉的空气里。
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":5,"brightness":1.2,"contrast":0.8,"colorRed":255,"colorGreen":250,"colorBlue":224} -target=anon&saki -duration=2000 -next;
+:渐渐地，梦境中的月光开始变得越来越明亮、越来越温暖，最终，在天边化作了一抹灿烂的晨曦。蓝色花海的边缘，也被染上了一层黎明的金色。
+:梦，要醒了。
+setTransform:{"position":{"y":-100},"scale":{"x":1.2,"y":1.2},"alpha":1,"brightness":8,"contrast":0.8,"colorRed":255,"colorGreen":255,"colorBlue":255} -target=anon&saki -duration=1500 -next;
+:但是二人都没有一丝害怕。二人都知道，自己不再是孤身一人。
+changeFigure:anon/birthday_2024_ssr/model.json -id=figure -next -motion=sakiko_angry01 -expression=sakiko_smile01 -zIndex=8;
+:爱音的小提琴，奏出了一段华丽的、攀升的华彩乐段，像一只在黎明中引吭高歌的百灵鸟，每一个音符都充满了对新生的喜悦和对未来的无限希望。
+changeFigure:sakiko/casual/model.json -id=figure -next -motion=sakiko_kime01 -expression=sakiko_kandou01 -zIndex=8;
+:祥子的钢琴也变得愈发坚定、有力，如同稳固的、承载着万物的大地。她的和弦厚重而温暖，托举着那希望的歌声，让它无所畏惧地飞向更远的地方。
+changeFigure:none -id=figure -next;
+:她们将带着这份在梦中获得的力量，共同迎接最后的终章。
+changeFigure:none -id=anon&saki -next;
+:回旋主题，在乐曲中第三次响起。
+:这一次的A''段，不再有引子的忧郁，不再有初登场时的倔强，更没有A'段救场时的霸道。它充满了光彩和自信。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nf03 -expression=sakiko_smile01;
+:祥子的指尖下，钢琴的伴奏织体变得比之前任何一次都更丰富、更华丽。她不再是追随者，也不是陪伴者，而是与爱音并驾齐驱的同行者。她的左手奏出坚定的节奏，右手则用灵动的装饰音，将小提琴的旋律包裹起来，为它镶上了一层灿烂的金边。
+:她能感觉到，爱音的琴声也变了。那琴声里，有一种雨过天晴后的澄澈，和一种全然的、毫无保留的信赖。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=soyo_nf03 -expression=sakiko_thinking01;
+:随着A''段最后一个音符的落下，舞台上的聚光灯似乎在瞬间柔和了下来。一段紧张而快速的钢琴独奏，如同奔流的溪涧，再次响起。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=soyo_nf04 -expression=sakiko_thinking01;
+:爱音的小提琴声部暂时休止。祥子又一次迎来了一段短暂的、完全属于她自己的间奏。
+:这一次，她的指尖下不再有任何慌乱。被那场“蓝色花海之梦”彻底洗礼过的她，仿佛获得了新生。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_smile06 -expression=sakiko_smile03;
+祥子:……（笑）
+祥子:（谢谢你……爱音……）
+:此刻的她，心中再无恐惧。无论是那令人窒息的过往回忆，还是舞台带来的不安幻觉，都已在那片温柔的月光下烟消云散。现在的她，心中只剩下一个纯粹的念头——
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_kime01 -expression=sakiko_kime01;
+:“用我的音乐，去回应你。”;
+:“用我的一切，去回应你给予我的一切。”;
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_kime01 -expression=sakiko_cry02;
+祥子:（真好啊……能够遇见爱音这样的人……）
+changeFigure:none -id=sakiko -next;
+祥子:（就像……这场如同梦境一般的演奏一样……）
+changeBg:Z/ComfyUI_00465_.png -next;
+changeFigure:rinko/casual_winter-2023/model.json -id=rinko -transform={"brightness":0.8} -next -motion=gattsu01 -expression=smile01;
+:燐子的双手不知何时，已经紧紧地合十在胸前，像是在祈祷。
+:她听得入了迷。
+changeFigure:rinko/casual_winter-2023/model.json -id=rinko -next -motion=nf03 -expression=smile01;
+燐子:（太好了……）
+:那个钢琴女孩，她的演奏完全变了！如果说开场时，她的伴奏是精准而克制，甚至有些慌乱的，那么现在的她，指尖下流淌出的每一个音符，都充满了生命和情感。
+setTransform:{"position":{"x":-200},"brightness":0.8} -target=rinko -duration=1000 -next;
+changeFigure:rui/casual_winter-2023/model.json -right -id=rui -transform={"brightness":0.8} -next -motion=serious01 -expression=smile01;
+:她侧过头，小心地凑到了瑠唯身旁。
+燐子:八潮同学……她的钢琴，像是在发光一样……
+changeFigure:rui/casual_winter-2023/model.json -motion=smile01 -expression=smile01 -id=rui -right -next;
+瑠唯:（笑）
+:瑠唯没有回答，但她那一直紧绷的、如同审判者般的姿态，不知何时，已经彻底放松了下来。她只是静静地听着，眼神中是掩饰不住的赞许。
+changeFigure:none -id=rinko -next;
+changeFigure:none -id=rui -next;
+:爱音的弓弦在欢快地歌唱，祥子的琴键在雀跃地伴舞。她们的音乐，充满了毫不掩饰的、纯粹的快乐。那是一种发自内心的、无法伪装的幸福感，通过音符，传递给了在场的每一个人，包括素世。
+changeFigure:soyo/casual/model.json -id=soyo -transform={"brightness":0.8} -next -motion=soyo_sad02 -expression=soyo_sad01;
+:当那段如同小鸟欢唱的旋律响起时，她感觉自己的心脏像是被一只无形的手，不轻不重地捏了一下。
+changeFigure:soyo/casual/model.json -id=soyo -transform={"brightness":0.8} -next -motion=soyo_nf02 -expression=soyo_sadsmile02;
+:她看着台上，看着那个她一直追逐着的粉色，此刻正与另一个她同样追逐着的蓝色，绽放出她从未见过的、如此灿烂夺目的光芒。
+changeFigure:soyo/casual/model.json -id=soyo -transform={"brightness":0.8} -next -motion=soyo_nf01 -expression=soyo_sadsmile01;
+:……太好了呢，爱音。你终于找到了梦寐以求的伴奏了。
+:……太好了呢，小祥。有了爱音这样的伙伴，无论是遇到了什么困难都能度过去了吧。
+changeFigure:soyo/casual/model.json -id=soyo -transform={"brightness":0.8} -next -motion=soyo_nf01 -expression=soyo_sad02;
+:但她的心，却像是被挖空了一块。一股无法言说的、混杂着酸楚和苦涩的情绪，堵在了她的喉咙里。
+changeFigure:none -id=soyo -next;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -transform={"brightness":0.8} -next -motion=mutsumi_sad02 -expression=mutsumi_sad01;
+睦:（素世……）
+:她只觉得素世看上去快要哭了。
+changeFigure:none -id=mutsumi -next;
+changeBg:I（舞台）/bg00036.png -next -transform={"scale":{"x":1.4,"y":1.4}};
+:爱音的小提琴声部，从主旋律的位置上悄然后撤。她不再高歌，转而奏出一连串如同涟漪般扩散开的、细腻的分解和弦。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_serious01 -expression=sakiko_serious01;
+:那段熟悉而倔强的回旋旋律，第一次，完整地，从祥子的指尖下，清晰而有力地奏响。
+:钢琴，接过了这首曲子的灵魂。
+changeFigure:none -id=sakiko -next;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=tomori_serious02 -expression=anon_tired;
+:只不过，爱音已经有些无暇去聆听祥子的演奏了。她的小提琴，此刻在压抑而激烈的演奏中愈演愈烈，不断加速，冲向即将到来的高潮。
+:A'''段的后半段，钢琴的主旋律逐渐减弱，爱音的小提琴，则以一种积蓄已久、即将喷薄而出的姿态，奏出了一连串和弦式旋律，将音乐的情绪，推向了前所未有的、令人窒息的高潮。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=tomori_angry01 -expression=anon_tired;
+:……还不够。
+:还能……再多一点。
+:最后的风暴，即将来临。然而就在这短暂的沉醉中，她感觉到自己胸口那颗躁动不安的心脏，传来了一阵细微的、被忽略的刺痛。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=tomori_angry01 -expression=anon_tired_surprised;
+爱音:……！
+changeFigure:none -id=anon -next;
+:最后的风暴，终于降临。
+:音乐冲入了最终的尾声，速度的指针被猛地推向了 Più allegro。
+changeFigure:anon/birthday_2024_ssr_sweat/model.json -id=anon -next -motion=tomori_angry02 -expression=anon_tired_surprised;
+:胸口的刺痛感，像一根不断收紧的弦。爱音的世界里，只剩下手中这把小提琴的悲鸣。一连串快速的音阶式级进，如同向着悬崖尽头发起的、最后一次冲锋。
+:汗水顺着脸颊滑落，滴在琴身上，但她的手臂，却像被一股超越了肉体极限的力量所驱动，依旧在不知疲倦地飞舞。
+changeFigure:none -id=anon -next;
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_sad01 -expression=sakiko_sad01;
+:祥子的心提到了嗓子眼。
+:她能感觉到，爱音的演奏已经完全超越了“表演”的范畴。那是一种……不顾一切的燃烧。
+changeFigure:sakiko/casual/model.json -motion=sakiko_serious02 -expression=sakiko_serious02 -id=sakiko -next;
+:她能做的，只有用自己最坚实、最稳固的和弦，去承载那份近乎悲壮的狂热，为那团即将燃尽的火焰，提供最后的、也是唯一的支撑。
+changeFigure:none -id=sakiko -next;
+changeBg:Z/ComfyUI_00465_.png -next;
+changeFigure:rui/casual_winter-2023/model.json -id=figure -transform={"brightness":0.8} -next -motion=odoodo01 -expression=default;
+:台下，所有人都屏住了呼吸。所有人都被这股决绝的气势所吞噬。
+changeFigure:rinko/casual_winter-2023/model.json -id=figure -transform={"brightness":0.8} -next -motion=gattsu01 -expression=serious01;
+:还剩……最后一个音！
+changeFigure:soyo/casual/model.json -id=figure -transform={"brightness":0.8} -next -motion=soyo_serious02 -expression=soyo_serious02;
+:——音符落下。
+changeFigure:none -id=figure -next;
+bgm:none -enter=1000;
+:全场死寂了一秒。
+changeBg:I（舞台）/bg00036.png -next;
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nf04 -expression=sakiko_smile03;
+:然后，是雷鸣般的掌声。
+changeFigure:none -id=sakiko -next;
+changeFigure:anon/birthday_2024_ssr_sweat_exhasted/model.json -id=anon -next -motion=rinko_smile04 -expression=anon_exhasted;
+:在山呼海啸的掌声中，爱音手中的琴弓“啪嗒”一声滑落在地。
+changeFigure:anon/birthday_2024_ssr_sweat_exhasted/model.json -id=anon -next -motion=taki_kime01 -expression=anon_smile04;
+:她的身体晃了晃，嘴角似乎还带着一丝满足的微笑，
+setTransform:{"position":{"y":1300}} -target=anon -duration=1500 -next;
+changeFigure:anon/birthday_2024_ssr_sweat_exhasted/model.json -id=anon -next -motion=umiri_surprised01 -expression=anon_tired;
+随即，像一朵燃尽了所有光和热的蝴蝶，无力地、缓缓地向后倒去。 -concat;
+changeFigure:none -id=anon -next;
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_angry01 -expression=sakiko_desperate;
+祥子:爱音——！
+changeFigure:none -id=sakiko -next;
+:祥子撕心裂肺的呼喊，被淹没在经久不息的掌声与骚动之中。
+:……

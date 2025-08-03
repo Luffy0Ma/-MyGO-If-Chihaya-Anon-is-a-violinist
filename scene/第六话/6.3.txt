@@ -1,0 +1,299 @@
+changeBg:bestdori/bg00277.png -next;
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -next -motion=sakiko_nnf04 -expression=sakiko_smile02 -zIndex=3;
+changeFigure:anon/casual_large/model.json -right -id=anon -next -motion=mutsumi_nf_left01 -expression=sakiko_smile03 -zIndex=5;
+:音乐教室的玻璃门被祥子一把推开，门上挂着的风铃发出“叮铃”一声清脆的响声。
+:一股混合着乐谱纸张、木质地板蜡和淡淡香薰的味道，包裹了她们。
+:接待台后，一个正在整理文件的、年轻的女员工抬起头，看到爱音时，脸上露出了惊讶而亲切的笑容。
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -next -motion=sakiko_nnf04 -expression=sakiko_surprised01;
+员工:爱音小姐！？您、您怎么跑出来了？夫人前几天还打来电话，把这周的课都取消了，说您需要静养……我们大家，都还很担心您呢！
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised02 -expression=sakiko_surprised02 -id=sakiko -left -next;
+祥子:欸？
+changeFigure:anon/casual_large/model.json -right -id=anon -next -motion=soyo_serious04 -expression=sakiko_smile04;
+:祥子在听到这些的瞬间，整个人僵住了。她难以置信地看向身边的爱音，而爱音则因为自己的“越狱”计划被当场戳穿，脸上露出了极其尴尬的表情。
+changeFigure:anon/casual_large/model.json -right -id=anon -next -motion=soyo_nnf01 -expression=soyo_smile03;
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_surprised02;
+爱音:枫姐姐你听错啦，医生是说我恢复得很好！我们先进去啦，借用一下里面的练习室！
+setTransform:{"position":{"x":-1000},"alpha":0} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":-500},"alpha":0} -target=sakiko -duration=2000 -next;
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_odoodo01 -expression=sakiko_odoodo01 -id=sakiko -next;
+:她不由分说地，几乎是拖着还在震惊中的祥子，逃也似的穿过接待厅，奔向了走廊最深处的那间练习室。
+changeBg:bestdori/bg00351.png -next -transform={"scale":{"x":1,"y":1},"brightness":0.9} -unlockname=room;
+setTransform:{"position":{"x":0},"alpha":1,"brightness":0.9} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":0},"alpha":1,"brightness":0.9} -target=sakiko -duration=2000 -next;
+:房间中央，静静地停放着一架黑色的雅马哈三角钢琴，琴盖上反射着窗外逐渐亮起的城市灯火。
+changeBg:bestdori/bg00351.png -next -transform={"brightness":1} -unlockname=room;
+setTransform:{"position":{"x":0},"alpha":1,"brightness":1} -target=anon -duration=0 -next;
+setTransform:{"position":{"x":0},"alpha":1,"brightness":1} -target=sakiko -duration=0 -next;
+:爱音松开祥子的手，随手打开了练习室的壁灯。
+changeFigure:anon/casual_large/model.json -motion=anon_nf01 -expression=anon_smile01 -id=anon -left -next;
+爱音:随便坐吧。想喝点什么吗？我去给你拿。
+changeFigure:anon/casual_large/model.json -left -id=anon -next -motion=soyo_nnf_right01 -expression=anon_smile01;
+:祥子没有坐下，也没有回答。她只是站在原地，看着这间雅致的、一看就价格不菲的练习室，内心充满了无法言说的复杂情绪。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking01 -expression=sakiko_sad01 -id=sakiko -right -next;
+changeFigure:anon/casual_large/model.json -left -id=anon -next -motion=soyo_nnf_left01 -expression=sakiko_thinking01;
+祥子:……这里，是爱音家开的……吗？
+:爱音的动作停顿了一下，随即转过身，坦然地点了点头。
+changeFigure:sakiko/school_winter/model.json -right -id=sakiko -next -motion=nyamu_nnf_right01 -expression=sakiko_sad01;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nf04 -expression=umiri_sigh01;
+爱音:嗯。是我妈妈的。不过“望月”是她结婚前的姓氏了。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nnf_left01 -expression=umiri_sad01;
+爱音:……抱歉，祥子。我不是故意要瞒着你的。
+:看着爱音脸上那真诚的、带着歉意的表情，祥子摇了摇头。她那颗混乱的心，反而因为这坦率的回答，而稍微平静了一些。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_nf01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:……不。该道歉的人，是我。
+祥子:……是我自作主张，硬把你带到这里来的。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=anon_smile02 -expression=anon_smile01;
+爱音:但是，我很开心哦。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+祥子:欸？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mana_gattsu01 -expression=anon_smile04;
+爱音:看到祥子那么拼命地、想让我打起精神来的样子，我很开心。只是，稍微有点不甘心呢……
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_smile03;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=anon_e253_smile01 -expression=anon_smile01;
+祥子:你的小提琴……
+爱音:是啊，明明人家已经憋了好几天，手都快痒死了……
+:她说着，突然眼睛一亮，仿佛想到了一个绝妙的主意。
+changeFigure:anon/casual_large/model.json -motion=anon_smile01 -expression=anon_smile01 -id=anon -next;
+爱音:对了！祥子，要不我们来四手联弹吧！
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+祥子:欸？！
+祥子:等下等下，爱音……你还会弹钢琴？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_thinking02 -expression=tomori_thinking02;
+爱音:嗯？
+:爱音听到祥子这个问题，仿佛觉得这个问题本身才很奇怪。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=umiri_thinking01 -expression=sakiko_thinking01;
+爱音:说起来……在我学会拿稳小提琴之前，就已经在学钢琴了呢，毕竟我妈妈是教钢琴的。而且，不弹钢琴，怎么学作曲与和声呢？小提琴可是单旋律乐器，只靠它的话，脑子里的音乐是立不起来的。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking01 -expression=sakiko_thinking01 -id=sakiko -next;
+祥子:……是这样的吗？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking01;
+changeFigure:anon/casual_large/model.json -motion=anon_nf01 -expression=anon_smile01 -id=anon -next;
+爱音:嘛，弹得好不好另说了。对于一个立志要走向更高处的音乐家来说，钢琴几乎是必修的“第二语言”哦？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=anon_nnf_right01 -expression=anon_smile01;
+setTransform:{"position":{"x":200}} -target=anon -duration=1000 -next;
+:说着，爱音便在书柜里翻了起来。终于，她找到了一本德彪西的乐谱集。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=anon_nf_left01 -expression=anon_smile01;
+setTransform:{"position":{"x":0}} -target=anon -duration=1000 -next;
+爱音:啊，找到了。就是这一首，《泛舟》。祥子熟悉吗？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf03 -expression=sakiko_default;
+祥子:我看看……我弹过单人版本的——;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=umiri_smile02 -expression=anon_smile04;
+爱音:太好了那就这么定了！我弹Secondo，你来弹Primo。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_serious01 -expression=sakiko_serious01 -id=sakiko -next;
+祥子:等等。爱音，还是你来弹主旋律吧。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=umiri_thinking01 -expression=umiri_sigh01;
+爱音:为什么？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_nf04 -expression=soyo_serious01;
+祥子:《泛舟》的Secondo部分，节奏织体很密集，从头到尾几乎没有休息。而且，Primo的主旋律更清晰，也更自由。你应该会更喜欢弹这边吧？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=umiri_nnf03 -expression=umiri_sad01;
+爱音:唔……;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_nf04 -expression=soyo_serious02;
+:爱音露出了有些微妙的表情，像是夹杂着闹别扭的生气与委屈。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=umiri_nnf_left01 -expression=soyo_serious04;
+爱音:祥子还记得之前刚成立社团那天我说的话吗？
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking01 -expression=sakiko_thinking01 -id=sakiko -next;
+祥子:什么……？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_e235_gacha01 -expression=sakiko_smile03;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=taki_nnf03 -expression=sakiko_thinking01;
+爱音:当时，你问我有没有什么特别想演奏的曲子，我说想给你伴奏……
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=taki_nnf03 -expression=mana_surprised01;
+那可不是随口说说的哦？ -concat;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=taki_sad01 -expression=sakiko_shame02;
+:祥子看着爱音那双清澈的、闪烁着真诚的眼睛，内心里掀起了粉红色的惊涛巨浪。仿佛自己所有理性的、体贴的安排，都被这粉红色的波浪淹没了。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=nyamu_nf03 -expression=sakiko_smile03;
+祥子:……话是这么说，但是我从来没有和别人弹过四手联弹。而且，四手联弹比小提琴和钢琴的配合要难得多，只要有一点点对不上，手就会开始打架，变得一团糟。我们连一次都没有合练过，这么随便就开始，也太……
+:她还没说完，就被爱音打断了。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_nf01 -expression=uika_serious01;
+爱音:但是，比起一首完美的、不会出错的曲子，像这样和祥子一起，磕磕绊绊地、把一首不那么熟悉的曲子慢慢变成自己的声音的过程，难道不是更有趣吗？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=rana_nnf05 -expression=sakiko_smile05;
+祥子:……
+:最后一击，把最后的防线打了个粉碎。祥子终于投降了。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_e235_gacha01 -expression=anon_smile04;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=tomori_nf05 -expression=sakiko_smile03;
+祥子:那……先说好，如果弹累了，或者觉得难，一定要说出来哦？而且我也没试过四手联弹，恐怕会比你拉小提琴一起合奏的时候还要乱……请多多包容哦？;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=sakiko_kime01 -expression=anon_smile04;
+爱音:我知道啦，小女子不才，还请多多指教。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_angry01 -expression=taki_shame01;
+祥子:……别说这种让人误解的话！;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_smile01;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_nnf_left01 -expression=anon_smile04;
+setTransform:{"position":{"x":-200}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":200}} -target=sakiko -duration=1000 -next;
+bgm:none -enter=1000;
+:两人相视一笑，
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf01 -expression=soyo_serious01;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nf01 -expression=soyo_serious04;
+setTransform:{"position":{"x":-200,"y":100}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":200,"y":100}} -target=sakiko -duration=1000 -next;
+一同在钢琴前坐了下来。爱音在左，祥子在右。 -concat;
+:她们的肩膀，几乎要碰到一起。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_smile01;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_nnf_left01 -expression=anon_smile04;
+:随着两人交换了一个眼神，彼此默契地，同时落下了第一个音符。
+bgm:Special/古典/En_Bateau.mp3;
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_nf01 -expression=sakiko_default -id=sakiko -next;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_e235_gacha01 -expression=tomori_serious02;
+祥子:……
+changeFigure:none -id=sakiko -next;
+changeFigure:none -id=anon -next;
+:在那流水般的六连音琶音响起的瞬间——
+爱音:……
+changeBg:none -next;
+:世界仿佛平静了下来。清风在浮动，水波在荡漾，二人的内心也泛起了一圈圈透明的涟漪。
+:坚硬的琴凳，冰冷的琴键，窗外城市的灯火……所有现实的轮廓，都像水彩一样，在流动的音乐中晕开、褪色、溶解。
+祥子:（流水的声音……）
+changeBg:J（未知地点）/J11.png -next;
+:她们不再是坐在一架钢琴前。
+:而是并肩，坐在一艘漂浮在静谧水面上的、白色的小船里。;
+:天空是黄昏与夜晚交接之际的、梦幻般的靛蓝色。湖面倒映着漫天星辰，星光在深不见底的水面上摇曳，让人分不清哪里是天，哪里是水。
+:微风拂过，带来一丝湖水的凉意和不知名花朵的芬芳。
+changeBg:AI/ComfyUI_00644_.png -next;
+:她们的面前，没有琴键。但当她们的手指在空中舞动时，钢琴的旋律，便会从湖心，像月光凝结成的波纹一样，一圈圈地扩散开来。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -next -motion=sakiko_nnf03 -expression=sakiko_smile03 -zIndex=5;
+祥子:（好漂亮……）
+:祥子看着两人身下平稳航行的小船，又看了看自己那正在弹奏着主旋律的、不再颤抖的右手。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -next -motion=sakiko_nnf03 -expression=sakiko_sad01;
+:她沉默了很久，终于还是说出了那句一直压在心头的话。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_sad01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:……对不起，爱音。
+祥子:比赛的事……是我把一切都搞砸了。
+setTransform:{"position":{"x":-500},"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -target=sakiko -duration=1000 -next;
+changeFigure:anon/casual_large/model.json -right -id=anon -transform={"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -next -motion=anon_nf01 -expression=sakiko_smile01 -zIndex=3;
+爱音:没有那种事哦。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_sad02 -expression=sakiko_sad02 -id=sakiko -next;
+祥子:……
+祥子:弹到中间的时候……我回想起了一些很不好的回忆……感觉，就像是……被置于无尽黑暗的水底一样。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=sakiko_nf02 -expression=umiri_serious01;
+爱音:是吗，果然啊……
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=rana_serious02 -expression=umiri_smile01;
+setTransform:{"position":{"x":200},"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -target=anon -duration=1000 -next;
+:爱音没有回复，只是轻轻地松开了祥子的手，站起来走到了船头。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+祥子:爱音？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=sakiko_nf03 -expression=anon_smile04;
+爱音:不等你哦。
+setTransform:{"position":{"x":-300},"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -target=sakiko -duration=1000 -next;
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised02 -expression=sakiko_surprised02 -id=sakiko -next;
+祥子:……等等，危险！
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_angry01 -expression=sakiko_surprised02;
+setTransform:{"position":{"x":-100},"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -target=sakiko -duration=1500 -next;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=sakiko_nnf_left01 -expression=anon_smile04;
+setTransform:{"position":{"x":0},"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -target=anon -duration=1000 -next;
+:祥子想要扑上去阻止她，可是却被爱音抓住了伸出手。
+祥子:！
+setTransform:{"position":{"x":500,"y":400},"alpha":0,"rotation":1.2,"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -target=sakiko -duration=1000 -next;
+setTransform:{"position":{"x":300,"y":700},"alpha":0,"rotation":1.5,"brightness":0.9,"colorRed":245,"colorGreen":252,"colorBlue":255,"bevel":0.5,"bevelThickness":15,"bevelRotation":60,"bevelRed":235,"bevelGreen":248,"bevelBlue":255} -target=anon -duration=1000 -next;
+:天旋地转。
+:二人的身体在重力的牵扯下，垂直向下——
+changeBg:none -next;
+:噗通。
+setTransform:{"position":{"x":0},"alpha":0} -target=sakiko -duration=1000 -next;
+setTransform:{"position":{"x":0},"alpha":0} -target=anon -duration=1000 -next;
+:——伴随着落水声，少女们沉入了水底。
+setTransform:{"alpha":1} -target=sakiko -duration=1000 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_cry04 -expression=sakiko_sigh01;
+祥子:咕——
+:强烈的窒息感和对黑暗的本能恐惧涌了上来，她下意识地闭上眼睛，胡乱地挣扎着，试图向上游。
+:但爱音的手，始终没有松开，只是紧紧地握着她。
+爱音:别怕。试着……睁开眼睛看看。
+祥子:（睁开……眼睛……？）
+:她能感觉到爱音的手传来平稳而安心的温度。那份温度，给了她一丝勇气。
+:她犹豫着，缓缓地、试探性地，睁开了一条缝。
+changeFigure:BackGround/ComfyUI_00675_.png -id=bg -transform={"scale":{"x":1,"y":1}};
+setTransform:{"position":{"x":-500},"colorRed":240,"colorGreen":250,"colorBlue":255,"bevel":0.6,"bevelThickness":20,"bevelRotation":120,"bevelRed":196,"bevelGreen":235,"bevelBlue":255} -target=sakiko -duration=1500 -next;
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+setTransform:{"alpha":1,"colorRed":240,"colorGreen":250,"colorBlue":255,"bevel":0.4,"bevelThickness":15,"bevelRotation":60,"bevelRed":207,"bevelGreen":239,"bevelBlue":255} -target=anon -duration=1500 -next;
+祥子:……！
+:预想中的幽暗深邃，并没有出现。
+:相反，这是一片充满了柔和光芒的水底世界。
+:皎洁的月光透过水面洒下来，化成了无数闪耀的、如同钻石般的碎片，在她们周围缓缓飘舞。叫不上名字的奇幻水草，随着暗流摇曳，散发着微光。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_surprised01;
+祥子:爱音……
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=rana_nnf_left01 -expression=anon_smile04;
+爱音:嗯。
+:叫不上名字的奇幻鱼群从二人的头顶游过，仿佛是那些钻石般的碎片的一部分。如梦似幻的景象也让祥子的内心终于安定了下来。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=sakiko_nnf04 -expression=anon_smile04;
+爱音:漂亮吗？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile03 -expression=sakiko_smile01;
+祥子:嗯……爱音……这里到底是……
+changeFigure:anon/casual_large/model.json -motion=anon_smile04 -expression=anon_smile04 -id=anon -next;
+爱音:这里，不就是祥子你的心底吗？
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+祥子:我的……？不可能……我的心底，不应该是这种景色……;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nf01 -expression=soyo_serious04;
+爱音:不是的。祥子。比赛的时候，我听到了。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking01 -expression=sakiko_default -id=sakiko -next;
+祥子:听到……？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=tomori_thinking02 -expression=tomori_thinking02;
+爱音:嗯。在你慌神的时候，我听到了你的声音。那是一种……非常深的、像是要被无尽黑暗吞噬掉的恐惧。在那一刻，我才第一次那么清晰地确认了——啊，原来我们，是一样的。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking01;
+:祥子怔怔地看着她，无法理解这句话的含义。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=nyamu_smile03 -expression=sakiko_serious02;
+爱音:其实……我的心底埋藏着很多黑暗哦。有对未来的焦躁，有对自己才能的怀疑……所以，我才会那么拼命地，想要抓住每一次“燃烧”的机会。;
+:祥子静静地听着。她看着眼前的爱音，不再把她当成那个需要自己去“道歉”的“受害者”，而是作为一个平等的的音乐家，去倾听她的灵魂。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking02 -expression=sakiko_default -id=sakiko -next;
+祥子:（是啊……她的琴声，一直都是这样。充满了不顾一切的、想要证明什么的……急迫感。）
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_thinking02 -expression=sakiko_sigh01;
+祥子:（那种完美的技巧之下藏着的，原来是这样的东西吗？）
+:祥子感觉自己，第一次“听”懂了爱音音乐的本质。
+:而这份“听懂”，让她拥有了主动开口的力量。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_serious01 -expression=sakiko_serious01 -id=sakiko -next;
+祥子:……你的“焦躁”，不是因为你的音乐里缺少了什么。而是因为它太多了。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=nyamu_smile03 -expression=anon_thinking03;
+爱音:为什么？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf05 -expression=sakiko_serious01;
+祥子:你的音乐里，塞满了对“正确”的执着，和对“不被认可”的恐惧。这些东西太沉重了，所以你的灵魂，才无法在音乐里自由地呼吸。
+:爱音被祥子这番一针见血的分析，说得哑口无言。她没想到，自己藏得最深的瓶颈，竟然会被对方如此轻易地看穿。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf03 -expression=sakiko_smile03;
+:她伸出手，轻轻地触碰了一下爱音的脸颊，那触感像水流一样温柔。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_smile02 -expression=sakiko_smile02 -id=sakiko -next;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=nyamu_smile03 -expression=nyamu_surprised01;
+祥子:但是，爱音。我听到了……在那些沉重的枷锁下面，我听到了你那颗渴望燃烧的心。那是我听过的，最美丽、也最纯粹的声音。所以，你的音乐，从来就不是空洞的。;
+:爱音的眼眸，因为这句话，剧烈地颤动着。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=uika_smile03 -expression=sakiko_sad01;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nf01 -expression=sakiko_sad01;
+爱音:……可是，我害怕。我怕我就像流星一样，燃烧完了……就什么都不剩了。
+:祥子看着这样脆弱的爱音，内心那份想要“守护”她的冲动，变得前所未有地清晰。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_kime01 -expression=anon_smile02;
+祥子:那就和我约定吧，爱音。
+爱音:约定？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf03 -expression=soyo_smile01;
+祥子:嗯。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nf01 -expression=umiri_surprised01;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile06 -expression=soyo_smile01;
+祥子:忘掉那些“空洞”的评价，抛开你心中所有的焦躁；
+祥子:让我用音乐回应你的迷茫，让我用和声支撑你的燃烧。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_kime01 -expression=sakiko_smile03;
+祥子:我在这里，就在你的身边；为你，弹奏永不终结的篇章……;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nf05 -expression=umiri_sigh01;
+爱音:……;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=anon_kime02 -expression=umiri_smile04;
+爱音:承认我是你的同类，无论此刻，或是将来；;
+爱音:说出你需要我的陪伴，用你的琴声，将我呼唤。;
+爱音:让每个音符，都成为我们共同的语言；让每个和弦，都见证我们永恒的瞬间……;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=rinko_smile04 -expression=anon_smile04;
+爱音:……这是我对你的唯一要求。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_kime01 -expression=sakiko_cry03;
+:祥子静静地听着，感觉自己的整个灵魂，都在被爱音那温柔话语所浸润、所重塑。;
+:她缓缓地、珍重地，用自己的双手，包裹住了爱音那只紧握着她的、微凉的手。那双琥珀色的眼眸里，第一次，毫无保留地映出了爱音完整的、清晰的倒影。
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -next -motion=sakiko_kime01 -expression=sakiko_cry01;
+祥子:……我一直以为。
+changeFigure:anon/casual_large/model.json -right -id=anon -next -motion=rinko_smile04 -expression=anon_smile04;
+爱音:……
+
+祥子:……我的音乐，已经死了。
+changeFigure:anon/casual_large/model.json -right -id=anon -next -motion=rinko_smile06 -expression=sakiko_smile01;
+:她看着爱音，看着她们交握的双手，然后露出了一个发自内心的、如释重负的、无比美丽的微笑。
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -next -motion=sakiko_smile03 -expression=sakiko_smile03;
+祥子: ……但是，爱音。
+祥子:在和你合奏的时候……
+祥子:我感觉它，又活过来了。
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -next -motion=sakiko_smile03 -expression=sakiko_smile01;
+祥子: ……爱音。
+changeFigure:anon/casual_large/model.json -right -id=anon -next -motion=rinko_nf02 -expression=sakiko_smile01;
+爱音:嗯。
+changeFigure:none -id=sakiko -next;
+changeFigure:none -id=anon -next;
+祥子:……谢谢你。
+changeFigure:none -id=bg -next;
+:梦境，如潮水般褪去。
+changeScene:第六话/6.4.txt

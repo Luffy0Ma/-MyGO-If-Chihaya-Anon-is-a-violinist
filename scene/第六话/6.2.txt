@@ -1,0 +1,50 @@
+changeFigure:none -id=bg -next;
+changeBg:M（街道）/M13.png -next;
+:爱音熟练地避开护士站的视线，拉着祥子从医院的侧门溜了出来。下午温暖的阳光瞬间包裹了她们，让刚从消毒水气味中逃离的祥子，下意识地眯起了眼睛。
+changeFigure:anon/casual_large/model.json -left -id=anon -next -motion=anon_smile03 -expression=sakiko_smile01;
+changeFigure:sakiko/school_winter/model.json -right -id=sakiko -next -motion=sakiko_serious01 -expression=sakiko_sad01;
+爱音:哈——！外面的空气就是好！感觉整个人都活过来了！
+bgm:none -enter=1000;
+:祥子看着身边这个刚才还穿着病号服，却比自己还要精神百倍的少女，内心的担忧和无奈又加深了一层。
+changeFigure:sakiko/school_winter/model.json -right -id=sakiko -next -motion=sakiko_serious02 -expression=sakiko_odoodo01;
+bgm:Special/欢快类/モニカの団欒.mp3;
+祥子:爱音同学……我们真的……只去一会就回来吧？你的身体……
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=anon_angry01 -expression=sakiko_smile03;
+爱音:我都说了没事啦……不能让我任性一次吗？
+:祥子看着爱音水灵灵的大眼睛，什么反驳的话也说不出来。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mana_eeto01 -expression=sakiko_thinking02;
+爱音:倒是祥子，为什么叫我的时候还要加上“同学”的称呼呢？明明比赛的时候都直接叫我名字了……
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile03 -expression=sakiko_smile03;
+祥子:那个是……舞台上的气氛……
+爱音:唔嗯……？
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mana_nf01 -expression=anon_smile01;
+:爱音鼓了鼓脸颊，没有继续追问，而是重新拉起她的手。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_smile02 -expression=anon_smile04;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf04 -expression=sakiko_smile03;
+爱音:算了算了。快走吧，晚了的话，我最喜欢的草莓三明治可要卖光了！
+changeFigure:none -id=anon -next;
+changeBg:M（街道）/M18.png -next;
+setTransform:{"position":{"x":-500}} -target=sakiko -duration=2000 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf04 -expression=sakiko_sad01;
+:她像一只飞出笼子的鸟儿一样轻快地拉着祥子走在明媚的街道上。看着她那头在阳光下闪闪发光的粉色长发，感受着她的手传来的温度……祥子的内心充满了复杂的情绪。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sad02 -expression=sakiko_sad01;
+祥子:（好温暖……）
+祥子:（明明我是来向她道歉的……可是……）
+:好开心，可是……又感觉自己没有资格获得这样的快乐……截然对立的情感纠缠在一起，让祥子感觉自己的内心被挂在了火架上。
+changeBg:M（街道）/M5.png -next;
+:她们穿过几个街口，爱音凭着记忆，熟练地拐进一条稍显安静的巷子。
+setTransform:{"position":{"x":-1000}} -target=sakiko -duration=1500 -next;
+changeFigure:anon/casual_large/model.json -right -id=anon -next -motion=anon_smile02 -expression=anon_smile04;
+爱音:嗯嗯，越来越熟悉了。以前从学校溜出来，都会来这里买吃的。那家店的婆婆人超好的，字面意义上的慈眉善目，而且总会给我多加一些奶油……
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_smile05;
+祥子:是吗……
+changeFigure:anon/casual_large/model.json -motion=anon_nf01 -expression=anon_smile01 -id=anon -next;
+爱音:而且而且，虽然人老人家岁数那么大，品位却一点也不差。我记得，那家店的招牌是蓝底，上面画着一个可爱的……
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=anon_nf01 -expression=taki_sad01;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=mutsumi_default;
+bgm:none -enter=2000;
+:话说到一半，爱音的脚步忽然停住了。
+爱音:……
+changeFigure:none -id=sakiko -next;
+changeFigure:none -id=anon -next;
+changeScene:第六话/6.21.txt

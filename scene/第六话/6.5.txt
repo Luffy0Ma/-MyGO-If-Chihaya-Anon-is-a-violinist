@@ -1,0 +1,96 @@
+bgm:Special/温馨类/世代交代.mp3;
+changeBg:bestdori/bg00277.png -next;
+:两人并肩走出练习室，来到接待大厅。
+changeFigure:anon/mother/model.json -id=mom -next -motion=soyo_nf_right01 -expression=sakiko_thinking01;
+:只见爱音的母亲，正端着一杯热茶，安静地坐在休息区的沙发上。她的身边，放着爱音那个空空的小提琴盒。她没有看手机，也没有看杂志，只是静静地，看着窗外的夜色。
+setTransform:{"position":{"x":500}} -target=mom -duration=1500 -next;
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -transform={"position":{"x":200}} -next -motion=sakiko_odoodo01 -expression=sakiko_odoodo01 -zIndex=1;
+changeFigure:anon/casual_large/model.json -left -id=anon -transform={"position":{"x":-700}} -next -motion=nyamu_nf04 -expression=sakiko_smile01 -bounds=-500,0,500,0 -zIndex=2;
+changeFigure:anon/mother/model.json -id=mom -next -motion=soyo_nf_left01 -expression=sakiko_smile01 -zIndex=3;
+:听到她们的脚步声，她缓缓地回过头，脸上带着无可挑剔的、温柔的微笑。
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -transform={"position":{"x":200}} -next -motion=sakiko_odoodo01 -expression=sakiko_surprised02 -zIndex=1;
+爱音母亲:……弹完了？丰川同学，初次见面。我是爱音的母亲，千早和音。
+:祥子看着眼前这位端庄优雅的女性，感觉来自身体本能的警报正在脑内疯狂作响。她立刻紧张地、近乎九十度地鞠了一躬。
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -transform={"position":{"x":200}} -next -motion=sakiko_bye02 -expression=sakiko_sad01 -zIndex=1;
+setTransform:{"position":{"x":300}} -target=sakiko -duration=1000 -next;
+祥子:您、您好！我是丰川祥子！今天……
+changeFigure:anon/mother/model.json -id=mom -next -motion=umiri_nnf02 -expression=sakiko_smile01;
+changeFigure:anon/casual_large/model.json -left -id=anon -transform={"position":{"x":-300}} -next -motion=nyamu_nf04 -expression=uika_sad01 -zIndex=2;
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -transform={"position":{"x":200}} -next -motion=sakiko_surprised01 -expression=sakiko_surprised02 -zIndex=1;
+千早和音:……看来，丰川同学的“安可曲”，比医生的嘱咐，要重要得多呢。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_shame02 -expression=sakiko_sad02;
+:祥子被这句温柔却无比锐利的话，问得哑口无言，几乎要把头埋进胸口里。
+setTransform:{"position":{"x":0}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":0}} -target=sakiko -duration=1000 -next;
+:爱音立刻挡在了祥子面前。
+changeFigure:anon/casual_large/model.json -left -id=anon -next -motion=anon_angry01 -expression=sakiko_sad01;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_odoodo01 -expression=Dir_Down_look;
+爱音:妈妈，不关祥子的事！是我硬要拉她出来的！
+changeFigure:anon/mother/model.json -id=mom -next -motion=soyo_nf01 -expression=umiri_serious01;
+千早和音:哎，小爱也真是的，一秒钟都不愿意在医院多待。东西都给你收拾好了哦，来，琴盒。
+changeFigure:anon/casual_large/model.json -left -id=anon -next -motion=anon_angry01 -expression=anon_surprised01;
+:说着，和音把落在医院的空琴盒交给了爱音。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nf_right01 -expression=sakiko_smile06;
+爱音:欸？什么意思……？
+changeFigure:anon/mother/model.json -id=mom -next -motion=anon_nf02 -expression=sakiko_smile03;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_odoodo01 -expression=sakiko_surprised02;
+千早和音:素世的信还有丰川同学的花放车上了，不用担心。出院手续也已经办完了，之后就在家休养吧。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_thinking01 -expression=sakiko_surprised02;
+祥子:（……素世？）
+changeFigure:anon/casual_large/model.json -motion=anon_kandou01 -expression=anon_kandou01 -id=anon -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_sad01;
+爱音:诶！真的吗！可以拉小提琴啦！
+changeFigure:anon/mother/model.json -id=mom -next -motion=umiri_nnf01 -expression=sakiko_smile03;
+千早和音:每天不能超过一小时。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mana_gattsu01 -expression=anon_smile03;
+爱音:三小时！
+changeFigure:anon/mother/model.json -id=mom -next -motion=umiri_nnf01 -expression=sakiko_sigh01;
+千早和音:……一个半小时。不能再多了。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_smile03;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mana_jaan01 -expression=anon_smile04 -bounds=-5000,-5000,1000,1000;
+爱音:好耶！妈妈最棒啦——;
+changeFigure:anon/mother/model.json -id=mom -next -motion=umiri_nf_left01 -expression=anon_smile04;
+:千早和音用宠溺的眼神看着因为这点小小的“胜利”而傻乐的女儿，表情中洋溢着母爱。
+changeFigure:anon/mother/model.json -id=mom -next -motion=umiri_nf_left01 -expression=anon_thinking03;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_odoodo01;
+可当她的视线，从女儿的笑脸上，缓缓移回到祥子身上时，那份温柔仿佛瞬间结了冰。 -concat;
+setTransform:{"position":{"x":-700}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":300}} -target=sakiko -duration=2000 -next;
+changeFigure:anon/mother/model.json -id=mom -next -motion=umiri_thinking01 -expression=umiri_smile04;
+千早和音:说起来，丰川同学。为了感谢你这段时间对爱音的照顾，也为了……庆祝你们这次比赛取得了不错的成绩。如果不嫌弃的话，今晚，要不要来我们家，一起吃顿便饭呢？;
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mana_nf_right01 -expression=umiri_smile04;
+爱音:欸？妈妈，真的可以吗？太棒了！
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_odoodo01 -expression=sakiko_odoodo01 -id=sakiko -next;
+祥子:……
+:祥子看着爱音母亲那双深不见底的、带笑的眼睛，感觉自己像是被一只优雅的蜘蛛，用看不见的丝线给牢牢地网住了。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_shame01 -expression=sakiko_smile05;
+祥子:不、不用了！太打扰您了……
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nf_right01 -expression=umiri_smile04;
+changeFigure:anon/mother/model.json -id=mom -next -motion=soyo_smile01 -expression=sakiko_smile01;
+千早和音:怎么会是打扰呢？丰川同学。
+setTransform:{"position":{"x":300}} -target=mom -duration=2000 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=tomori_nf02 -expression=sakiko_odoodo01;
+:她上前一步，轻轻地帮祥子整理了一下略显凌乱的衣领，动作亲昵得像在对待自己的女儿。
+changeFigure:anon/casual_large/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=umiri_smile04;
+setTransform:{"position":{"x":400}} -target=mom -duration=2000 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=tomori_nf04 -expression=sakiko_odoodo01;
+千早和音:爱音已经很久，没有带朋友回家了。看到她和你在一起时这么开心的样子，我这个做母亲的，也由衷地感到高兴。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_cry01 -expression=sakiko_smile05;
+祥子:（咽口水）
+changeFigure:anon/mother/model.json -id=mom -next -motion=soyo_smile02 -expression=anon_smile04;
+千早和音:而且，我也很久没有和爱音以外的年轻音乐家聊天了。今晚，就当是陪我们母女俩，一起吃顿家常便饭，顺便……也让我这个“前·钢琴老师”，听一听你们年轻人的音乐故事，好吗？
+:千早和音的脸上，始终挂着无可挑剔的、温柔的微笑。但祥子，却从那双深不见底的、带笑的眼睛里，读出了一丝不容置疑的意味。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sad02 -expression=Dir_L_Boby;
+祥子:……
+:她看了一眼身边满脸期待、不停用眼神给自己“加油”的爱音，
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_nnf_right01 -expression=sakiko_odoodo01;
+又看了看眼前这位气场强大、言语间滴水不漏的女性。 -concat;
+:祥子知道，自己已经没有任何退路了。
+:她感觉自己像一只误入了华美茶会的小鹿，主人正微笑着，向她递来一杯看似香甜、却不知其中滋味的红茶。
+:无论如何，她都必须喝下去。
+changeFigure:none -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_shame01;
+changeFigure:none -id=anon -next;
+changeFigure:none -id=mom -next;
+祥子:……能得到您的邀请，是我的荣幸。
+bgm:none -enter=2000;
+祥子:……那，就……恭敬不如从命了。

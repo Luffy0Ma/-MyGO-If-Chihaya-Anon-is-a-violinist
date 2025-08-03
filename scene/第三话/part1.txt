@@ -1,0 +1,107 @@
+bgm:Special/大島ミチル-「恋とはこんなものかしら」.mp3 -volume=100;
+changeBg:原画截图/01 羽丘的怪女生.mkv_20250412_210342.248.png -next;
+:自从爱音周二在音乐教室碰到那个弹钢琴的蓝发女孩子为止，已经过去了三天。这期间，她没有再敢回到那个让她坠入幻梦里的地方——生活学习环境上的转变需要她去适应，新班级的环境需要去融入，以及最重要的原因：爱音觉得自己需要冷静一下。;
+
+changeBg:F（羽丘）/F17.png -next;
+changeFigure:sakiko/school_winter/model.json -id=saki -transform={"position":{"x":-500,"y":-200}} -next -motion=sakiko_smile02 -expression=sakiko_smile02;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":500,"y":-200}} -next -motion=soyo_angry01 -expression=anon_shame02;
+:前略，千早爱音是个对音乐拥有极高感知力的女孩。她总是很容易沉浸在旋律里，就像那天——和那个蓝色长发的女孩子一起合奏的时候。;
+changeFigure: -id=saki -next;
+changeFigure: -id=anon -next;
+changeBg:F（羽丘）/F12.png -next;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=mutsumi_nnf03 -expression=sakiko_shame01;
+爱音:（我……我都干了什么……擅自演奏起来，擅自沉浸在自己的幻想里……） -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=sakiko_nf03 -expression=anon_smile03;
+:她不是没意识到自己的冒失。随意地未经允许加入别人的演奏，在爱音看来称不上是什么礼貌的行为。;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=sakiko_nnf04 -expression=sakiko_sad01;
+:可即使这样，她依然没办法忘记那个女孩子的钢琴。;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=soyo_nf01 -expression=sakiko_thinking01;
+:那不是单纯的"演奏得很好"。她听过更华丽的技巧，也听过更精准的音符。可唯独那一段，那女孩的钢琴声，有种极为罕见的质地。;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=tomori_nf01 -expression=rana_thinking01;
+changeBg:AI/ComfyUI_00030_.png -next;
+:像是一片花海，从琴键下绽放开来。;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=anon_serious01 -expression=sakiko_kime01;
+:不是为了展示，不是为了吸引掌声，是更纯粹的东西——像是她在用音乐编织一个世外桃源，一个只属于她自己的、情感真实得无法伪装的世界。;
+
+changeFigure: -id=anon -next;
+changeBg: -next;
+:而她，千早爱音，毫无抵抗地被卷入了她的世界中。;
+
+changeBg:原画截图/01 羽丘的怪女生.mkv_20250412_212941.760.png -next -transform={"scale":{"x":1.5,"y":1.5}};
+:等到她终于觉得自己的内心平复下来以后，已经到了周五放学以后的现在。爱音抱着有些炽热的期待，再一次朝着那间音乐教室出发——;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=mutsumi_nnf03 -expression=sakiko_shame01;changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=mutsumi_smile01 -expression=anon_smile01;
+爱音:……;
+
+:寂静的走廊里没有任何声音。来到教室门前，
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=mutsumi_surprised01 -expression=sakiko_sigh02;
+:爱音才发现那个蓝色长发的少女并不在。教室的门甚至是锁着的。 -concat -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_sad02 -expression=anon_thinking01;
+爱音:唔，难道是周五的缘故吗？;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=sakiko_sad02 -expression=sakiko_shame01;
+:爱音不免感到有些失落。在对于美好周末的憧憬里，能够再次听到那个少女的钢琴声是优先级非常高的一件事情。没能再次见到她的身影，这让爱音来到羽丘以后即将开启的第一个周末都暗淡了下来。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_sad01 -expression=anon_sad01;
+changeBg:F（羽丘）/F7.png -next -transform={"scale":{"x":1,"y":1}};
+爱音:哎……;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=nyamu_nf01 -expression=anon_sad02;
+changeBg:F（羽丘）/F20.jpg -next;
+:爱音有些迷茫。这几天，她反复确认了学校的所有社团。很遗憾的是，并没有哪个是社团她心中的理想型。难道说，周末的时间她除了自己拉小提琴,
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_left01 -expression=soyo_sad01;
+changeFigure:nyamu/casual/model.json -id=nyamu -transform={"position":{"x":-800,"y":-200},"alpha":0.5,"blur":4} -next -motion=nyamu_kime01 -expression=rana_niya01;
+:以及刷喵梦亲的视频以外,就没有别的活动了？ -concat -fontSize=default;
+changeFigure:nyamu/casual/model.json -id=nyamu -transform={"position":{"x":-800,"y":-200},"alpha":0.5,"blur":4} -next -motion=nyamu_nnf_right01 -expression=nyamu_sad01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=sakiko_sad01;
+:…… -fontSize=default;
+changeFigure: -id=nyamu -next;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_thinking01 -expression=sakiko_thinking01;
+bgm: -enter=2000;
+爱音:吉他声……？;
+bgm:Special/【吉他指弹】春日影（CRYCHIC）.mp3 -enter=15000;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf03 -expression=sakiko_thinking01;
+changeBg:原画截图/社团走廊.png -next;
+:爱音停下了脚步，不知不觉中她已经溜达到了很远的地方。环顾四周，这里似乎是用于社团活动的一片区域，走廊里的每一间教室都挂着社团的牌子。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_left01 -expression=sakiko_smile03;
+:或许是哪个社团的成员有放学以后一个人演奏吉他的习惯？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_left01 -expression=sakiko_thinking01;
+爱音:演剧部、写真部、天文部……
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_surprised01 -expression=anon_surprised01;
+setTransform:{"position":{"y":1200}} -target=anon -duration=500 -next;
+呀啊！ -concat -fontSize=default;
+
+:爱音踩到了什么东西，失足摔在地上。
+bgm: -enter=5000;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_sad02 -expression=nyamu_sad01;
+setTransform:{"position":{"y":100}} -target=anon -duration=1500 -next;
+忍痛爬起来以后，她发现自己是因为合唱部前满地的纸谱才滑倒的。 -concat -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nf04 -expression=anon_sad01;
+爱音:痛痛痛……谁家合唱部把谱子扔得到处都是啊…… -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_sigh02 -expression=anon_sad02;
+changeFigure:tomori/school_winter/model.json -id=tomori -transform={"position":{"x":-1800,"y":-200}} -next -motion=tomori_smile01 -expression=tomori_smile01;
+:膝盖的摔伤还挺疼的。在已经放学的这个时间，整个走廊空无一人，没有人关注一个摔倒的女孩子，也没人收拾充满杂物的走廊。
+setTransform:{"position":{"x":-1000,"y":-350},"rotation":0.1} -target=tomori -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_sigh02 -expression=anon_surprised01;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nf_right01 -expression=tomori_serious01;
+bgm:Special/菊谷知樹-憧れの.mp3;
+温柔的声音:那个，你没事吧……？你摔倒了……？ -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_left01 -expression=anon_surprised01;
+爱音:你是……高松同学？;
+
+changeFigure:Utensils/tomori1.png -next;
+:爱音还没完全从摔倒中缓过神来，一个女孩便从天文部那边探出身子，悄悄看着她。她的神情有点像突然被惊动的小动物，怯怯的，却又不失可爱。是她的前桌。除了名字以外，爱音对她几乎一无所知。 -fontSize=default;
+
+changeFigure: -next;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile02 -expression=tomori_smile01;
+灯:很痛吗……？我扶你起来……;
+
+changeFigure: -id=anon -next;
+changeFigure: -id=tomori -next;
+changeBg: -next;
+爱音:没事——呃，谢谢……;
+
+changeScene:第三话/part2.txt

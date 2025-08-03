@@ -1,0 +1,97 @@
+bgm:Special/JOJO/Killer.mp3;
+changeFigure:BackGround/bg00374.png -id=bg -transform={"scale":{"x":1.79,"y":1.79},"colorRed":59,"colorGreen":59,"colorBlue":59} -next -zIndex=1;
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -transform={"position":{"y":100},"scale":{"x":1.3,"y":1.3},"colorRed":128,"colorGreen":128,"colorBlue":128} -motion=sakuya_nf01 -expression=sad01 -zIndex=3;
+playEffect:sfx/聚光灯.mp3;
+setTransform:{"position":{"y":100},"scale":{"x":1.3,"y":1.3}} -target=魔理沙 -duration=500 -next;
+changeFigure:Utensils/light.png -id=light -transform={"alpha":0.5} -zIndex=4;
+魔理沙:我的名字叫雾雨魔理沙，年龄24岁——
+“金色的神明”:不是14岁？
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -motion=Shrug -expression=surprise_smile -next;
+魔理沙:哦对的对的对的对的，因为海螺小姐时空所以我虽然应该是24岁了但还是14岁的美少女DAZE~;
+“金色的神明”:请继续。
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=Holding_hat -expression=smile;
+魔理沙:年龄14岁，家在幻想乡魔法森林东北部的别墅区内，未婚。
+“粉色的熊”:怎么感觉这台词简直像是从OO的奇妙冒险里搬出来的一样……
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=sakuya_holding -expression=smile;
+魔理沙:我是魔法使，经营着“雾雨魔法店”，每天最晚也会在六点前回家——
+changeFigure:kokoro/school_winter-2023/model.json -id=金色的神明 -motion=surprised01 -expression=surprised01 -next;
+“金色的神明”:早上六点？
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=Shrug -expression=happy;
+魔理沙:还真是。
+changeFigure:misaki/school_winter-2023/model.json -id=粉色的熊 -motion=surprised01 -expression=surprised01 -next;
+“粉色的熊”:竟然是早上六点吗！？
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=Hand_on_hip01 -expression=smile;
+魔理沙:不抽烟，经常喝酒，不知道什么时候上床，也不知道睡几个小时。睡前喝一杯440块钱的十四夜，喝完直接昏睡，有时候会发现醒来是夜里头。;
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=sakuya_courteous -expression=happy;
+魔理沙:像社畜一样不留下任何多余的精力，就这样迎来第二天的宴席。永琳医生都说我还活着真是个奇迹。
+“金色的神明”:所以，你想说明什么呢？
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=akimbo -expression=angry;
+playEffect:sfx/倒带1.mp3 -volume=30;
+bgm: -enter=1000;
+魔理沙:我只是想说明我真的不是什么花咲川女子学校的学生啊！不是你们的学妹，更不是来组什么乐队的啊！！！放开我！！！
+changeFigure:none -id=魔理沙 -next;
+changeFigure:none -id=light -next;
+setTransform:{"scale":{"x":1.79,"y":1.79}} -target=bg -duration=1000 -next;
+bgm:Special/欢快类/Fly_me_Nowhere.mp3;
+changeFigure:kokoro/school_winter-2023/model.json -left -id=弦卷心 -next -motion=humming01 -expression=smile02 -zIndex=5;
+changeFigure:misaki/school_winter-2023/model.json -right -id=美咲 -next -motion=sad01 -expression=sad01 -zIndex=5;
+美咲:心，你看，她都这么说了，我们是不是搞错了？要不还是把她……
+changeFigure:kokoro/school_winter-2023/model.json -id=弦卷心 -motion=kime01 -expression=kime01 -left -next;
+弦卷心:美咲！你还没有看穿吗？这正是她高明的地方！
+changeFigure:misaki/school_winter-2023/model.json -id=美咲 -motion=surprised01 -expression=surprised01 -right -next;
+美咲:哈？
+changeFigure:kokoro/school_winter-2023/model.json -left -id=弦卷心 -next -motion=smile01 -expression=smile01;
+弦卷心:你们想，一个普通的学生，会用那么有趣的台词介绍自己吗？一个普通的女孩子，会随身带着那么大的扫帚吗？她拼命否认自己是花咲川的学妹，恰恰证明了她有一个更深刻、更不为人知的身份！这一切的背后，一定有一个宏大的、充满了笑容的计划！
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -left -id=魔理沙 -transform={"position":{"x":100,"y":100},"scale":{"x":1.3,"y":1.3}} -next -motion=sakuya_holding -expression=sad01 -zIndex=5;
+setTransform:{"position":{"x":1000}} -target=弦卷心 -duration=1000 -next;
+changeFigure:none -id=美咲 -next;
+魔理沙:只是单纯的迷路而已DAZE……;
+changeFigure:kokoro/school_winter-2023/model.json -id=弦卷心 -motion=kime01 -expression=kime01 -left -next;
+弦卷心:我明白了！你不是学妹，因为你根本不是我们学校的！你是为了给我们带来惊喜，从隔壁那所传说中的、以培养各类天才闻名的——私立魔法森林男子高等中学，特意转学过来的秘密武器，对不对！”
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=akimbo -expression=surprise;
+魔理沙:魔法森林男子……哈？！那是什么鬼地方？！而且我都说了我是女的DAZE！女的！
+changeFigure:none -id=弦卷心 -next;
+changeFigure:none -id=魔理沙 -next;
+changeFigure:kaoru/casual_winter-2023/model.json -id=薰 -next -motion=kime05 -expression=kime01 -zIndex=3;
+薰:哦？一位为了追求极致的戏剧性，不惜隐藏自己的真实性别，扮演成少女来体验生活的、fleeting的小猫咪吗？
+changeFigure:kaoru/casual_winter-2023/model.json -id=薰 -next -motion=kime04 -expression=kime02 -zIndex=3;
+有意思。你那纤细身躯里隐藏的，一定是一颗比雄狮还要炽热的心吧。真是梦幻啊~ -concat;
+changeFigure:none -id=薰 -next;
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -transform={"position":{"y":100},"scale":{"x":1.3,"y":1.3}} -next -motion=Holding_hat -expression=surprise -zIndex=5;
+魔理沙:……
+setTransform:{"position":{"x":-500,"y":100},"scale":{"x":1.3,"y":1.3}} -target=魔理沙 -duration=1000 -next;
+changeFigure:misaki/school_winter-2023/model.json -right -id=美咲 -next -motion=sad03 -expression=sad02 -zIndex=5;
+美咲:等一下等一下信息量太大了！为什么会从“异世界人”快进到“隔壁男校的转校生”最后还被盖章成男扮女装了啊？！我们这群人的脑回路到底是怎么回事？！
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=sakuya_nf01 -expression=angry;
+魔理沙:你们这群家伙……脑子都有问题吗……;
+changeFigure:none -id=美咲 -next;
+:众人无视了魔理沙的辩解，弦卷心已经让黑衣人送来了一张华丽的、带着金色流苏的任命状。;
+changeFigure:kokoro/school_winter-2023/model.json -right -id=弦卷心 -next -motion=kime01 -expression=kime01 -zIndex=3;
+弦卷心:鉴于雾雨魔理沙君，在初次见面时，就以其独特的自我介绍技巧、打破常规的登场方式以及极具潜力的舞台事故天赋，为我们带来了前所未有的惊喜与笑容。经Hello, Happy World!全体（主要是我自己）一致决定——
+:她把任命状递到魔理沙面前。;
+changeFigure:kokoro/school_winter-2023/model.json -id=弦卷心 -motion=smile01 -expression=smile01 -left -next;
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=sakuya_nf01 -expression=surprise;
+弦卷心:——特此任命您为，Hello, Happy World! 首席舞台事故官（Chief Accident Officer，简称CAO）！兼，因乐队编制暂缺而设立的见习贝斯手！
+:魔理沙先是愣住，然后视线在“首席事故官”和“见习贝斯手”之间来回移动，最后表情变得像吃了一百只毒蘑菇一样扭曲。;
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=Hand_on_hip02 -expression=angry;
+魔理沙:事故官是什么职位啊？！而且贝斯手又是什么东西？！我拒绝DAZE！
+changeFigure:kokoro/school_winter-2023/model.json -left -id=弦卷心 -next -motion=nod01 -expression=wink01;
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=Hand_on_hip02 -expression=surprise;
+弦卷心:这是你的薪酬合同哦。月薪是这个数，包食宿，外加无限制的魔法研究（舞台特效开发）经费。你看，这里的零是不是很多？;
+changeFigure:none -id=弦卷心 -next;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1.3,"y":1.3}} -target=魔理沙 -duration=1000 -next;
+:灵梦的声音仿佛从天外传来，只在魔理沙的脑内响起：;
+:【魔理沙！快看看有多少个零！！！】;
+:魔理沙盯着合同上的数字，瞳孔剧烈震动，冷汗直流。;
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=魔理沙 -next -motion=Holding_hat -expression=sad01;
+魔理沙:咕……这、这个外界的“契约”……感觉到了强大的、无法抗拒的力量……;
+changeFigure:none -id=魔理沙 -next;
+changeFigure:kokoro/school_winter-2023/model.json -id=弦卷心 -next -motion=smile01 -expression=smile01 -zIndex=4;
+changeFigure:kaoru/casual_winter-2023/model.json -left -id=薰 -next -motion=smile01 -expression=smile01 -zIndex=3;
+changeFigure:misaki/school_winter-2023/model.json -right -id=美咲 -next -motion=sad01 -expression=sad01 -zIndex=2;
+:魔理沙最终颤抖着手，在那份她根本看不懂的合同上，用手指蘸着不知道谁递过来的印泥，按下一个手印。旁边，弦卷心和薰露出了满意的微笑，而美咲则用米歇尔的头套捂住了自己的脸，仿佛不忍直视这历史性的一幕。;
+changeFigure:none -id=弦卷心 -next -motion=smile01 -expression=smile01 -zIndex=4;
+changeFigure:none -left -id=薰 -next -motion=smile01 -expression=smile01 -zIndex=3;
+changeFigure:none -right -id=美咲 -next -motion=sad01 -expression=sad01 -zIndex=2;
+bgm:none -enter=2000;
+:而魔理沙在邦多利世界的故事，才刚刚开始……;

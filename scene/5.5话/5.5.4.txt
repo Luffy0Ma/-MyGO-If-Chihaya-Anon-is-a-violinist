@@ -1,0 +1,160 @@
+bgm:Special/悲伤类/Raindrops_on_the_window.mp3;
+changeBg:bestdori/bg00601.png -next -unlockname=park;
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -transform={"position":{"y":100},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bloom":0,"bevel":0.4,"bevelThickness":20,"bevelRotation":150,"bevelRed":242,"bevelGreen":235,"bevelBlue":208} -next -motion=mutsumi_nnf03 -expression=mutsumi_idle01;
+changeFigure:sakiko/casual_tired/model.json -right -id=sakiko -transform={"position":{"y":100},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bevel":0.4,"bevelThickness":15,"bevelRotation":140,"bevelSoftness":1,"bevelRed":240,"bevelGreen":230,"bevelBlue":192} -next -motion=sakiko_sad02 -expression=sakiko_sad02;
+:两人并肩坐在长椅上，中间隔着一个人的距离。祥子将那个便利店的袋子放在身边的地上，仿佛那是一个不该存在的、可耻的证据。
+:夜风吹过，带着远方的湿气，有些凉。
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_sigh02 -expression=sakiko_sad01;
+祥子:……对不起，睦。明明是你来找我，我却……没什么能招待你的……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+睦:……
+:睦没有回应。她的视线，越过祥子，落在了地上那个便利店的袋子上。那罐印着鲜艳水果图案的啤酒，在昏黄的路灯下显得格外刺眼。
+setTransform:{"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bloom":0,"bevel":0.4,"bevelThickness":20,"bevelRotation":150,"bevelRed":242,"bevelGreen":235,"bevelBlue":208} -target=mutsumi -duration=1200 -next;
+:良久，她站起身。
+setTransform:{"position":{"x":200},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bloom":0,"bevel":0.4,"bevelThickness":20,"bevelRotation":150,"bevelRed":242,"bevelGreen":235,"bevelBlue":208} -target=mutsumi -duration=1500 -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf_right01 -expression=R_boby_Down;
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_sad01;
+:在祥子不解的目光中，睦弯下腰，从袋子里抓出了那罐啤酒。她的动作很轻，却带着一种不容置疑的决绝。
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=rana_nf_left01 -expression=mutsumi_angry01;
+然后，她转身，将那罐冰冷的、承载着祥子所有绝望念头的啤酒，“哐当”一声，扔进了不远处的分类垃圾桶里。 -concat;
+祥子:睦……
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=rana_nf_right01 -expression=mutsumi_angry01;
+:睦转回头，看着祥子，那双总是平静的眼睛里，第一次有了如此清晰的情绪。
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf01 -expression=R_boby;
+睦:这种东西……不好。
+setTransform:{"position":{"x":-1200},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bloom":0,"bevel":0.4,"bevelThickness":20,"bevelRotation":150,"bevelRed":242,"bevelGreen":235,"bevelBlue":208} -target=mutsumi -duration=2000 -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf_left01 -expression=L_Boby;
+:说完，她再次转身，走向旁边还在发着光的自动售货机。投币，按键，取物，动作一气呵成。
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf_right01 -expression=R_boby_Down;
+setTransform:{"position":{"x":200},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bloom":0,"bevel":0.4,"bevelThickness":20,"bevelRotation":150,"bevelRed":242,"bevelGreen":235,"bevelBlue":208} -target=mutsumi -duration=2000 -next;
+她拿着两罐温热的饮品，回到了长椅边。 -concat;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -next;
+睦:给。
+:祥子怔怔地看着睦递过来的东西。
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_smile02 -expression=sakiko_sad01;
+祥子:……这是什么……？
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+睦:……玉米浓汤。这个，暖和。而且……是甜的。
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_thinking01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:……
+setTransform:{"position":{"x":200,"y":100},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bloom":0,"bevel":0.4,"bevelThickness":20,"bevelRotation":150,"bevelRed":242,"bevelGreen":235,"bevelBlue":208} -target=mutsumi -duration=1000 -next;
+:祥子看着递到眼前的热饮，愣了一下。她接过那罐小小的、沉甸甸的温暖，金属的罐身将热度持续不断地传递到她冰冷的手心。
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_thinking01 -expression=sakiko_sigh01;
+:她拉开拉环，一股香甜的、带着玉米气息的热气扑面而来。她学着睦的样子，小口地喝了一口。暖暖的、稠密的汤汁，带着温柔的甜味在口中弥散开来。
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=tomori_sad02 -expression=sakiko_sigh01;
+:那份被她用理智和自尊心强行压抑了几个月的、山一样沉重的苦楚，在这一刻，被这突如其来的、孩子气的甜味，彻底冲垮了。
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=tomori_sad02 -expression=sakiko_cry01;
+:晶莹剔透的泪珠，先是试探性地从眼角滑落，然后便再也无法抑制，连成一片，无声地浸湿了她的脸颊。
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_cry01 -expression=sakiko_cry01 -id=sakiko -next;
+祥子:……为什么，要来找我？你明明应该……离我远一点的……
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf_right01 -expression=mutsumi_default;
+睦:祥……希望我离开吗？
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_cry01 -expression=sakiko_cry02;
+祥子:……
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf_right01 -expression=mutsumi_sad01;
+睦:为什么？
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=soyo_angry03 -expression=sakiko_cry03;
+bgm:none -enter=2000;
+祥子:因为！因为我什么都做不好！
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad02 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_cry04 -expression=sakiko_cry03;
+bgm:Special/MANYO-アリウム.mp3;
+:祥子不再顾及任何体面，像个迷路的孩子一样，将脸埋在掌心里，压抑着声音嚎啕大哭。;
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_cry04 -expression=sakiko_cry01;
+祥子:……我以为……我以为，我能处理好所有事的……学业、乐队、工作……还有……爸爸那边的事……我以为只要我够努力……就一定……
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_angry07 -expression=sakiko_cry03;
+但是！但是我就是做不到啊！ -concat;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_angry02 -expression=sakiko_cry04;
+祥子:CryChic也是……明明……明明睦也应该和灯她们一样，就此恨我，或者把我忘掉，这样……
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_cry01 -expression=sakiko_desperate;
+这样我就能狠下心……一个人在这个泥潭里挣扎下去…… -concat;
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=soyo_angry03 -expression=sakiko_cry03;
+为什么……为什么还要来关心我……为什么还要对我这么好…… -concat;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad02 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_cry04 -expression=sakiko_cry03;
+:睦没有说话。她等祥子的哭声稍稍平复了一些，才用一种无比认真、无比清晰的语气说。
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_kime01 -expression=sakiko_serious02;
+睦:我……没有恨过祥。一次都没有。
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_cry04 -expression=sakiko_cry01;
+祥子:……
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_cry03;
+:祥子抬起满是泪痕的脸，怔怔地看着她。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+睦:灯也是。今天，在羽丘碰到灯了。
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_thinking01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:灯……？
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -next;
+睦:……祥，没有和灯联系过吗？
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_shame01 -expression=sakiko_sad02 -id=sakiko -next;
+祥子:我……我不敢见她……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+睦:灯，开始学吉他了。她背着吉他，一个人从学校里走出来。
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_surprised01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:是吗……？
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:大家，都在向前走。素世也是……
+:说到素世，睦的眼神暗淡了一瞬，但她立刻掩饰了过去。她想起了自己对那个女孩许下的承诺——要成为“月亮”。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_thinking01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:（……不能再给祥增添更多烦恼了。）
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -next;
+睦:……素世，最近好像心情很好。她说……她很久没见的朋友从国外回来了，她们一起去吃了饭。
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_thinking01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:是吗……立希同学呢？
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+睦:立希，在Ring打工。听说，她很喜欢这份工作。
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_thinking02 -expression=sakiko_sad02 -id=sakiko -next;
+祥子:……
+:祥子沉默了。她慢慢地消化着这些信息。灯、素世、立希……那些被她亲手推开的人，并没有像她想象的那样停在原地怨恨她，而是在她不知道的地方，用各自的方式，努力地生活着，向前走着。
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_thinking02 -expression=sakiko_cry01;
+:泪水，不争气地又一次涌现了出来。但这一次，不再是纯粹的痛苦，而是夹杂着一种如释重负般的、苦涩的欣慰。
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_cry02 -expression=sakiko_cry02;
+祥子:……是吗……太好了……大家……都还好啊……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_smile01 -expression=mutsumi_smile01 -id=mutsumi -next;
+睦:嗯。所以，祥也要好起来。
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_sad01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:……
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_smile01 -expression=mutsumi_sad01;
+:祥子没有再说话，只是低下头，默默地、一口一口地喝着那罐已经不那么热的玉米浓汤。睦看着她，知道这平静之下，依然藏着最深的秘密。
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_thinking01 -expression=mutsumi_default;
+睦:为什么……今天没去学校？
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_surprised01 -expression=sakiko_sad02 -id=sakiko -next;
+祥子:为什么……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_serious01 -expression=mutsumi_serious01 -id=mutsumi -next;
+睦:灯说，祥今天请假了。祥，一整天都在工作？
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_nf01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:……嗯。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_serious01 -id=mutsumi -next;
+睦:祥，很缺钱吗？我的零花钱……还有很多……
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_shame01 -expression=sakiko_sad02 -id=sakiko -next;
+祥子:不是的，不是钱的事情……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_serious01 -id=mutsumi -next;
+睦:真的？
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_nf03 -expression=sakiko_sad01;
+祥子:……嗯。父亲的储蓄还有一些，短期内……应该不会见底。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_thinking01 -expression=mutsumi_serious01 -id=mutsumi -next;
+睦:……
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_nf_right01 -expression=sakiko_sad01;
+:祥子移开了视线，这个细微的动作，已经是一种默认的回答。
+:睦知道，祥子还在隐瞒。或许仍然还在逃避着什么非常重要的事。;
+:但她也知道，今晚，能让她卸下如此沉重的盔甲，已经足够了。
+:再追问下去，只会让她重新把自己封闭起来。
+:有些伤口，需要更多的时间，和更合适的钥匙，才能打开。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+睦:我知道了。
+:她不再追问，只是把话题拉回到了最现实的问题上。;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -next;
+睦:……很晚了。祥，该回家了。
+setTransform:{"position":{"y":0},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bevel":0.4,"bevelThickness":15,"bevelRotation":140,"bevelSoftness":1,"bevelRed":240,"bevelGreen":230,"bevelBlue":192} -target=sakiko -duration=2000 -next;
+:她没有说话，只是默默地喝完了手里那罐已经不那么热的玉米浓汤。那股甜味，仿佛给了她重新站起来的力量。
+setTransform:{"position":{"x":-1000,"y":0},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bevel":0.4,"bevelThickness":15,"bevelRotation":140,"bevelSoftness":1,"bevelRed":240,"bevelGreen":230,"bevelBlue":192} -target=sakiko -duration=2000 -next;
+changeFigure:sakiko/casual_tired/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_sad01;
+setTransform:{"position":{"x":1000,"y":100},"brightness":0.9,"colorRed":240,"colorGreen":246,"colorBlue":255,"bloom":0,"bevel":0.4,"bevelThickness":20,"bevelRotation":150,"bevelRed":242,"bevelGreen":235,"bevelBlue":208} -target=mutsumi -duration=2000 -next;
+:随后便起身走到垃圾桶旁，将空罐子扔了进去。看着垃圾桶里的啤酒罐，那个“想要堕落”的念头，似乎已经消失了。
+: -notend;
+changeFigure:none -id=sakiko -next;
+changeFigure:none -id=mutsumi -next;
+changeScene:5.5话/5.5.5.txt

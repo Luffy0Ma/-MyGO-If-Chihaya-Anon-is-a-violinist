@@ -1,0 +1,99 @@
+:"滴滴滴，滴滴滴……" -fontSize=default;
+bgm:Special/MANYO-心の棘.mp3;
+: -notend -fontSize=default;
+changeBg:B（soyo家）/soyo阴天卧室.png -next;
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -id=soyo -next -motion=soyo_cry02 -expression=soyo_cry01;
+素世:咳……咳咳…… -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_sad01 -expression=soyo_sad01 -id=soyo -next;
+:我在刺耳的闹铃声中艰难睁开眼。脑袋像被灌了铅一样沉重，连从床上坐起来都需要鼓足全身的力气。手机屏幕上闪烁着07:00的字样——今天是工作日，原本该去上学。 -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_cry01 -expression=soyo_cry01 -id=soyo -next;
+素世:咳咳……呜…… -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_nnf01 -expression=soyo_nnf01 -id=soyo -next;
+:窗外的雨还没停，淅淅沥沥地打在玻璃上，一如昨晚那场突如其来的大雨。额头发烫、喉咙火烧，身上也热得发烫……我大概是……真的发烧了吧？ -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_sigh01 -expression=soyo_sigh01 -id=soyo -next;
+素世:……真倒霉。 -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_surprised01 -expression=soyo_surprised01 -id=soyo -next;
+:就在这时，手机又响了起来。 -fontSize=default;
+
+素世:……妈妈？ -fontSize=default;
+
+素妈（电话）:素世~还好吗？昨天淋雨以后没着凉吧？ -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_cry01 -expression=soyo_cry01 -id=soyo -next;
+素世:没事，咳咳——就是稍微有点……咳咳咳…… -fontSize=default;
+
+素妈:素世？素世……是不是着凉了？今天要不别去上学了，妈妈帮你请假…… -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_nnf02 -expression=soyo_nnf02 -id=soyo -next;
+素世:嗯……那就……麻烦妈妈了……咳…… -fontSize=default;
+
+:我听见电话那头传来一阵翻找的声音，接着是拨号的"嘀嘀"声。妈妈应该是在联系我的班主任吧？她的声音像一条柔软的毛毯，把我混乱而发热的大脑轻轻包裹住。昨晚那个让人喘不过气的梦境，也仿佛随着她的话语，一点点退去了。 -fontSize=default;
+
+素妈:好了，已经请好假了，今天就在家乖乖休息，不要逞强哦。 -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -id=soyo -next -motion=soyo_smile01 -expression=soyo_smile03;
+素世:嗯…… -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -id=soyo -next -motion=soyo_shame01 -expression=soyo_sad02;
+:迟疑片刻，喉咙里忽然卡着什么情绪。胸口涨涨的，像有什么话，非说不可。 -fontSize=default;
+
+素世:妈妈……对不起…… -fontSize=default;
+
+素妈:傻孩子，为什么要说对不起？该说对不起的……应该是妈妈才对。 -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_cry01 -expression=soyo_cry01 -id=soyo -next;
+素世:呜…… -fontSize=default;
+
+素妈:生病的时候，妈妈却不能陪在你身边，真的很抱歉……素世，有什么事一定要告诉妈妈哦，不许一个人撑着。 -fontSize=default;
+;
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_sad01 -expression=soyo_sad01 -id=soyo -next;
+素世:不用担心……妈妈还有工作要处理吧？没事的，我一个人能照顾好自己…… -fontSize=default;
+
+:说出这句话的时候，我自己都能听出里面有多没底气。全身一点力气也没有，光是坐着就觉得费劲。可除此之外，我也不知道还能说什么了。 -fontSize=default;
+
+素妈:那妈妈先挂电话了，有事就打给我，知道吗？ -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_smile02 -expression=soyo_smile02 -id=soyo -next;
+素世:……嗯。工作顺利…… -fontSize=default;
+
+:"嘟，嘟，嘟……" -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -id=soyo -next -motion=sakiko_sad02 -expression=anon_smile03;
+素世:哈…… -fontSize=default;
+
+changeFigure:none -id=soyo -next;
+:我用尽全身力气爬出床，跌跌撞撞地走向浴室，用冷水扑了扑脸。镜子里的我头发蓬乱，眼睛浮肿，嘴唇干裂得像冬天的土地。 -fontSize=default;
+
+changeBg:B（soyo家）/B14.png -next;
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -id=soyo -transform={"position":{"y":-200}} -next -motion=soyo_nnf01 -expression=soyo_serious02;
+:回到客厅，窗外的天空阴沉得像是要塌下来。滴滴答答的雨声透过玻璃，砸在沉默的房间里，显得振聋发聩。 -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_sad01;
+:我……讨厌雨天。 -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -id=soyo -next -motion=soyo_sad01 -expression=soyo_sad02;
+:下雨的天气，总是让我想起不好的回忆。 -fontSize=default;
+
+:随手打开电视，随便换了个频道，里面在放一个综艺节目，有人笑得很用力——我却觉得有点吵。 -fontSize=default;
+
+:于是又关掉电视，回到了卧室。 -fontSize=default;
+
+changeBg:B（soyo家）/soyo阴天卧室.png -next;
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_nnf02 -expression=soyo_nnf02 -id=soyo -next;
+:没有胃口，什么都不想吃。脑子里空空的，身体又太沉，最后只好再次躺回床上。望着天花板发呆，脑海中什么也没留下。 -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣-半灰/model.json -motion=soyo_nnf01 -expression=soyo_nnf01 -id=soyo -next;
+setTransform:{"position":{"y":0}} -target=soyo -duration=1000 -next;
+:眼皮沉重地垂落下来，像被雨打湿的纸，一点点塌陷、卷曲…… -fontSize=default;
+
+changeFigure:none -id=soyo -next;
+changeBg: -next;
+:…… -fontSize=default;
+
+
+changeScene:其它/素世的梦2.5.txt

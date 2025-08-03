@@ -1,0 +1,93 @@
+changeBg:B（soyo家）/B20.jpg -next;
+bgm:Special/MANYO-祈り.mp3;
+:我睁开眼的时候，天已经黑了。 -fontSize=default;
+:屋子里静得出奇，雨停了，只剩下屋檐偶尔滴落的水声，像是时间在慢慢淌。 -fontSize=default;
+:我一时没动，脑子还有些迟钝。刚刚的梦像残存在雾里的旧纸片，一碰就碎，却还停留在指尖。 -fontSize=default;
+:眼角有点湿，我不想抹。 -fontSize=default;
+:从床上挣扎着坐起，客厅里传来了锅碗瓢盆轻响，还有那种轻手轻脚、尽量不打扰别人的动作声。 -fontSize=default;
+:是妈妈回来了？ -fontSize=default;
+changeBg:none -next;
+changeFigure:BackGround/B12.png -id=bg -transform={"scale":{"x":1.9,"y":1.9}} -next -zIndex=1;
+:我拖着依旧虚弱的步伐，朝着客厅走去，与那个声音的主人撞了个正着。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=anon_smile01 -expression=anon_smile01 -zIndex=3;
+爱音:啊，素世，醒来了？ -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile02 -expression=anon_smile02 -id=anon -next;
+:她就站在厨房门口，身穿羽丘的校服，手里还端着一锅刚熬好的蔬菜粥。 -fontSize=default;
+素世:爱……音？ -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_kime01 -expression=anon_smile04;
+爱音:嗯，如假包换的爱音哦。阿姨今天中午联系我，说你病了，拜托我晚上过来看看你。 -fontSize=default;
+素世:欸？妈妈……联系你？ -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_odoodo01 -expression=anon_smile04;
+爱音:嘛，大概是因为我给阿姨留下的印象比较好吧？感觉怎么样了，有胃口了吗？ -fontSize=default;
+:我想开口，却只是干咳了几声，嗓子疼得说不出话来。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_thinking01 -expression=sakiko_smile04;
+:她熟练地给我盛了一碗粥，扶我坐到餐桌前。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile01 -expression=anon_smile01 -id=anon -next;
+爱音:来吧，小心烫，蛋羹还有一会儿就好。 -fontSize=default;
+素世:可是……爱音今天不是要和小祥…… -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_serious01 -expression=sakiko_smile05;
+爱音:嘘——嗓子都哑了还说话。听话点啦。 -fontSize=default;
+:我只好乖乖地闭嘴喝粥。热乎乎的，清淡中还带着一丝甘甜。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_nf03 -expression=anon_smile01;
+爱音:还合你胃口吗？ -fontSize=default;
+素世:意外的好喝…… -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_angry01 -expression=sakiko_angry01;
+爱音:什么叫意外啊……人家又不是不会做饭。在英国不会自己做饭的话可是会饿死的。 -fontSize=default;
+素世:…… -fontSize=default;
+:一瞬间，我感觉有些恍惚。我掐了自己一下，很痛，应该不是在做梦。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_angry01 -expression=anon_surprised01;
+素世:……小祥那边……没问题吗？今天不是有社团活动吗…… -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=anon_smile01;
+爱音:啊，你在担心这个啊？ -fontSize=default;
+素世:…… -fontSize=default;
+:我低下了头。那种"被她放在心上"的温度让我有点不知所措，又害怕它只是错觉。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile02 -expression=anon_smile02 -id=anon -next;
+爱音:她今天也刚好有事，所以排练取消了。我没放她鸽子，放心吧。 -fontSize=default;
+素世:是吗…… -fontSize=default;
+:小祥有事，所以今天的社团活动取消了……心尖悄然漫过酸梅般的涩意，这会是为了让我安心而编的谎言吗？ -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_serious02 -expression=sakiko_smile03;
+爱音:再说啦——就算有活动，也没你重要呀。 -fontSize=default;
+素世:…… -fontSize=default;
+setTransform:{"position":{"y":-100},"scale":{"x":1.9,"y":1.9},"blur":10} -target=bg -duration=1000 -next;
+setTransform:{"position":{"y":-300},"blur":10} -target=anon -duration=1000 -next;
+:如果……这句话是真的就好了…… -fontSize=default;
+:眼泪止不住地往下掉。我用手挡住脸，肩膀微微颤抖。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_surprised02 -expression=sakiko_surprised02;
+爱音:素世……！？欸？
+setTransform:{"position":{"x":-250,"y":-350},"scale":{"x":1.2,"y":1.2},"blur":10} -target=anon -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_surprised01 -expression=sakiko_sad02;
+怎么了？是不是哪里不舒服？ -concat -fontSize=default;
+素世:没事…… -fontSize=default;
+changeBg: -next;
+素世:只是觉得……太好了…… -fontSize=default;
+changeFigure: -id=bg -next;
+changeFigure: -id=anon -next;
+:…… -fontSize=default;
+changeBg:B（soyo家）/B12.png -next;
+:饭后，她坚持要帮我收拾碗筷，我却拦下了她。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=sakiko_angry01 -expression=sakiko_angry01;
+:她嘟了嘟嘴，有些不服气。 -fontSize=default;
+爱音:生病了还逞强，小心我下次不来了哦。 -fontSize=default;
+:我没有回答，只是笑了笑。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_kime01 -expression=sakiko_sigh01;
+setTransform:{"position":{"y":-100}} -target=anon -duration=1000 -next;
+:我坐在她旁边，看着她的侧脸。她低着头，屏幕的光将她的睫毛染出一层微弱的银边。 -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_nf04 -expression=Down_look;
+:那一瞬间，我忽然很想开口问一句： -fontSize=default;
+:"今天，小祥她……真的有事吗？" -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile01 -expression=anon_smile01 -id=anon -next;
+:但话到嘴边，却像被什么轻轻拽住了一样，停住了。我垂下眼，把那句疑问连同所有不安一起，咽了下去。
+changeFigure: -id=anon -next;
+changeBg: -next;
+:我靠着枕头，轻轻闭上眼睛。
+:厨房的风扇已经停了，屋子里安静得只剩下她指尖划过屏幕的细响，一下一下，像是画笔在纸面上来回打磨的沙沙声。
+:她明明就在身边，可我却觉得，我们之间的距离，比那次音乐节时台上台下的空隙，还要更遥远……
+
+:“就算有活动，也没你重要呀。”
+
+:……
+
+:如果这是谎言的话，那就请……再多骗我几次吧。
+
+:我只希望，这个谎，能久一点，再久一点……
+

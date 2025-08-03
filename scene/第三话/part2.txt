@@ -1,0 +1,182 @@
+:高松灯搀扶着爱音来到合唱部旁边天文部，让她坐在沙发上。;
+changeFigure:BackGround/F23.png -id=club -transform={"scale":{"x":1.8,"y":1.8}} -next -zIndex=1;
+changeFigure:tomori/school_winter/model.json -id=tomori -transform={"position":{"x":500,"y":-200}} -next -motion=tomori_smile03 -expression=tomori_smile02 -zIndex=5;
+灯:我收集了创可贴……你想要哪个？;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile03 -expression=uika_surprised01;
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":-500,"y":-200}} -next -motion=sakiko_nnf04 -expression=sakiko_thinking01 -zIndex=3;
+爱音:马可罗尼企鹅、宽吻海豚……
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf05 -expression=sakiko_smile03;
+那我要这个白鲸的吧。可以吗？ -concat -fontSize=default;
+setTransform:{"position":{"x":200,"y":-200}} -target=tomori -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nf_right01 -expression=sakiko_smile03;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nnf_left01 -expression=tomori_surprised01;
+:在灯有些惊讶的目光下，爱音接过了带有白鲸图案的创可贴。;
+setTransform:{"position":{"x":500,"y":-200}} -target=tomori -duration=1000 -next;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_surprised01 -expression=tomori_surprised01;
+灯:爱、爱音同学也很喜欢海洋动物吗？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=anon_smile01;
+爱音:诶？唔、还算挺喜欢的吧……？;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile01 -expression=tomori_smile01;
+灯:那……你很喜欢白鲸？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_smile01 -expression=anon_smile01;
+爱音:大概吧？白鲸是我最早喜欢上的海洋生物呢，小时候我父亲跟我讲白鲸是海洋里的金丝雀，一直到现在还记得。;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile01 -expression=tomori_surprised01;
+:听到爱音的话，灯的双眼中迸发出光芒。;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile02 -expression=anon_smile01;
+灯:如果真的能听到它们的歌声就好了……;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf03 -expression=sakiko_smile01;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nnf_left01 -expression=anon_smile01;
+爱音:是啊，也许它们真的是用歌声来交流也说不定呢？;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -motion=tomori_nnf_left01 -expression=tomori_smile04;
+灯:嗯…… -fontSize=default;
+setTransform:{"position":{"x":1400,"y":-200}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-200,"y":-200}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":150},"scale":{"x":2.3,"y":2.3}} -target=club -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_left01 -expression=sakiko_thinking01;
+:爱音呼了口气，打量起来她们所在的这间教室。墙上挂满了许多乐队的海报，显得与天文部的环境有些格格不入。;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking01;
+:桌子上除了天文部的活动日志以外，还放着一把吉他和拨片。难道说是高松灯的？;
+setTransform:{"position":{"x":500,"y":-200}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":-200}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1.9,"y":1.9}} -target=club -duration=1000 -next;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile01 -expression=tomori_smile02;
+灯:这个是上一个学期的社团活动日志，是学姐留下来的……;
+setTransform:{"position":{"x":200,"y":-200}} -target=tomori -duration=1000 -next;
+:说着，灯把活动日志递给了爱音。;
+setTransform:{"position":{"x":500,"y":-200}} -target=tomori -duration=1000 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=anon_smile01;
+爱音:我看看……今天观察了土星环……是用的那个望远镜吗？;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nnf_left01 -expression=tomori_smile01;
+灯:那个是上上任社长留下来的，现在已经是吉祥物了……平时我都是用家里的折反射望远镜观测的。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_smile01 -expression=anon_smile01;
+爱音:哎，上一次用望远镜观察夜空好像都是小学时候的事了……;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile04 -expression=tomori_smile04;
+灯:要加入吗？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=rana_surprised01 -expression=anon_surprised01;
+爱音:啊？ -fontSize=default;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_kandou02 -expression=tomori_smile01;
+灯:天文部只有我一个人，虽然只要好好交活动报告就不会废部，但你愿意加入我会很高兴的！;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=anon_thinking03 -expression=anon_smile01;
+爱音:……;
+
+:爱音沉思了几秒。平心而论，她并不反感这个提议，除了音乐以外，生活确实可以再多一些别的色彩，更何况她确实也很喜欢星星。;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nf_left01 -expression=tomori_smile01;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf05 -expression=anon_smile01;
+爱音:嗯……可以，不过大概先从临时社员开始吧？;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf04 -expression=mutsumi_smile04;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_kandou01 -expression=tomori_smile02;
+灯:太好了……！以后一起看星星~;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nf_right01 -expression=mutsumi_smile04;
+changeFigure:sakiko/school_winter/model.json -id=saki -transform={"position":{"x":-1200,"y":-200},"alpha":0.5,"blur":3} -next -motion=sakiko_nf_right01 -expression=sakiko_thinking01 -zIndex=2;
+:爱音淡淡笑了笑，没能遇见那个蓝色长发少女的遗憾感被冲淡了许多。 -fontSize=default;
+changeFigure: -id=saki -next;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nf_left01 -expression=tomori_thinking02;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=anon_smile03;
+爱音:说起来，我在楼道里听到吉他声来着，是高松同学演奏的吗？;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nnf04 -expression=tomori_serious01;
+灯:每天放学以后我都会抽空在这里练习……
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=sakiko_surprised01;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_shame01 -expression=tomori_shame01;
+啊、不过，如果我弹得不好听，或者太吵的话……请告诉我，我会马上停下的。 -concat -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_sigh01 -expression=sakiko_thinking01;
+爱音:诶？为什么呢？我听着明明挺好的……;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_shame02 -expression=tomori_shame02;
+灯:（脸红）;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=umiri_smile04 -expression=anon_smile02;
+bgm: -enter=5000;
+爱音:可以让我做你的观众吗？刚才那首曲子在中间断掉让我觉得好可惜的……;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile01 -expression=soyo_thinking01;
+灯:欸？啊……那我继续了？;
+bgm:Special/【吉他指弹】春日影（CRYCHIC）.mp3;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_idle01 -expression=rana_serious02;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=rana_thinking01;
+setTransform:{"position":{"x":500,"y":-100}} -target=tomori -duration=1000 -next;
+:灯坐在练习室的椅子上，轻轻拨动了琴弦。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=mutsumi_smile01;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_idle01 -expression=rana_serious02;
+:吉他的声音缓缓流淌出来。那是种轻柔而温和的旋律，像午后窗边吹进来的风，也像一只不知名的小动物，从心头轻巧地蹭过，只留下一阵说不清的触感。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=sakiko_thinking01;
+:爱音听着这旋律，心底某一块许久未曾触碰的角落悄然泛起涟漪。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_thinking01 -expression=sakiko_thinking01;
+setTransform:{"position":{"x":500},"scale":{"x":2.5,"y":2.5}} -target=club -duration=1000 -next;
+setTransform:{"position":{"x":1100,"y":-100}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-300,"y":-200}} -target=anon -duration=1000 -next;
+:她当然听得出——灯弹得并不完美，有些地方甚至带着生涩。可正因为这种不圆滑，反倒让旋律多了一份不加修饰的真诚。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking01;
+setTransform:{"position":{"x":1100,"y":-100},"alpha":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":500},"scale":{"x":2.5,"y":2.5},"alpha":0} -target=club -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-200}} -target=anon -duration=1000 -next;
+:她忽然想起自己以前练吉他的日子。那时候还只是想换个方式接触音乐，作为拉小提琴之外的一点点调剂。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_right01 -expression=sakiko_smile05;
+setTransform:{"position":{"x":-500,"y":-200}} -target=anon -duration=1000 -next;
+changeFigure:Utensils/guitar.png -id=guitar -transform={"position":{"x":500,"y":0},"scale":{"x":1,"y":1}} -next;
+setTransform:{"position":{"y":-100},"alpha":0} -target=tomori -duration=1000 -next;
+changeFigure:anon/casual/model.json -id=shadow -transform={"position":{"x":0,"y":0},"alpha":0,"blur":10} -next -motion=tomori_idle01 -zIndex=5;
+:那把吉他……现在大概还在卧室的角落里蒙灰吧。爱音在心里默默说了一句：对不起啦，吉他君。
+changeFigure: -id=guitar -next;
+changeFigure: -id=anon -next;
+changeBg:AI/ComfyUI_00199_.png -next;
+setTransform:{"position":{"x":0,"y":-120},"scale":{"x":1,"y":1},"alpha":0.5,"blur":7} -target=shadow -duration=1000 -next;
+setTransform:{"position":{"y":-200}} -target=tomori -duration=1000 -next;
+changeFigure:anon/casual/model.json -id=shadow -transform={"blur":10} -next -motion=tomori_idle01 -expression=soyo_thinking01;
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_idle01 -expression=soyo_thinking01;
+:爱音将目光移动到灯身上。那孩子抱着吉他的样子，与记忆中某个午后自己独自练琴的身影有些重叠。
+:这首曲子不算复杂，却能听见其中那些微妙的情绪起伏，像是细水长流地，在安静里诉说着什么。
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking01 -zIndex=3;
+changeFigure:none -id=shadow -next;
+changeFigure: -id=tomori -next;
+:爱音一瞬间有些恍惚。她突然意识到，自己曾下意识有些抗拒的“乐队音乐”，并不是她以为的那样浮躁或浅薄。它同样可以真诚、细腻，甚至——温柔。
+:就像灯现在正演奏的这首曲子一样。
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nf_right01 -expression=anon_sad02;
+changeBg: -next;
+爱音:（……奇妙的感觉。旋律听起来这么温柔，可为什么，又好像藏着一丝……苦涩呢？） -fontSize=default;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf05 -expression=anon_smile01;
+setTransform:{"position":{"x":500},"scale":{"x":2.5,"y":2.5}} -target=club -duration=1000 -next;
+changeFigure:tomori/school_winter/model.json -id=tomori -transform={"position":{"x":1500,"y":-200},"alpha":0} -next -zIndex=5;
+bgm: -enter=5000;
+:演奏结束，爱音为灯鼓起了掌。;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_nnf_right01 -expression=anon_smile01;
+setTransform:{"scale":{"x":1.9,"y":1.9}} -target=club -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":-200}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":-200}} -target=tomori -duration=1000 -next;
+爱音:很好听哦……你学了多久？ -fontSize=default;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_thinking01 -expression=tomori_thinking01;
+灯:是从……去年。 -fontSize=default;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=sakiko_odoodo01 -expression=sakiko_thinking01;
+爱音:是嘛……;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_nnf_left01 -expression=tomori_smile01;
+灯:时间不早了……一起走吗，千早同学？;
+
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_smile01 -expression=anon_smile01;
+爱音:嗯……对了，叫我爱音就好。 -fontSize=default;
+
+changeFigure:tomori/school_winter/model.json -id=tomori -next -motion=tomori_smile03 -expression=tomori_thinking01;
+灯:……好，爱音。;
+bgm:none;
+changeFigure: -id=anon -next;
+changeFigure: -id=tomori -next;
+changeFigure: -id=club -next;
+:…… -fontSize=default;
+changeScene:第三话/part3.txt

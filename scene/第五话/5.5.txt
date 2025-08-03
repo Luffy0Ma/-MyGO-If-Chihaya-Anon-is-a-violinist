@@ -1,0 +1,127 @@
+:与此同时……;
+changeFigure:BackGround/bg00746.png -id=bg -transform={"scale":{"x":1.79,"y":1.79}};
+:后台的空气仿佛是凝固的。
+:祥子独自站在走廊尽头，背对着外面的喧闹，试图将那些扰人的声音隔绝在意识之外。隐约传来的报幕声，像倒计时的钟摆，每一下都敲在她的心上。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_thinking01 -expression=sakiko_thinking01 -zIndex=3;
+祥子:十二号……
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_thinking02 -expression=sakiko_thinking01;
+:意味着，只剩下一个了。;
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=umiri_sad01 -expression=Down_look;
+:她深吸一口气，转身朝准备室走去。距离上场，大概还有二十分钟的时间，不长不短。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_thinking02 -expression=sakiko_sigh01;
+祥子:（冷静，冷静……）
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_serious01 -expression=sakiko_sad02;
+:只是一次寻常的比赛而已，只是一首视奏就能基本全弹下来的伴奏而已，没什么好紧张的，不是吗？
+祥子:（话虽然这么说……）
+changeFigure:sakiko/casual/model.json -motion=sakiko_sad01 -expression=sakiko_sad01 -id=sakiko -next;
+bgm:none -enter=1000;
+:祥子总觉得有什么东西在刺激着她的神经。空气带着一股说不清的味道。是地毯残留的清洁剂气味，混着某种木头与灰尘的陈旧气息，还有……远处隐约传来的、颁奖典礼的音乐声……？;
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_sad01 -expression=Down_look;
+setTransform:{"position":{"y":100},"scale":{"x":2.2,"y":2.2}} -target=bg -duration=2000 -next;
+setTransform:{"position":{"y":100},"scale":{"x":1.2,"y":1.2}} -target=sakiko -duration=2000 -next;
+:她低头看了看手心，泛着微汗。指尖冰冷得像不属于自己。
+:——她小时候也在这样的地方等过。等待着走上另一个舞台，等待着父亲和母亲的掌声。那个时候的手心，是温暖而干燥的。
+bgm:Special/BanGDream/伝えたい想い.mp3;
+changeFigure:sakiko/casual/model.json -motion=sakiko_sigh01 -expression=sakiko_sad02 -id=sakiko -next;
+changeFigure:BackGround/E11.png -id=bg -transform={"scale":{"x":1.8,"y":1.8}} -next;
+changeFigure:none -id=sakiko -next;
+changeBg:E（live house）/E11.png -next;
+:她推开准备室的门，看到了镜子前的爱音。
+:镜子前，爱音正在做最后的整理。她穿着一身优雅的蓝色演出裙，粉色的长发梳理得一丝不苟。但镜中的她，脸色有些苍白。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_nf01_openeye -expression=anon_sad01 -zIndex=5;
+爱音:呼……
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=tomori_nf01 -expression=taki_sigh01;
+:她深吸一口气，一只手下意识地按在了左胸口上，仿佛在安抚着什么。而她垂在身侧的另一只手，指尖正无法抑制地微微颤抖。这些细微的、无意识的动作，都被门口的祥子尽收眼底。|;
+setTransform:{"position":{"x":500}} -target=anon -duration=1500 -next;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=tomori_nf01 -expression=soyo_surprised01;
+changeFigure:sakiko/casual/model.json -left -id=sakiko -next -motion=sakiko_smile03 -expression=sakiko_sad01;
+祥子:爱音……？
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_surprised01 -expression=anon_surprised01;
+爱音:哇！
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=tomori_nf04 -expression=anon_surprised01;
+:爱音被这声轻唤惊得一颤，猛地回过头。祥子看着她，没有像往常一样被逗笑，眼神里带着一丝担忧。
+祥子:你的脸色……很白。是太紧张了吗？
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=sakiko_smile01 -expression=anon_smile04;
+爱音:欸嘿嘿，有吗？可能是粉底的色号没选对？毕竟是新买的，为了搭配这条裙子哦，好看吗？
+setTransform:{"position":{"x":150}} -target=sakiko -duration=2500 -next;
+祥子:……嗯，很合身。但是，你的手在抖。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=taki_smile01 -expression=sakiko_smile03;
+:爱音的笑容僵了一下，她低头看了看自己的手，然后迅速握成拳藏到身后，语气却依旧轻松。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=mutsumi_sad02 -expression=mana_smile03;
+爱音:哎呀，被发现了。稍微有一点点紧张啦，毕竟是主角嘛。祥子同学呢？是不是觉得给小提琴伴奏，压力没那么大？;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_nf02 -expression=soyo_smile03;
+setTransform:{"position":{"x":-200},"scale":{"x":2.1,"y":2.1}} -target=bg -duration=2000 -next;
+setTransform:{"position":{"x":300}} -target=sakiko -duration=2000 -next;
+setTransform:{"position":{"x":400}} -target=anon -duration=2000 -next;
+:她没有回答爱音的问题，只是沉默地走到她面前，轻轻地、却不容拒绝地拉过她的手。爱音的手心冰凉，但很干燥。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_nf02 -expression=mana_smile03;
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nnf03 -expression=sakiko_sad01;
+祥子:……你的手很冷。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_sad01;
+:然后，她抬起自己的另一只手，与爱音冰凉的手掌对比。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=tomori_nf_right01 -expression=sakiko_sad01;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_smile03 -expression=uika_sad01;
+祥子:我的……在出汗。;
+changeFigure:sakiko/casual/model.json -motion=sakiko_sigh01 -expression=sakiko_sad02 -id=sakiko -next;
+:爱音愣住了。她看着祥子微湿的手心，也感受着自己冰冷干燥的手指。那一瞬间，她意识到，对方和自己一样，都在用一层外壳掩饰着内心的风暴。;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_smile05 -expression=mutsumi_smile04;
+爱音:……我们两个，还真是半斤八两呢。;
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=mutsumi_nnf_right01 -expression=sakiko_sad01;
+:她轻轻地笑了，这次的笑容里没有了伪装。她反手握住祥子的手，用自己冰凉的指尖，轻轻抚过祥子湿润的掌心。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=nyamu_sad01 -expression=Down_look;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_smile06 -expression=sakiko_smile03;
+爱音:没事的。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=soyo_nnf05 -expression=sakiko_cry01;
+祥子:……抱歉，我——
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_shame01 -expression=sakiko_surprised01;
+setTransform:{"position":{"x":300}} -target=anon -duration=2000 -next;
+爱音:嘘。
+:爱音的食指轻轻点在祥子的唇上，眼神里是前所未有的认真和温柔。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_smile04 -expression=sakiko_smile03;
+爱音:祥子同学，你知道我为什么非要选择你吗？
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=tomori_nf05 -expression=sakiko_smile05;
+祥子:……因为原来的伴奏，呃……
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_shame02 -expression=taki_angry03;
+爱音:不是啦！……虽然也有点关系。
+:她顿了顿，把祥子的手握得更紧了一些。
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_serious01 -expression=sakiko_smile03;
+爱音:因为，我能从你的琴声里，听到你真实的样子。那个不是为了取悦谁，也不是为了完成任务，只是纯粹为了音乐而存在的你。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_sad01 -expression=sakiko_smile03;
+祥子:我只是……按照内心涌现的情感去合奏了而已……
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=sakiko_kime01 -expression=anon_smile04;
+爱音:对！就是这样！我需要的不是一个完美的伴奏，我需要的是你，是那个会用音乐回应我的祥子同学……所以，等一下上台，你什么都不用想，不用想评委，不用想观众，甚至……不用想乐谱。
+changeFigure:sakiko/casual/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -next;
+祥子:欸？
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=anon_kime02 -expression=taki_serious01;
+爱音:你只要听着我的声音，然后，把你听到的，你感受到的，全部还给我。无论我怎么演奏，你一定都能接住的。不是吗？
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_surprised01 -expression=sakiko_cry01;
+:祥子看着爱音眼中那份近乎偏执的信任，那份信任像一束强光，想要穿透一切迷雾一样。内心所有的不安，在这一刻，仿佛都找到了一个可以安放的理由。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_surprised01 -expression=sakiko_sigh01;
+:祥子深吸一口气，缓缓地，却无比坚定地点了点头。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nod01 -expression=sakiko_smile03;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=anon_kime02 -expression=anon_smile04;
+祥子:……嗯。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nnf_left01 -expression=sakiko_thinking01;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=soyo_nnf_left01 -expression=sakiko_thinking01;
+工作人员:14号千早爱音小姐，请准备。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nnf_right01 -expression=sakiko_thinking01;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=mutsumi_nnf_left01 -expression=sakiko_thinking01;
+:预告的声音打破了室内的寂静。爱音和祥子对视一眼，握着的手也终于松开。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nnf03 -expression=sakiko_thinking01;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_nf03 -expression=sakiko_thinking01;
+:爱音重新站直了身体，刚才还萦绕在她身上的那丝脆弱仿佛被一扫而空。她转过身，最后一次看向镜中的自己，然后，她看到了镜子里，同样站直了身体的祥子。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nf_right01 -expression=sakiko_thinking01;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_nf04 -expression=sakiko_smile01;
+爱音:好啦，到我们了。
+:她转过身，朝祥子伸出了手。;
+changeFigure:anon/birthday_2024_ssr/model.json -id=anon -next -motion=rinko_smile06 -expression=sakiko_smile01;
+爱音:走吧，祥子。去把所有人都吓一跳。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nf_right01 -expression=sakiko_smile03;
+祥子:嗯。
+changeFigure:none -id=anon -next;
+changeFigure:none -id=sakiko -next;
+:两人一前一后地走出了准备室。门外的光线有些刺眼，通往舞台的走廊在灯光下显得悠长而深远。
+bgm:none -enter=2000;
+:她们没有再回头，只是并肩走向那片即将属于她们的、光芒万丈的战场。
+changeFigure:none -id=bg -next;
+changeScene:第五话/5.6.txt

@@ -1,0 +1,6 @@
+changeFigure:thcb_l2d/古明地觉/model.json -id=satori -transform={"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2}} -next -motion=Covering_eye -expression=surprise -zIndex=2;
+changeFigure:BackGround/barup.png -id=bg1 -transform={"position":{"x":-50},"scale":{"x":2.61,"y":2.61}} -next -zIndex=1;
+changeFigure:BackGround/bardown.png -id=bg2 -transform={"position":{"x":-53,"y":-1},"scale":{"x":2.61,"y":2.61}} -next -zIndex=3;
+changeFigure:anon/school_winter_test/model.json -left -id=anon -transform={"rotation":0.15} -next -motion=nyamu_nnf_right01 -expression=anon_smile04 -zIndex=6;
+changeFigure:soyo/school_winter/model.json -right -transform={"rotation":-0.05} -next -motion=sakiko_angry05 -expression=soyo_angry02 -zIndex=6;
+changeFigure:rana/casual/model.json -id=rana -transform={"position":{"y":500}} -next -motion=tomori_thinking02 -expression=Dir_Up_look -zIndex=7;

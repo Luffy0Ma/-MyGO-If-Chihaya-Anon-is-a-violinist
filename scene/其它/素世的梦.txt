@@ -1,0 +1,123 @@
+bgm:[240417] SPCD 01 Original Soundtrack Vol.1 (flac)/01. ショパン「雨だれ」.flac;
+changeBg:M（街道）/bg00070.png;
+changeBg:B（soyo家）/B2.png;
+changeBg:B（soyo家）/B7.jpg;
+:今天真是糟透了。 -fontSize=default;
+changeBg:B（soyo家）/B14.png -next;
+:下午突然下起了大雨，没带伞的我被彻底淋成了落汤鸡。回到家的时候，衣服已经湿得贴在身上，连发梢都在滴水。 -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -transform={"position":{"y":-200}} -next -motion=soyo_sad01 -expression=soyo_sad01;
+素世:好冷…… -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_nnf02 -expression=soyo_sad02 -id=soyo -next;
+:家里一个人也没有。当然了，怎么可能有人呢。妈妈还在出差，不知道还要多久才能回来……但也好吧，要是她看到我现在这副模样，肯定又会担心得不得了。 -fontSize=default;
+
+:仿佛听见了我的心声似的，手机突然响了起来。 -fontSize=default;
+changeFigure:soyo/school_winter/model.json -motion=soyo_surprised01 -expression=soyo_surprised01 -id=soyo -next;
+素世:欸？妈妈？喂？ -fontSize=default;
+
+素妈:喂喂？啊，素世，我刚看新闻说东京下大暴雨了，你没事吧？有没有淋到？ -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile01 -expression=soyo_smile01 -id=soyo -next;
+素世:嗯嗯，没事没事，不用担—— -fontSize=default;
+changeFigure:soyo/school_winter/model.json -motion=soyo_cry01 -expression=soyo_cry01 -id=soyo -next;
+阿嚏！……呜。 -concat -fontSize=default;
+
+素妈:素世？你该不会是忘带伞了吧…… -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_shame01 -expression=soyo_sad01;
+素世:真的没关系啦，稍微……稍微淋了一点点而已……我现在就去洗澡—— -fontSize=default;
+
+changeFigure:soyo/school_winter/model.json -motion=soyo_sad01 -expression=soyo_sad01 -id=soyo -next;
+:心里，有点空。不是因为冷，也不是因为生病，而是因为，又让妈妈担心了…… -fontSize=default;
+
+changeFigure:none -id=soyo -next;
+:我一边用毛巾擦着湿漉漉的头发，一边怔怔地望着浴室镜子。镜面被水汽模糊，我的脸在雾气中变得模糊、陌生，仿佛不是自己的了。 -fontSize=default;
+
+changeFigure:soyo/039_school_winter-睡衣/model.json -id=soyo -transform={"position":{"y":-200}} -next -motion=soyo_thinking01 -expression=soyo_thinking01;
+素世:呼…… -fontSize=default;
+
+changeBg:B（soyo家）/B20.jpg -next;
+changeFigure:soyo/039_school_winter-睡衣/model.json -motion=soyo_nnf01 -expression=soyo_sad01 -id=soyo -next;
+:头有些发沉，闭上眼的时候脑袋也在晕。身体热热的……不会真的要感冒了吧？ -fontSize=default;
+
+changeFigure:none -id=soyo -next;
+changeBg:black.jpg -next;
+:…… -fontSize=default;
+
+:………… -fontSize=default;
+
+:是小提琴的声音。 -fontSize=default;
+
+changeBg:I（舞台）/bg00036.png -next;
+:我迷迷糊糊地睁开眼，眼前是一片明亮刺眼的灯光。舞台下人声鼎沸，我仿佛坐在观众席里。舞台中央，爱音正站在聚光灯下。 -fontSize=default;
+
+changeFigure:anon/anon_037_月之森/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=anon_serious01 -expression=sakiko_thinking01;
+爱音:…… -fontSize=default;
+
+changeFigure:anon/anon_037_月之森/model.json -id=anon -next -motion=anon_serious01 -expression=anon_kandou01;
+:她穿着月之森的校服，头发在灯光中泛着光，就像粉色的水晶糖一样。 -fontSize=default;
+
+:那是爱音的小提琴独奏。我还记得她前几天跟我说，她一直找不到合适的钢琴伴奏，只能一个人上台。但现在听来，她的演奏如此动人，就算是独奏，也丝毫不显得空缺。 -fontSize=default;
+
+changeFigure:anon/anon_037_月之森/model.json -motion=anon_smile01 -expression=anon_smile01 -id=anon -next;
+爱音:（笑） -fontSize=default;
+
+:她朝我这边笑了笑，那一刻心跳像走音的旋律，一下失去了拍子。对了……我们约好了，今天音乐节结束以后要一起回家…… -fontSize=default;
+
+changeFigure:none -id=anon -next;
+:曲终，掌声雷动。同学们都在为她献上最真诚的赞美。 -fontSize=default;
+
+changeBg:M（街道）/M18.png -next;
+changeFigure:anon/anon_037_月之森/model.json -id=anon -transform={"position":{"y":-200}} -next -motion=sakiko_thinking01 -expression=anon_thinking01;
+爱音:呀……虽然最后还是顺利完成了，但总觉得少了钢琴伴奏，心里有点遗憾呢。素世，你没有觉得好像缺了点什么吗？ -fontSize=default;
+setTransform:{"position":{"x":500,"y":-200}} -target=anon -duration=1000 -next;
+
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -transform={"position":{"x":-500,"y":-200}} -next -motion=soyo_smile01 -expression=soyo_smile01;
+素世:没有哦，我觉得爱音已经很棒啦~ -fontSize=default;
+
+changeFigure:anon/anon_037_月之森/model.json -motion=anon_nnf01 -expression=anon_nnf01 -id=anon -next;
+爱音:是吗。 -fontSize=default;
+
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -motion=soyo_smile02 -expression=soyo_smile02 -left -id=soyo -next;
+素世:嗯嗯。而且，也不是非得要钢琴伴奏不可吧？ -fontSize=default;
+
+changeFigure:anon/anon_037_月之森/model.json -id=anon -next -motion=sakiko_nf_left01 -expression=sakiko_smile03;
+爱音:你是说？ -fontSize=default;
+
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -left -id=soyo -next -motion=soyo_serious04 -expression=soyo_thinking01;
+:我深吸一口气，鼓起勇气，准备把这几天一直在脑子里打转的想法说出来。 -fontSize=default;
+
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -left -id=soyo -next -motion=soyo_serious04 -expression=soyo_kime01;
+素世:那个……如果下次音乐节你还要上台的话，我可以来拉低音提琴哦？我在吹奏乐部也呆了两个学期了，虽然不算很熟练，但也不至于拖后腿。
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -left -id=soyo -next -motion=tomori_shame02 -expression=soyo_serious03;
+changeFigure:anon/anon_037_月之森/model.json -id=anon -next -motion=sakiko_nf_left01 -expression=sakiko_sad01;
+如果你愿意的话—— -concat -fontSize=default;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -left -id=soyo -next -motion=tomori_surprised01 -expression=soyo_surprised01;
+changeFigure:anon/anon_037_月之森/model.json -id=anon -next -motion=sakiko_nf_right01 -expression=R_boby_Down;
+:但是话到嘴边，最终还是没有说出口。我看着爱音低垂的眼神，整个人一下愣住了，不知该如何是好。 -fontSize=default;
+
+changeFigure:anon/anon_037_月之森/model.json -motion=anon_sad01 -expression=anon_sad01 -id=anon -next;
+changeBg:M（街道）/M17.png -next;
+:寒意随着从天而降的雨点，将我彻底笼罩，一并将我的梦想冲得一干二净—— -fontSize=default;
+
+爱音:对不起…… -notend -fontSize=default;
+changeFigure:anon/anon_037_月之森/model.json -motion=anon_sad02 -expression=anon_sad02 -id=anon -next;
+可能，没有这样的机会了。 -concat -fontSize=default;
+
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -motion=soyo_surprised01 -expression=soyo_surprised01 -left -id=soyo -next;
+素世:欸？ -fontSize=default;
+
+changeFigure:anon/anon_037_月之森/model.json -id=anon -next -motion=sakiko_sad02 -expression=sakiko_sigh01;
+爱音:我……下学期就要转学了，去英国。 -fontSize=default;
+
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -left -id=soyo -next -motion=soyo_surprised01 -expression=soyo_cry01;
+素世:！ -fontSize=default;
+
+changeFigure:none -left -id=soyo -next;
+changeFigure:none -id=anon -next;
+changeBg:black.jpg -next;
+:眼前的世界开始旋转。爱音的身影离我越来越远，仿佛下一秒就要彻底消失。我觉得头晕目眩，心口一阵发紧。黑暗从四面八方涌来，像墨汁一样吞噬掉最后那点光…… -fontSize=default;
+bgm:none;
+changeScene:其它/素世的梦2.txt
+

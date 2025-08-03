@@ -1,0 +1,301 @@
+bgm:Special/东方/聞かせてほしい.mp3;
+changeBg:P（未知聚集地）/P8.png -next;
+changeFigure:thcb_l2d/古明地觉/model.json -id=satori -transform={"position":{"x":0,"y":100},"scale":{"x":1.3,"y":1.3}} -next -motion=leaning -expression=smile;
+觉:我叫古明地觉，十五岁，能力是读心程度的能力。我曾负责地灵殿的人才资源管理与生态治理。这是映姬大人交给我的工作，需要极度的耐心与责任心。
+setTransform:{"position":{"x":500,"y":100},"scale":{"x":1.3,"y":1.3}} -target=satori -duration=1200 -next;
+changeFigure:ririko/casual/model.json -left -id=rinko -next -motion=thinking01 -expression=smile02;
+凛凛子:听起来是责任很重大的管理岗位呢。想必需要非常专业的知识体系吧？
+changeFigure:thcb_l2d/古明地觉/model.json -id=satori -next -motion=koishi_nf02 -expression=smile;
+觉:这门专业，通常被称为“超个体心理组织行为”。我很擅长“非理性群体的决策模型与引导”（如何忽悠一群怨灵听你的话），以及“基于博弈论的冲突管理与多方调解”（处理旧地狱不同派系的斗争）。
+changeFigure:ririko/casual/model.json -motion=nf02 -expression=smile03 -id=rinko -right -next;
+凛凛子:非常出色的履历。那么，除了这些宝贵的管理经验，你还有没有一些……嗯，更生活化一点的特长呢？
+changeFigure:thcb_l2d/古明地觉/model.json -id=satori -next -motion=koishi_nf01 -expression=smile;
+觉:……我很会做饭。我的宠物都说，我调制的饮料是幻想乡最好的。如果需要的话……我还可以制作一道很有地方特色的甜品，叫做“古明地冰激凌”。
+changeFigure:ririko/casual/model.json -right -id=rinko -next -motion=kime01 -expression=smile02;
+凛凛子:好！你过关！RiNG需要你这样的人才。欢迎你的加入。
+changeBg:E（live house）/E6.png -next;
+changeFigure:none -id=rinko -next;
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf02 -expression=smile;
+changeFigure:taki/arbeit/model.json -left -id=taki -next -motion=taki_thinking01 -expression=taki_default;
+觉:就这样，我成功成为了Ring的员工。以后请多指教，椎名同学。
+changeFigure:taki/arbeit/model.json -motion=taki_surprised01 -expression=taki_surprised01 -id=taki -right -next;
+立希:哈？凛凛子小姐就这样让你通过面试了？
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=Covering_eye -expression=happy;
+觉:目前只是临时工。不过她答应我一个月内转正，还同意我卖“古明地冰激凌”，并且有销售提成。
+changeFigure:taki/arbeit/model.json -motion=taki_surprised02 -expression=taki_angry01 -id=taki -right -next;
+立希:啊？
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf02 -expression=surprise;
+觉:快到换班时间了。椎名同学等会还要见乐队的朋友们吧？
+changeFigure:taki/arbeit/model.json -right -id=taki -next -motion=taki_nf02 -expression=taki_shame01;
+立希:你怎么知道！
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=thinking01 -expression=smile;
+觉:赶快换衣服吧，这里交给我就好。
+changeFigure:none -id=taki -next;
+:她用一种不容拒绝的温和态度，半推半赶地将立希推进了员工更衣室。
+setTransform:{"position":{"y":100},"scale":{"x":1.3,"y":1.3}} -target=satori -duration=1200 -next;
+changeFigure:thcb_l2d/古明地觉/model.json -id=satori -next -motion=Covering_eye -expression=sad01;
+觉:哈……
+:觉独自一人站在吧台后，周围恢复了宁静，她轻轻地呼了一口气。
+changeFigure:none -all -next;
+changeBg:J（未知地点）/J11.png -next;
+changeFigure:none -id=satori -next;
+小不点儿先生:这件事还得从几天前说起。
+小不点儿先生:大约三天前，幻想乡的博丽大结界出现了原因不明的紊乱。其结果就是，部分住民被这层无形的障壁，像吐核一样“吐”了出去，来到了这个名为东京的、属于少女乐队的时代。
+小不点儿先生:什么？你问我为什么大结界会变得不稳定？也许是因为紫老太婆肠胃不好吧jfvgtbc6k7hy5jn7h8b……
+:咳咳。总而言之，这是一场温和的异变，没有血与火，只有意外的相遇。在这场异变中，除了那个麻烦的黑白魔法使，还有一些少女也被卷入其中。
+:比如觉，再比如……恋。
+changeBg:E（live house）/E6.png -next;
+changeFigure:thcb_l2d/古明地觉/model.json -id=satori -transform={"position":{"y":100},"scale":{"x":1.3,"y":1.3}} -next -motion=thinking02 -expression=sad01;
+觉:那孩子……到底会在哪里呢？
+:是的，恋也被大结界吐了出来。而一心只想着保护妹妹的我，也毫不犹豫地一头扎了进来，却发现情况比想象中更复杂。
+:现代东京，对我来说，是一个完全陌生的城市。不仅如此，我的能力也受到了极大的削弱。;
+:虽然没法飞，也没法使用弹幕了，但好在……第三只眼还在好好地工作着。
+:得益于此，我很快就洞悉了我的新同事——椎名立希，在饮食上的偏好和她内心的烦恼。也大致了解了这个世界的运作规则。
+changeFigure:thcb_l2d/古明地觉/model.json -motion=thinking01 -expression=serious -id=satori -next;
+觉:要找到恋就必须先活下去，要活下去就要工作……;
+changeFigure:none -id=satori -next -motion=koishi_nf02 -expression=happy;
+:幸运的是，凛凛子小姐开出的条件非常优厚。不仅有工资，包住宿，而且她的内心也确实在盘算着一个月后给我转正的事情。
+changeFigure:taki/school_winter/model.json -left -id=taki -transform={"position":{"x":-800},"alpha":0} -next -motion=taki_nnf01 -expression=taki_default -zIndex=4;
+changeFigure:thcb_l2d/古明地觉/model.json -id=satori -transform={"position":{"x":600,"y":100},"scale":{"x":1.2,"y":1.2}} -next -motion=sakuya_courteous -expression=smile -zIndex=2;
+changeFigure:BackGround/barup.png -id=bg1 -transform={"position":{"x":-50},"scale":{"x":2.61,"y":2.61}} -next -zIndex=1;
+changeFigure:BackGround/bardown.png -id=bg2 -transform={"position":{"x":-50,"y":-1},"scale":{"x":2.61,"y":2.61}} -next -zIndex=3;
+:更衣室的门被拉开，打断了觉的思绪。换下工作服的立希走了出来。
+setTransform:{"position":{"x":0},"alpha":1} -target=taki -duration=1500 -next;
+changeFigure:taki/school_winter/model.json -left -id=taki -transform={"position":{"x":-800},"alpha":0} -next -motion=taki_nnf_right01 -expression=taki_default -zIndex=4;
+立希:离正式换班还有一会呢……为什么这么急着要让我下来？
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf01 -expression=happy -id=satori -left -next;
+觉:大概是因为想和你聊聊天？
+changeFigure:taki/school_winter/model.json -motion=taki_nnf02 -expression=taki_sigh01 -id=taki -right -next;
+立希:这是什么理由……
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf02 -expression=smile -id=satori -left -next;
+觉:因为椎名同学在工作的时候很专注嘛。距离你的朋友们来这里还有一点时间吧？
+changeFigure:taki/school_winter/model.json -motion=taki_surprised01 -expression=taki_surprised01 -id=taki -right -next;
+立希:为什么你会知道我的安排……
+changeFigure:thcb_l2d/古明地觉/model.json -motion=leaning -expression=smile -id=satori -left -next;
+觉:大概因为我会读心术？啊，那种东西肯定是假的。但你的心声，却并不是假的哦。
+changeFigure:taki/school_winter/model.json -motion=taki_angry03 -expression=taki_angry03 -id=taki -right -next;
+立希:哈？？？
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf01 -expression=sad02 -id=satori -left -next;
+觉:哦呀，被讨厌了。
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=taki_angry04 -expression=tomori_shame02;
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf01 -expression=smile;
+立希:才没有！不对！啊啊啊啊……
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf02 -expression=happy -id=satori -left -next;
+觉:呵呵呵~
+:看着她焦急的样子，觉忍不住发出了可爱的轻笑。
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=tomori_nnf_right01 -expression=taki_serious01;
+立希:我说啊，你对客人可别这样子哦？我就算了，要是让客人不高兴的话，影响的可是RiNG的声誉……
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=thinking01 -expression=surprise_smile;
+觉:——你是在担心，我会在那个叫“灯”的女孩子面前，说出什么不合时宜的话吗？
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=taki_angry04 -expression=taki_kandou01;
+立希:啊啊啊啊啊别说出来啊！
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf01 -expression=smile -id=satori -left -next;
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=taki_angry02 -expression=umiri_sad01;
+觉:只是开个玩笑。
+:立希花了一会儿才平复下来，她第一次如此认真地，凝视着古明地觉那双仿佛能洞穿一切的眼眸。
+changeFigure:taki/school_winter/model.json -motion=taki_serious02 -expression=taki_serious02 -id=taki -right -next;
+立希:你……真的会读心啊？
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf02 -expression=smile -id=satori -left -next;
+觉:大概。要来一杯古明地冰激凌吗？
+changeFigure:taki/school_winter/model.json -motion=taki_pui01 -expression=taki_default -id=taki -right -next;
+立希:不用了——
+changeFigure:thcb_l2d/古明地觉/model.json -motion=leaning -expression=smile -id=satori -left -next;
+觉:杏仁豆腐味的。
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=umiri_nnf_right01 -expression=taki_surprised01;
+立希:啊？
+setTransform:{"position":{"x":150,"y":100},"scale":{"x":1.2,"y":1.2}} -target=satori -duration=1200 -next;
+:立希最终没能抵挡住诱惑。她接过冰激凌，有些生硬地尝了一口。
+changeFigure:taki/school_winter/model.json -motion=taki_nnf03 -expression=taki_sigh01 -id=taki -right -next;
+立希:这也不是杏仁豆腐味的啊。
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf01 -expression=happy -id=satori -left -next;
+觉:是吗？可你的内心，明明在高呼着“好吃”呢。
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=umiri_nnf04 -expression=taki_shame02;
+立希:你这家伙……
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":1650}} -next -motion=anon_smile01 -expression=anon_smile01 -zIndex=4;
+:就在此时，千早爱音元气满满地推门而入。她是第一个到的。
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=umiri_nnf_right01 -expression=taki_smile01;
+setTransform:{"position":{"x":650}} -target=anon -duration=1500 -next;
+爱音:哇，立希在偷吃什么好东西！练习前吃冰的对嗓子不好哦~
+changeFigure:anon/school_winter_test/model.json -id=anon -transform={"position":{"x":1650}} -next -motion=anon_nf_left01 -expression=anon_smile01 -zIndex=4;
+:她看到了吧台里的觉，立刻切换到社交模式。
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile02 -expression=anon_smile02 -id=anon -next;
+爱音:好可爱的孩子！我叫千早爱音，你是新来的店员吗？请多指教啦！
+:见状，觉轻轻点头。
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf02 -expression=smile;
+觉:古明地觉。要来一份古明地冰激凌吗？
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=soyo_nnf_left01 -expression=sakiko_thinking01;
+爱音:哎？那是什么？
+changeFigure:thcb_l2d/古明地觉/model.json -motion=leaning -expression=smile -id=satori -left -next;
+觉:很好看，草莓味，适合发到推特上的甜食。
+changeFigure:anon/school_winter_test/model.json -motion=anon_kandou01 -expression=anon_kandou01 -id=anon -next;
+爱音:哦哦，好哦！
+:于是，爱音也吃起了古明地冰激凌。
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=rana_niya01 -expression=anon_smile04;
+爱音:哦哦！好好吃~
+changeFigure:taki/school_winter/model.json -motion=taki_nnf01 -expression=taki_sigh02 -id=taki -right -next;
+立希:明明不是草莓味的？
+changeFigure:anon/school_winter_test/model.json -motion=anon_wink01 -expression=anon_wink01 -id=anon -next;
+爱音:又好看又好吃，我可不像Rikki那样挑剔哦。
+changeFigure:taki/school_winter/model.json -motion=taki_angry01 -expression=taki_angry01 -id=taki -right -next;
+立希:你这家伙……
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=tomori_nf_left01 -expression=anon_wink01;
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=taki_nnf_right01 -expression=taki_angry01;
+:觉默默的观察着新来的千早爱音，不由自主地又开始了读心。
+爱音内心:（这个Satorin看起来好安静，有点酷。立希居然会和她说话，还吃她给的东西，真稀奇。得和新人搞好关系才行，这样以后立希发脾气的时候，说不定能多个“同盟”。嗯，我的社交能力一定没问题！）;
+changeFigure:thcb_l2d/古明地觉/model.json -motion=thinking01 -expression=surprise -id=satori -left -next;
+changeFigure:taki/school_winter/model.json -right -id=taki -next -motion=taki_nnf_left01 -expression=taki_default;
+setTransform:{"position":{"x":-1300}} -target=taki -duration=2000 -next;
+觉:……Satorin？？？
+:觉什么都没说。她只是看着爱音，然后把目光移开，继续擦杯子。爱音看到觉不理她，有点尴尬，但强行继续话题。;
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf01 -expression=surprise;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mana_nnf_left01 -expression=anon_shame01;
+爱音:啊哈哈，觉不怎么爱说话吗？没关系没关系！以后我们慢慢熟悉就好了！我先要一杯……嗯……热的乌龙茶！
+爱音内心:（点一杯朴素的茶，能显得我比较稳重，不像个只会追流行的轻浮女孩。希望能留下好印象。）;
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=thinking01 -expression=happy;
+觉:……
+changeFigure:soyo/school_winter/model.json -right -id=soyo -transform={"position":{"x":1100}} -next -motion=soyo_smile01 -expression=soyo_smile01 -zIndex=6;
+觉:（……第二份“样本”数据已录入。人格面具：开朗、积极。核心诉求：获得认同，规避冲突。很有趣。）;
+setTransform:{"position":{"x":-400}} -target=anon -duration=1500 -next;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mutsumi_nnf_right01 -expression=anon_smile04;
+setTransform:{"position":{"x":200}} -target=soyo -duration=1500 -next;
+:没过多久，长崎素世带着她标志性的微笑走了进来。她看到了气氛有些微妙的爱音和立希。
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_nnf_left01 -expression=soyo_smile01;
+changeFigure:taki/school_winter/model.json -motion=taki_nnf01 -expression=taki_default -id=taki -right -next;
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile04 -expression=anon_smile04 -id=anon -center -next;
+爱音:啊Soyorin你来啦，快来快来
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile02 -expression=soyo_smile02 -id=soyo -right -next;
+素世:什么？
+changeFigure:anon/school_winter_test/model.json -motion=anon_smile01 -expression=anon_smile01 -id=anon -center -next;
+爱音:Ring新来了一个超可爱的店员哦，还有超好吃的冰激凌。
+:素世脸上依然挂着完美的微笑，但眼神已经落在了爱音手中的冰激凌，以及吧台后的觉身上。
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_thinking01 -expression=soyo_sadsmile01;
+素世:是吗？那我也要尝尝看呢。请问还有吗？
+:觉看着素世，平静地递出一份同样的冰激凌。
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=leaning -expression=smile;
+觉:514日元，请用。;
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_thinking01 -expression=soyo_sadsmile02;
+素世内心:（……又是这样。小爱音……总是能轻易地和别人搞好关系。明明我才是最关心你的人……这个新人是谁？为什么爱音会用那种眼神看她？还有这个冰激凌……爱音说好吃的东西……我也必须尝尝，必须了解……）;
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=Covering_eye -expression=sad02;
+觉:（咽口水）
+觉:（……第三份“样本”。人格面具：温柔的圣母。核心诉求：对第二份样本（爱音）的独占欲。 情感状态：嫉妒、不安、以及伪装的从容。警告，这是一个极度不稳定的高危样本。）;
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mana_nnf04 -expression=anon_smile04;
+爱音:怎么样怎么样，Soyorin？超好吃吧！这个新人觉也好可爱——
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mana_nnf04 -expression=sakiko_surprised01;
+changeFigure:soyo/school_winter/model.json -motion=soyo_smile04 -expression=soyo_smile04 -id=soyo -right -next;
+素世:嗯，确实不错呢。不过……这位觉同学，看起来不太爱说话的样子，小爱音这么热情，会不会给她造成困扰呢？;
+changeFigure:anon/school_winter_test/model.json -motion=anon_thinking02 -expression=anon_sad01 -id=anon -center -next;
+爱音:诶？会、会吗？
+changeFigure:anon/school_winter_test/model.json -id=anon -next -motion=mana_nf_right01 -expression=anon_surprised01;
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf01 -expression=sad02;
+觉:不会。比起这个，还是您心里吵闹的嫉妒之声更让我困扰一些。可以的话还请您安静一点。
+bgm:Special/东方/少女さとり.mp3;
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile04 -expression=soyo_sad02;
+:素世的微笑，第一次，彻底地、完全地消失。她用一种前所未有的、冰冷的眼神看着觉。爱音一时语塞，而立希则是在想“啊啊啊我就知道会这样！”
+changeFigure:none -right -id=soyo -next -motion=soyo_angry02 -expression=soyo_angry01;
+changeFigure:none -id=anon -next -motion=anon_surprised01 -expression=anon_surprised01;
+changeFigure:BackGround/E8.jpg -id=bg3 -transform={"position":{"y":-100},"scale":{"x":1.3,"y":1.3}} -next -zIndex=7;
+changeFigure:taki/school_winter/model.json -motion=taki_sad02 -expression=taki_sad02 -id=taki -right -next;
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_nnf01 -expression=rana_default -zIndex=8;
+:RiNG的门铃发出清脆悦耳的“叮铃~”声，像一颗投入死水中的石子，瞬间打破了这令人窒息的寂静。要乐奈抱着她的吉他，像一只无拘无束的猫一样，毫无征兆地闯入了这片风暴的中心。
+changeFigure:rana/casual/model.json -motion=rana_nnf01 -expression=rana_default -id=rana -center -next;
+changeFigure:none -id=anon -next;
+changeFigure:none -id=taki -next;
+setTransform:{"position":{"x":-400,"y":100},"scale":{"x":1.2,"y":1.2}} -target=satori -duration=1000 -next;
+乐奈:嗯？
+setTransform:{"position":{"x":500}} -target=rana -duration=1500 -next;
+changeFigure:none -id=bg3 -next;
+:乐奈则完全无视了这一切。她的“猫系雷达”让她直接忽略了成年人（？）之间复杂的勾心斗角，径直走到吧台前，与古明地觉四目相对。
+changeFigure:rana/casual/model.json -motion=rana_thinking01 -expression=rana_serious01 -id=rana -center -next;
+changeFigure:none -right -id=soyo -next -motion=soyo_nnf01 -expression=soyo_default;
+素世:小乐奈，怎么了？
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf02 -expression=sad02;
+觉:……
+:古明地觉一言不发，只是静静地看着眼前的“野猫少女”。乐奈也不说话，她把觉从头到脚仔仔细细地打量了一番，像是在鉴定一件新奇的乐器。
+changeFigure:rana/casual/model.json -motion=rana_niya01 -expression=rana_niya01 -id=rana -center -next;
+乐奈:有趣的女孩子~
+:与此同时，觉的第三只眼，正在全速解析着它看到的纯粹内心世界。
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf02 -expression=surprise;
+乐奈（内心）:有趣……猫……吉他……春日影……这个孩子……很多频道……但很安静……像我的效果器……;
+changeFigure:thcb_l2d/古明地觉/model.json -motion=thinking01 -expression=smile -id=satori -left -next;
+觉:（……混沌样本。无法预测，无需管理。可以……收养。）
+changeFigure:thcb_l2d/古明地觉/model.json -motion=leaning -expression=happy -id=satori -left -next;
+觉:要不要当我的宠物？
+changeFigure:rana/casual/model.json -motion=rana_surprised01 -expression=rana_surprised01 -id=rana -center -next;
+乐奈:嗯？
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf01 -expression=smile -id=satori -left -next;
+觉:我可以给你做好吃的冰激凌。
+:说着，觉转身从冷柜里取出一份全新的“古明地冰激凌”，这份冰激凌似乎是为乐奈特制的，上面还点缀着一颗小小的草莓，像一个完美的诱饵。
+changeFigure:rana/casual/model.json -motion=rana_smile04 -expression=rana_smile04 -id=rana -center -next;
+乐奈:！
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_niya01 -expression=anon_smile02;
+:在品尝了一口之后，乐奈的两眼迸发出堪比舞台聚光灯的耀眼光芒，仿佛一位历经艰险的航海家，终于找到了传说中的终极宝藏One Piece。;
+:见状，觉的嘴角也露出一丝的自然微笑，她放心地伸出手，轻轻地抚摸着乐奈的头，就像她平时安抚地灵殿的宠物们那样自然。
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=Covering_eye -expression=happy;
+觉:好可爱的孩子……真想把她带回家……
+changeFigure:none -id=satori -transform={"position":{"x":600,"y":100},"scale":{"x":1.2,"y":1.2}} -next -motion=sakuya_courteous -expression=smile -zIndex=2;
+changeFigure:none -id=bg1 -transform={"position":{"x":-50},"scale":{"x":2.61,"y":2.61}} -next -zIndex=1;
+changeFigure:none -id=bg2 -transform={"position":{"x":-50,"y":-1},"scale":{"x":2.61,"y":2.61}} -next -zIndex=3;
+changeFigure:none -id=rana -next;
+changeFigure:taki/school_winter/model.json -id=taki -next -motion=taki_surprised02 -expression=taki_surprised02;
+立希:天哪……野猫不吃巴菲了……
+:就在这时，门再一次打开。是高松灯走了进来。
+changeFigure:tomori/school_winter/model.json -right -id=tomori -next -motion=tomori_sad01 -expression=tomori_sad01;
+changeFigure:none -id=rana -next;
+changeFigure:none -id=soyo -next;
+changeFigure:none -id=taki -next;
+changeFigure:none -id=satori -next;
+changeFigure:anon/school_winter_test/model.json -left -id=anon -next -motion=anon_nf01 -expression=anon_default;
+爱音:啊，灯灯终于忙完了吗？到底是什么事啊？
+:灯站在门口，沉默了许久，仿佛用尽了全身的力气，才艰难地、小声地开口。
+changeFigure:tomori/school_winter/model.json -motion=tomori_sad02 -expression=tomori_cry01 -id=tomori -left -next;
+changeFigure:anon/school_winter_test/model.json -left -id=anon -next -motion=anon_nf01 -expression=anon_surprised01;
+灯:我……考试……数学没及格……被老师，约谈了……
+changeFigure:none -id=tomori -next;
+setTransform:{"position":{"x":500}} -target=anon -duration=1500 -next;
+:这个消息，像一颗投入平静湖面的深水炸弹，瞬间改变了整个房间的磁场。在一秒钟的震惊后，爱音立刻做出了最果断的决定。;
+changeFigure:anon/school_winter_test/model.json -motion=anon_kime01 -expression=anon_kime01 -id=anon -right -next;
+爱音:好！排练取消！
+changeFigure:soyo/school_winter/model.json -id=soyo -next -motion=soyo_surprised01 -expression=soyo_surprised01 -zIndex=6;
+changeFigure:none -id=anon -next;
+素世:啊？
+setTransform:{"position":{"x":-500}} -target=soyo -duration=1500 -next;
+changeFigure:taki/school_winter/model.json -motion=taki_angry01 -expression=taki_angry01 -id=taki -right -next;
+立希:喂！粉毛你什么意思——
+爱音:正好快要期末考试了，咱们干脆一起去素世家开学习会吧！帮灯补习数学！
+changeFigure:taki/school_winter/model.json -motion=taki_sad01 -expression=taki_sad01 -id=taki -right -next;
+立希:但是排练……
+changeFigure: -id=soyo -next;
+changeFigure:tomori/school_winter/model.json -motion=tomori_sad03 -expression=tomori_sad03 -id=tomori -left -next;
+灯:我也觉得……学习会更重要一些……
+changeFigure:taki/school_winter/model.json -motion=taki_sad02 -expression=taki_sad02 -id=taki -right -next;
+changeFigure:soyo/school_winter/model.json -left -id=soyo -transform={"position":{"x":-1200}} -next -motion=soyo_nnf03 -expression=soyo_thinking01 -zIndex=6;
+立希:灯……
+changeFigure:none -id=tomori -next;
+changeFigure:none -id=taki -next;
+changeFigure:thcb_l2d/古明地觉/model.json -id=satori -transform={"position":{"x":600,"y":100},"scale":{"x":1.2,"y":1.2}} -next -motion=sakuya_courteous -expression=smile -zIndex=2;
+changeFigure:BackGround/barup.png -id=bg1 -transform={"position":{"x":-50},"scale":{"x":2.61,"y":2.61}} -next -zIndex=1;
+changeFigure:BackGround/bardown.png -id=bg2 -transform={"position":{"x":-50,"y":-1},"scale":{"x":2.61,"y":2.61}} -next -zIndex=3;
+setTransform:{"position":{"x":150}} -target=soyo -duration=2000 -next;
+:于是，在爱音的强力裹挟之下，众人纷纷动身出发。在路过吧台时，素世的脚步停顿了一下。她回过头，深深地看了一眼那个仿佛置身事外的觉，脸上已经完全没有了虚假的和善，只剩下冰冷的、不加掩饰的警告。
+changeFigure:none -all -next;
+changeFigure:thcb_l2d/古明地觉/model.json -left -id=satori -next -motion=koishi_nf01 -expression=sad02;
+changeFigure:soyo/school_winter/model.json -right -id=soyo -next -motion=soyo_smile02 -expression=soyo_smile02;
+素世（内心）:我 会 盯 着 你 的。
+setTransform:{"position":{"x":1500},"alpha":0} -target=soyo -duration=2000 -next;
+changeFigure:thcb_l2d/古明地觉/model.json -motion=Covering_eye -expression=sad01 -id=satori -left -next;
+觉:（咽口水）
+changeFigure:none -id=soyo -next;
+:等到众人的身影完全消失在门口，RiNG里再次恢复了宁静。觉长长地舒了一口气，之前一直紧绷的表情也随之放松下来。她回想着刚才发生的一切，忍不住发出了轻笑。
+changeFigure:thcb_l2d/古明地觉/model.json -motion=thinking02 -expression=happy -id=satori -next;
+setTransform:{"position":{"x":0,"y":100},"scale":{"x":1.2,"y":1.2}} -target=satori -duration=1500 -next;
+觉:真是一群……有意思的孩子们~
+:虽然各自都有着那么点小心思，但大体上，都是心地十分善良的人。和旧地狱那些被执念束缚的怨灵相比，她们的心灵，干净得仿佛一尘不染。
+changeFigure:thcb_l2d/古明地觉/model.json -motion=leaning -expression=happy -id=satori -next;
+觉:真好啊~
+:说不定，在这里待下去……会意外地有趣呢？
+:一股许久没有感受过的新鲜感，如甘露般浸润了她那早已波澜不惊的心田。她擦拭着杯子，脚步也变得轻快起来，甚至无意识地，从唇边哼唱出了一段旋律。
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf02 -expression=happy -id=satori -next;
+觉:♪~
+changeFigure:thcb_l2d/古明地觉/model.json -motion=koishi_nf01 -expression=happy -id=satori -next;
+bgm:none -enter=2000;
+觉:♪~……好想成为人类呀……♪~;

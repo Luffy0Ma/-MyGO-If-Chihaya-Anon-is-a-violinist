@@ -1,0 +1,155 @@
+bgm:Special/终将成为你/想いが募る.mp3;
+changeFigure:BackGround/K27.png -id=bg -transform={"scale":{"x":1.8,"y":1.8},"brightness":1,"colorRed":255,"colorGreen":254,"colorBlue":230,"bevel":0,"bevelThickness":0,"bevelRed":112,"bevelGreen":112,"bevelBlue":112} -next;
+:午后的阳光穿过树叶的缝隙，在长椅上投下斑驳的光影。
+:一个多小时过去了。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_thinking01 -expression=soyo_sad01 -zIndex=3;
+:素世独自坐在长椅上，周围是城市午后特有的、遥远而模糊的喧嚣。她记得救护车的警报声，记得自己颤抖着拨通电话通知爱音母亲时，自己那不成调的声音。从那时起，她就一直在这里等着。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_thinking01 -expression=soyo_surprised01 -zIndex=3;
+changeFigure:anon/mother/model.json -id=mom -transform={"position":{"x":1800}} -next -motion=anon_nf_right01 -expression=sakiko_sigh02 -zIndex=5;
+changeFigure:BackGround/bg00040.png -id=hospital -transform={"position":{"x":2577},"scale":{"x":1.8,"y":1.8}} -next;
+:手机的震动打破了沉寂。来电显示是“千早阿姨”。
+:她深吸一口气，接通了电话。
+changeFigure:soyo/casual/model.json -motion=soyo_sad02 -expression=soyo_sad02 -id=soyo -next;
+setTransform:{"position":{"x":-1200},"scale":{"x":1.8,"y":1.8},"brightness":1,"colorRed":255,"colorGreen":254,"colorBlue":230} -target=bg -duration=1500 -next;
+setTransform:{"position":{"x":-500}} -target=soyo -duration=1500 -next;
+setTransform:{"position":{"x":1350},"scale":{"x":1.8,"y":1.8}} -target=hospital -duration=1500 -next;
+setTransform:{"position":{"x":600}} -target=mom -duration=1500 -next;
+素世:阿姨……爱音她，现在怎么样了？
+changeFigure:anon/mother/model.json -id=mom -transform={"position":{"x":1800}} -next -motion=anon_smile01 -expression=sakiko_smile03 -zIndex=5;
+爱音母亲:啊，素世，谢谢你之前的电话，我们刚在医院安顿好。医生也看过了——
+changeFigure:soyo/casual/model.json -motion=soyo_surprised01 -expression=soyo_sad02 -id=soyo -next;
+素世:那——
+changeFigure:anon/mother/model.json -id=mom -transform={"position":{"x":1800}} -next -motion=soyo_e235_gacha01 -expression=sakiko_smile01 -zIndex=5;
+爱音母亲:没事的没事的，你别太担心。爱音就是这个老毛病，本来就有点贫血，再加上一投入进去就废寝忘食，透支身体……今天早上那孩子没吃早饭，所以甚至还有点低血糖……不过倒是没什么大碍，观察一段时间就能回去了。;
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_smile05;
+素世:哦，哦……
+setTransform:{"scale":{"x":1.8,"y":1.8},"brightness":1,"colorRed":255,"colorGreen":254,"colorBlue":230} -target=bg -duration=1500 -next;
+setTransform:{} -target=soyo -duration=1500 -next;
+setTransform:{"position":{"x":2577},"scale":{"x":1.8,"y":1.8}} -target=hospital -duration=1500 -next;
+setTransform:{"position":{"x":1800}} -target=mom -duration=1500 -next;
+:电话那头轻描淡写的话语，让素世悬在心口的巨石总算落了地。挂断电话，她长长呼出一口气，身体也因为瞬间的松懈而感到一阵无力。
+changeFigure:none -id=hospital -next;
+changeFigure:none -id=mom -next;
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_ando01 -expression=soyo_smile03;
+素世:还好……还好……
+:随着心头的担忧和紧张散去，神志也似乎更清醒了一些，紧接着便在内心涌现出另一种被压抑着的情感。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_serious01 -expression=soyo_sad02;
+changeFigure:mutsumi/casual/model.json -right -id=mutsumi -transform={"position":{"x":200},"alpha":0} -next -motion=mutsumi_odoodo01 -expression=mutsumi_sad01;
+素世:……
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_nnf_right01 -expression=soyo_sad02;
+changeFigure:mutsumi/casual/model.json -right -id=mutsumi -next -motion=mutsumi_odoodo01 -expression=mutsumi_sad01;
+setTransform:{"position":{"x":0}} -target=mutsumi -duration=1500 -next;
+setTransform:{"position":{"x":-500}} -target=soyo -duration=1500 -next;
+:她一回头，就看到了不远处的树荫下，像是犯了错的小孩子一样低着头的睦。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_odoodo01 -expression=mutsumi_sad01 -id=mutsumi -right -next;
+:素世慢慢站起身，走向睦，脸上挂着一丝疲惫但温柔的微笑。
+changeFigure:soyo/casual/model.json -left -id=soyo -next -motion=soyo_smile01 -expression=soyo_sadsmile01;
+素世:小睦，一直跟着我吗？在这里站了很久吧。
+changeFigure:mutsumi/casual/model.json -right -id=mutsumi -next -motion=mutsumi_odoodo01 -expression=rana_sad01;
+:睦看着这样的素世，反而更加害怕，身体缩得更紧了。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_sad01 -expression=mutsumi_sad01;
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_smile04 -expression=soyo_smile05;
+素世:小祥……刚才的钢琴弹得真好呢，和爱音确实很合拍。对了。小睦之前不是说，小祥她搬到很远的地方去了吗？今天特意从那么远的地方赶回来，给爱音当伴奏，一定很辛苦吧？
+:睦看着素世那双看不出任何情绪的眼睛，迟疑了一下，最终还是小幅度地点了点头。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_nf02 -expression=mutsumi_sad01;
+睦:……嗯，很辛苦。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_smile04 -expression=soyo_sadsmile01;
+:看到睦点头的那一瞬间，素世脸上的微笑凝固了一秒，随即化作一片无声的寂寞。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_nf03 -expression=soyo_sadsmile02;
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_surprised01 -expression=mutsumi_surprised01 -id=mutsumi -next;
+bgm:none -enter=2000;
+素世:是吗……可是，爱音之前和我说，她是在隔壁班找到的伴奏哦？
+睦:……欸？
+bgm:Special/Ave_Mujica/焦燥.mp3;
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_smile01 -expression=soyo_sad01;
+素世:从月之森到羽丘……的确是很遥远的距离呢。;
+睦:……
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_odoodo01 -expression=mutsumi_surprised01;
+睦:我……我不是……
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=sakiko_smile03 -expression=soyo_sadsmile02;
+素世:我没有在生小睦的气哦。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_surprised01 -expression=sakiko_surprised02;
+:睦猛地抬起头，眼中满是难以置信。
+changeFigure:soyo/casual/model.json -motion=soyo_nf01 -expression=soyo_smile05 -id=soyo -next;
+素世:你也和小祥有过约定，对不对？就像我和爱音也有约定，不能把她的事情随便告诉别人一样。我能理解的。
+:绝望的阴云笼罩在睦的头顶。素世的声音越是温柔体谅，就越像一把无形的刀，在睦的心头狠狠划开一道道口子。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=umiri_sad01 -expression=soyo_sadsmile02;
+素世:区别只不过在于……小祥她，没有像爱音那么信任我罢了。所以……
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_angry01 -expression=mutsumi_sad02 -id=mutsumi -next;
+睦:……！
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_sad02 -expression=mutsumi_sad02 -id=mutsumi -next;
+睦:（不……不要……！）
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=umiri_serious01 -expression=soyo_sadsmile02;
+:素世抬起头，重新对睦露出一个微笑，一个她用来面对陌生人的、疏远的微笑。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_smile04 -expression=soyo_sadsmile01;
+素世:所以，小睦不用再这么辛苦地演戏了。一直以来，为了不让我再去打扰小祥，才像这样费心陪在我身边……一定很辛苦吧？;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_sad02 -expression=sakiko_surprised02;
+睦:不……不是这样的……
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_odoodo01 -expression=sakiko_cry01;
+睦:没有，这么想过，一次都……
+:睦极力否定着，但少女的反应，却已经无法让素世回心转意了。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=umiri_nnf_left01 -expression=sakiko_sigh01;
+素世:我……不会再做任何可能会烦恼小祥的事了。所以，这场戏……也该结束了。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad02 -id=mutsumi -next;
+睦:对不起……对不起……
+setTransform:{"position":{"x":-600}} -target=soyo -duration=1000 -next;
+:素世没有听到睦小声的道歉，只是对睦轻轻点了点头，转身离开。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=umiri_nnf_right01 -expression=soyo_sad01;
+素世:我先走了……睦也…早点回家吧。;
+changeFigure:none -id=soyo -next;
+setTransform:{"position":{"x":-500}} -target=mutsumi -duration=2500 -next;
+:睦站在原地，看着她离去的背影，终于明白了素世话里的意思。她没有哭出声，只是身体不受控制地剧烈颤抖起来。
+changeFigure:none -id=bg -next;
+changeBg:K（生活地点）/K30.png -next -transform={"scale":{"x":1.02,"y":1.02}};
+changeFigure:none -id=mutsumi -next;
+伴随着一声雷鸣，倾泻而下的雨声盖过了一切声音。 -concat;
+:……;
+changeBg:M（街道）/M22.png -next;
+changeFigure:soyo/casual/model.json -id=soyo -transform={"brightness":0.95,"colorRed":242,"colorGreen":252,"colorBlue":255} -next -motion=soyo_nf01 -expression=soyo_sad02;
+:雨幕将整个世界冲刷得模糊不清。素世没有打伞，任由冰冷的雨水浸湿她的头发和衣服。她脸上温柔的假面终于被大雨冲垮，只剩下无尽的疲惫和自我怀疑。
+:讨厌下雨天。
+:讨厌小祥什么都不说清楚就离开。
+:讨厌小睦说玩乐队从来没有开心过。
+:讨厌小灯见到自己就逃跑。;
+changeBg:AI/trainstation.png -next;
+:讨厌爱音和小祥一起出现在舞台上……
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_nf01 -expression=soyo_cry01;
+:……讨厌，这些人都不再需要我。
+广播音:开往池袋方向的电车即将进站，请乘客在黄线外等候……
+:电车进站的灯光刺破雨幕，照亮了素世空洞的脸。她看着即将开启的车门，像是看到了唯一的出口。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_nf_right01 -expression=soyo_sadsmile02;
+素世:(CryChic什么的……都无所谓了……)
+:就在她准备随着人流踏上电车的那一刻，一个熟悉又急切的声音穿透了雨声和嘈杂。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_nf_right01 -expression=soyo_serious03;
+熟悉的声音:小素世？
+setTransform:{"position":{"x":300},"brightness":0.95,"colorRed":242,"colorGreen":252,"colorBlue":255} -target=soyo -duration=700 -next;
+changeFigure:tomori/casual/model.json -left -id=tomori -transform={"alpha":0,"brightness":0.95,"colorRed":242,"colorGreen":252,"colorBlue":255} -next -motion=tomori_e235_gacha01 -expression=tomori_sad04;
+:素世的身体一僵，但她没有回头。她狠下心，加快脚步，一只脚已经踏上了电车的台阶。只要再一步，她就可以与过去彻底告别——
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_cry01 -expression=soyo_angry01;
+setTransform:{"position":{"x":100},"brightness":0.95,"colorRed":242,"colorGreen":252,"colorBlue":255} -target=tomori -duration=500 -next;
+setTransform:{"position":{"x":200},"brightness":0.95,"colorRed":242,"colorGreen":252,"colorBlue":255} -target=soyo -duration=500 -next;
+灯:小素世……等一下！
+:一只湿透了的手，用力地、不容拒绝地抓住了她的手臂，将她从车门边硬生生拽了回来。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_angry02 -expression=sakiko_cry01;
+:素世猛地回头，看到了同样浑身湿透了的高松灯。
+changeFigure:soyo/casual/model.json -motion=soyo_angry02 -expression=soyo_angry02 -id=soyo -next;
+素世:……放开我。
+changeFigure:tomori/casual/model.json -id=tomori -next -motion=tomori_angry01 -expression=anon_serious01;
+灯:不放！至少请听我说完——
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_angry02 -expression=soyo_angry01;
+bgm:none -enter=1000;
+:【哔——哔——哔——】
+素世:……
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=soyo_angry02 -expression=soyo_sad02;
+:电车的关门提示音无情地响起。在她们面前，车门缓缓地关闭，隔绝了那个可以逃离的世界。列车缓缓开动，风声带走了素世最后一丝挣扎的力气。
+bgm:[240417] SPCD 01 Original Soundtrack Vol.1 (flac)/懐古ED.mp3;
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=anon_sad01 -expression=sakiko_sigh01;
+:她看着驶离的电车，肩膀无力地垮了下来。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=uika_nnf_left01 -expression=soyo_sad02;
+素世:……什么事？
+changeFigure:tomori/casual/model.json -id=tomori -next -motion=tomori_angry01 -expression=anon_smile01;
+:灯的眼神无比坚定，声音在滂沱的雨声中带着一丝颤抖，却又分外清晰。
+changeFigure:tomori/casual/model.json -id=tomori -next -motion=tomori_kime01 -expression=tomori_kime01;
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=uika_nnf_left01 -expression=soyo_sadsmile02;
+bgm:none -enter=2000;
+灯:小素世，你愿意……再和我组一次乐队吗？

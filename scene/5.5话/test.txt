@@ -1,0 +1,2 @@
+
+changeFigure:sakiko/casual_tired/model.json -motion=sakiko_cry04 -expression=sakiko_sad01;

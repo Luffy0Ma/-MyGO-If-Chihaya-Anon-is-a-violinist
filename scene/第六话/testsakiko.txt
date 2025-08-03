@@ -1,0 +1,2 @@
+
+changeFigure:sakiko/school_winter/model.json -motion=rana_nnf01 -expression=sakiko_smile03;

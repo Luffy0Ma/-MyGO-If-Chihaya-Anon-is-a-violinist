@@ -1,0 +1,200 @@
+bgm:[240417] SPCD 02 Original Soundtrack Vol.2 (flac)/孤独な少女.mp3;
+changeFigure:BackGround/bg00040.png -id=bg -transform={"scale":{"x":1.8,"y":1.8}} -next -zIndex=1;
+:下午的阳光，穿过百叶窗的缝隙，在地板上切割出几道明亮的、毫无生气的几何线条。
+:病房很大，也很安静。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_sad01 -expression=anon_thinking03 -zIndex=3;
+:千早爱音半靠在床上，怀里抱着她那把小提琴的琴盒。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=uika_sad01 -expression=anon_sad01;
+:琴盒是空的。
+:琴被她的母亲锁在了家里的柜子里，美其名曰“和你一样需要静养”。只留下这个空空的盒子，放在床头，说是为了让她“看着能安心一点”。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_nf03 -expression=anon_thinking03;
+爱音:琴要静养的话……不是应该在琴盒里吗……？
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_nf04 -expression=sakiko_smile03;
+:爱音用指尖轻轻拂过琴盒冰冷的搭扣，最终还是没有打开。
+:她知道里面除了天鹅绒的凹槽和一张母亲手写的、写着“休息也是演奏的一部分”的便利贴之外，什么都没有。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_nf04 -expression=soyo_sad02;
+:这份不容拒绝的温柔，让她感到一阵莫名的烦躁。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_angry01 -expression=sakiko_angry01;
+:她讨厌这种感觉。
+:讨厌这种，连热爱之物都无法触碰的无力感。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_angry01 -expression=rana_sad01;
+:更讨厌……那个在舞台上，不顾一切地燃烧到最后一刻，然后像个傻瓜一样倒下的自己。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_sigh01 -expression=sakiko_sigh01;
+爱音:……丢死人了。
+:“叩、叩。”
+:一阵礼貌的敲门声打断了病房内的沉寂。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_sigh01 -expression=anon_thinking03;
+护士:千早小姐，有你的信哦。;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=soyo_thinking01 -expression=anon_surprised01;
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1300},"alpha":0} -next -motion=soyo_nf01 -expression=soyo_smile01 -zIndex=3;
+changeFigure:BackGround/B20.jpg -id=soyohome -transform={"position":{"x":-3000,"y":-100},"scale":{"x":1.3,"y":1.3},"alpha":0} -next -zIndex=2;
+爱音:信？;
+:护士递给她一个淡粉色的、散发着好闻香气的信封，便离开了。;
+:信封上，是素世娟秀的字迹。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=soyo_smile01 -expression=sakiko_smile01;
+:爱音拆开信封，里面是一张同样精致的信纸。
+setTransform:{"position":{"x":-1650,"y":-100},"scale":{"x":1.3,"y":1.3},"alpha":1} -target=soyohome -duration=2000 -next;
+setTransform:{"position":{"x":-500},"brightness":0.7,"bevel":0.3,"bevelThickness":20,"bevelRed":255,"bevelGreen":250,"bevelBlue":240} -target=soyo -duration=2000 -next;
+setTransform:{"position":{"x":500}} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":1300},"scale":{"x":1.8,"y":1.8}} -target=bg -duration=2000 -next;
+:爱音：
+changeFigure:anon/hospital/model.json -id=anon -next -motion=soyo_nf02 -expression=sakiko_smile01;
+:展信佳。
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1000},"alpha":0} -next -motion=soyo_nf03 -expression=soyo_smile03 -zIndex=3;
+:听说你已无大碍，总算松了口气。比赛那天，真的吓到我了。请务必，好好保重身体。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_thinking01 -expression=sakiko_thinking01;
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1000},"alpha":0} -next -motion=soyo_nf04 -expression=soyo_sadsmile01 -zIndex=3;
+:你的演奏，非常棒。和初中时一样，不，比那时更耀眼了。那份光芒，让人甚至不敢直视。
+changeFigure:soyo/casual/model.json -id=soyo -next -motion=sakiko_sad02 -expression=sakiko_sad01;
+:你果然找到了一个很好的搭档呢。
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1000},"alpha":0} -next -motion=soyo_nf03 -expression=soyo_sadsmile02 -zIndex=3;
+:那是一位……能回应你所有任性与热情的、非常优秀的人。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_thinking02 -expression=sakiko_sad01;
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1000},"alpha":0} -next -motion=sakiko_cry01 -expression=sakiko_sad01 -zIndex=3;
+:请一定，要好好珍惜她。
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1000},"alpha":0} -next -motion=soyo_smile01 -expression=sakiko_cry02 -zIndex=3;
+:看着在舞台上并肩闪耀的你们，我忽然觉得，我所担心的那些事，或许都只是杞人忧天吧。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=soyo_nf03 -expression=umiri_serious01;
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1000},"alpha":0} -next -motion=soyo_cry01 -expression=sakiko_cry04 -zIndex=3;
+:你已经，不再是那个总是莽莽撞撞，需要我跟在身后为你担待的、任性的小爱音了。
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1000},"alpha":0} -next -motion=sakiko_cry03 -expression=sakiko_cry02 -zIndex=3;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_angry01 -expression=sakiko_surprised02;
+:真好。 -id -figureId=soyo;
+changeFigure:soyo/casual/model.json -id=soyo -transform={"position":{"x":-1000},"alpha":0} -next -motion=taki_kandou01 -expression=anon_cry01 -zIndex=3;
+:祝
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_odoodo01 -expression=anon_sad01;
+:前程似锦
+changeFigure:none -id=soyo -next;
+:长崎素世
+setTransform:{"position":{"x":-3000,"y":-100},"scale":{"x":1.3,"y":1.3},"alpha":1} -target=soyohome -duration=2000 -next;
+setTransform:{"position":{"x":0}} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1.8,"y":1.8}} -target=bg -duration=2000 -next;
+:爱音读完信，久久没有动。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_sad02 -expression=anon_thinking03;
+:信纸上，没有一句多余的关心，没有一个亲昵的称呼，也没有了那句熟悉的“下次再见”。
+:只有礼貌的、疏远的、几乎是无可挑剔的祝福。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_sad02 -expression=sakiko_sad01;
+:和最后那句，通常只会在毕业纪念册上看到的、沉重得像一块石头的——“前程似锦”。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=soyo_nf03 -expression=sakiko_sad01;
+:她把信纸重新折好，放回信封里，然后塞进了枕头底下，仿佛想把那份冰冷的温柔也一同藏起来。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_sad02 -expression=anon_sad01;
+爱音:……很好的搭档吗……
+:她想起了丰川祥子。想起了她在台上失误时，那瞬间的慌乱和痛苦。
+:也想起了，她们是如何用音乐，将彼此从深渊里拉回来的。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=soyo_nf01 -expression=rana_sad01;
+爱音:……不知道，她现在怎么样了。
+:会不会……还在为那天的事自责？
+:那个家伙……明明比谁都更容易受伤。;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=soyo_nnf_right01 -expression=anon_surprised01;
+:“叩、叩。”
+:就在这时，病房的门，被再一次轻轻地敲响了。
+:她以为是护士又来了，查房，或者送药。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_nnf_right01 -expression=anon_thinking01;
+bgm:none -enter=1000;
+爱音:嗯？
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_nnf_right01 -expression=sakiko_surprised01;
+熟悉的声音:……那个……爱音同学。我是丰川祥子。请问，现在……方便进来吗？
+bgm:Special/温馨类/キラキラドキドキを求めて.mp3;
+爱音:……！
+:祥子！？
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_nnf_right01 -expression=anon_smile04;
+:刚才还压在她心头的所有阴霾，在听到这个声音的瞬间，被彻底吹散了。
+setTransform:{"position":{"x":1700}} -target=anon -duration=1500 -next;
+changeBg:医院/af5e8a02-a1d0-4ea5-8cd6-337194e56e1e.png -next -transform={"scale":{"x":1,"y":1}};
+:她几乎是从床上一跃而下，几步冲到门口，然后“唰”的一声，用力拉开了那扇厚重的病房门。
+changeFigure:none -id=bg -next;
+setTransform:{"position":{"x":700}} -target=anon -duration=1000 -next;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=mutsumi_nnf_left01 -expression=anon_smile04;
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -next -motion=sakiko_surprised01 -expression=sakiko_surprised02 -zIndex=5;
+:门口，那个她刚刚还在心里念着的人，就那样穿着一身整洁的校服，怀里抱着一束小小的洋甘菊，因为这突如其来的开门方式，脸上正露着一副不知所措的、可爱的惊愕表情。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised01 -expression=sakiko_surprised01 -id=sakiko -right -next;
+changeFigure:anon/hospital/model.json -left -id=anon -next -motion=sakiko_smile05 -expression=anon_smile01;
+:爱音看着祥子那副像是被吓到的小动物一样的表情，忍不住“噗嗤”一声笑了出来。
+changeFigure:anon/hospital/model.json -left -id=anon -next -motion=sakiko_smile03 -expression=anon_smile04;
+爱音:怎么是这样一副表情……好夸张。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_shame01 -expression=sakiko_sad01;
+祥子:欸？
+changeFigure:anon/hospital/model.json -motion=anon_smile02 -expression=anon_smile02 -id=anon -next;
+setTransform:{"position":{"x":100}} -target=anon -duration=1000 -next;
+爱音:快进来快进来，杵在门口干什么。
+setTransform:{"position":{"x":1900}} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":2200},"alpha":1} -target=sakiko -duration=2000 -next;
+changeFigure:BackGround/bg00040.png -id=bg -transform={"scale":{"x":1.8,"y":1.8},"alpha":0} -next -zIndex=1;
+:她说着，不由分说地拉起祥子的手腕，将她拽进了病房里，然后“砰”的一声关上了门。
+setTransform:{"scale":{"x":1.8,"y":1.8},"alpha":1} -target=bg -duration=500 -next;
+changeBg:none -next;
+setTransform:{"position":{"x":-500}} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":1000}} -target=sakiko -duration=2000 -next;
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_odoodo01 -expression=sakiko_odoodo01 -id=sakiko -next;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=nyamu_nnf_right01 -expression=sakiko_smile01;
+祥子:啊……爱音同学……那个，花……
+:祥子被这突如其来的、充满活力的节奏彻底打乱了阵脚。她手里还捧着那束洋甘菊，整个人显得手足无措。
+setTransform:{"position":{"x":-150}} -target=anon -duration=2000 -next;
+:爱音接过了花，脸上满是纯粹的喜悦。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=mana_smile01 -expression=anon_smile04;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_left01 -expression=sakiko_odoodo01;
+爱音:好漂亮的花朵……谢谢你，祥子！我很喜欢！
+setTransform:{"position":{"x":-500}} -target=anon -duration=1000 -next;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=mana_nf_left01 -expression=anon_smile01;
+:她开心地把花插进床头柜的玻璃杯里，
+changeFigure:anon/hospital/model.json -id=anon -next -motion=nyamu_nf_right01 -expression=anon_smile04;
+然后转过身，对祥子露出了一个狡黠的、像是在策划什么恶作剧的笑容。 -concat;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_kime01 -expression=anon_kime01;
+爱音:哼哼，我有一个好主意。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=mana_gattsu01 -expression=mana_smile03;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nnf_left01 -expression=sakiko_surprised01;
+爱音:祥子，我们从这里溜出去吧！
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_surprised02 -expression=sakiko_surprised02 -id=sakiko -next;
+祥子:……欸？？？？？
+changeFigure:anon/hospital/model.json -id=anon -next -motion=mana_nf01 -expression=sakiko_thinking01;
+:爱音轻轻一蹦，坐回了床上。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_kime02 -expression=soyo_kime01;
+爱音:一直待在这里太闷了……医生和妈妈都不在，现在就是绝佳的机会！
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_thinking01 -expression=sakiko_surprised02;
+祥子:……？？
+changeFigure:anon/hospital/model.json -id=anon -next -motion=sakiko_nod01 -expression=anon_smile04;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_nnf_left01 -expression=sakiko_sad01;
+爱音:我知道这附近有一家店卖水果三明治，是我小时候最喜欢的！味道超——级棒！我们偷偷去买回来，
+changeFigure:anon/hospital/model.json -id=anon -next -motion=kasumi_eeto01 -expression=sakiko_thinking01;
+就当是……嗯…… -concat;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=mana_gattsu01 -expression=anon_smile04;
+庆祝我们比赛晋级的庆功宴，怎么样？ -concat;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_serious02 -expression=sakiko_sad01;
+祥子:可是……你的身体……
+:爱音拍了拍胸脯，鼻子都往天上翘了三分。
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_kime01 -expression=anon_smile01;
+爱音:好得不得了！再待下去就要发霉了！
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_cry02 -expression=anon_smile01;
+走吧走吧，就一会，我保证不会乱跑的！ -concat;
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_sad01 -expression=sakiko_sad01 -id=sakiko -next;
+祥子:……
+setTransform:{"position":{"x":-1500,"y":200},"scale":{"x":1.5,"y":1.5}} -target=anon -duration=2000 -next;
+setTransform:{"position":{"x":-700},"scale":{"x":3,"y":3}} -target=bg -duration=2000 -next;
+setTransform:{"position":{"x":600,"y":200},"scale":{"x":1.5,"y":1.5}} -target=sakiko -duration=2000 -next;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_nf02 -expression=sakiko_smile03;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_sad01;
+:祥子看着爱音那双闪闪发光、充满期待的眼睛，她那准备了一路的、关于“道歉”和“归还胜利”的沉重话语，全都堵在了喉咙里。
+:她发现自己根本无法拒绝。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_thinking02 -expression=sakiko_sad02 -id=sakiko -next;
+祥子:（……现在这个气氛，说那些沉重的话……真的合适吗？）
+祥子:（比起我的道歉，是不是让她现在开心一点，更重要呢？）
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_sigh01 -expression=sakiko_shame01 -id=sakiko -next;
+祥子:（……真是的。又被她的节奏带着走了。）
+setTransform:{"position":{"x":-500,"y":0},"scale":{"x":1,"y":1}} -target=anon -duration=1000 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1.8,"y":1.8}} -target=bg -duration=1000 -next;
+setTransform:{"position":{"x":1000,"y":0},"scale":{"x":1,"y":1}} -target=sakiko -duration=1000 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_odoodo01;
+祥子:那……
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_nnf_left01 -expression=sakiko_odoodo01;
+只去一会儿哦？买完就要回来—— -concat;
+changeFigure:anon/hospital/model.json -id=anon -next -motion=anon_kandou01 -expression=anon_kime01;
+爱音:太棒了！祥子最好了！作战开始！
+changeFigure:none -id=anon -next;
+:爱音迅速地从衣柜里拿出自己的外衣，熟练地套在病号服外面，动作一气呵成，显然是蓄谋已久。
+changeFigure:anon/casual_large/model.json -left -id=anon -next -motion=nyamu_nf_right01 -expression=anon_smile04 -zIndex=2;
+爱音:嘻嘻，走吧走吧~;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile01 -expression=sakiko_smile03;
+:祥子看着她这副样子，不知为何，内心那份沉重的愧疚感，竟然被冲淡了一丝。
+changeFigure:none -id=anon -next;
+changeFigure:none -id=sakiko -next;
+changeScene:第六话/6.2.txt

@@ -1,0 +1,235 @@
+bgm:[240417] SPCD 01 Original Soundtrack Vol.1 (flac)/01. ショパン「雨だれ」.flac -unlockname=bgm1;
+changeBg:原画截图/01 羽丘的怪女生.mkv_20250323_200726.029.png -next;
+ -fontSize=default;
+: 滂沱大雨从天上倾倒下来，整个世界仿佛只剩下雨声，连自己的心跳都听不见了。;
+changeBg:原画截图/01 羽丘的怪女生.mkv_20250323_200737.584.png;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_thinking02 -expression=sakiko_sad01;
+祥子:...... -fontSize=default;
+: 湿透的衣服贴在身上，冷得像被什么东西一点点掏空。我闭上眼，试着把注意力从这些刺骨的寒意中抽离开来，去思考真正让我喘不过气的事。;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_cry01 -expression=sakiko_thinking02;
+祥子:（——我要退出CRYCHIC。） -fontSize=default;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_cry01 -expression=sakiko_sigh01;
+: 这句话在我脑海里一遍遍盘旋，像一根刺狠狠扎着我，让我既想逃开，又想一口气说完彻底解脱。;
+changeBg:原画截图/03 CRYCHIC.mkv_20250323_202849.996.png -next;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_cry01 -expression=sakiko_sigh02;
+: 可脑子里浮现的，偏偏是那个熟悉的练习室。我们一起笑着、吵着、练习到天黑的画面，一幕幕铺天盖地地涌来。;
+changeBg:原画截图/01 羽丘的怪女生.mkv_20250323_200737.584.png -next;
+changeFigure: sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_thinking02 -expression=sakiko_sad01;
+祥子:（大家......现在在做什么呢？是不是还是没有我就不开始练习呢？） -fontSize=default;
+changeFigure: sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_thinking02 -expression=anon_thinking03;
+祥子:（我进去以后......素世的话，肯定会第一时间迎上来吧。立希......大概会一脸不爽地质问我到底搞什么鬼。至于睦......她应该早就察觉到我的打算了。） -fontSize=default;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_sad02 -expression=sakiko_sad02;
+祥子: （而灯......灯一定是最不能接受的那个吧。）;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=soyo_nnf01 -expression=soyo_sad03;
+祥子: 灯......;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=soyo_nnf01 -expression=sakiko_sad03;
+: 我喃喃念出她的名字，却想象不出要怎么面对她。素世的好意我或许还能狠下心来拒绝，立希的怒火我也还能咬牙撑住。;
+changeFigure: sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_thinking02 -expression=uika_thinking02;
+祥子: （但是，灯呢？）;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_sigh01 -expression=sakiko_sad01;
+祥子: （如果我说出口了......她一定会以为是自己的错吧。）;
+:从那场LIVE失误后，她一直在自责，拼命练习。要是我在这个时候说要退出，她一定会觉得——一切都是她害的。 -fontSize=default;
+:突然，一个念头像闪电一样划过我的脑海，令我背后发冷。
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_sigh01 -expression=sakiko_surprised02;
+: 如果......如果我把退出的理由，推到灯身上呢？是不是......这样就不会有人再追问了？
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_cry04 -expression=sakiko_angry02;
+祥子: ......我怎么会有这种想法......;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=sakiko_cry04 -expression=sakiko_cry01;
+: 我低声骂着自己，胸口一阵恶心翻涌。可不管我多讨厌这样的自己，这个念头就像藤蔓一样，死死缠住了我。;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":220,"y":-190},"scale":{"x":0.83,"y":0.83}} -next -motion=mutsumi_kime01 -expression=sakiko_sad02;
+:不知道又过了多久，我终于下定决心，咬紧牙拧开了练习室的门。;
+changeFigure: -id=sakiko -next;
+changeBg:none -next;
+playEffect:sfx/开门20-open_爱给网_aigei_com.mp3;
+changeFigure:BackGround/练习室.png -id=bg2 -transform={"position":{"y":0},"scale":{"x":1.2,"y":1.2}};
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -transform={"position":{"x":450,"y":-50},"scale":{"x":1,"y":1}} -next -motion=thinking01 -expression=thinking01 -zIndex=5;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -transform={"position":{"x":1450,"y":0},"scale":{"x":0.75,"y":0.75}} -next -motion=sad01 -expression=sad01 -zIndex=7;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -transform={"position":{"x":-1100,"y":-350},"scale":{"x":1.2,"y":1.2}} -next -motion=nnf03 -expression=pui01 -zIndex=8;
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -transform={"position":{"x":400,"y":50},"scale":{"x":0.75,"y":0.75}} -motion=sad02 -expression=idle01 -zIndex=2;
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -transform={"position":{"x":450,"y":-50},"scale":{"x":1,"y":1}} -next -motion=surprised01 -expression=surprised01 -zIndex=5;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -transform={"position":{"x":1300,"y":0},"scale":{"x":0.75,"y":0.75}} -next -motion=surprised01 -expression=surprised01 -zIndex=1;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -transform={"position":{"x":-1100,"y":-350},"scale":{"x":1.2,"y":1.2}} -next -motion=nnf03 -expression=angry04 -zIndex=6;
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -transform={"position":{"x":400,"y":50},"scale":{"x":0.75,"y":0.75}} -next -motion=surprised01 -expression=idle01 -zIndex=2;
+:门“咔哒”一声打开，所有人齐刷刷朝我看了过来。
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -transform={"position":{"x":400,"y":50},"scale":{"x":0.75,"y":0.75}} -next -motion=nnf_right01 -expression=sad01 -zIndex=2;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -transform={"position":{"x":1300,"y":0},"scale":{"x":0.75,"y":0.75}} -next -motion=serious01 -expression=surprised01 -zIndex=1;
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -transform={"position":{"x":450,"y":-50},"scale":{"x":1,"y":1}} -next -motion=sad02 -expression=sad01 -zIndex=5;
+:素世站在窗边，睦背对着我抱着粉红色吉他，立希坐在鼓前刷着手机。而灯......她坐在地上，像一只被雨打湿的小动物，整个人呆呆的，眼睛里什么光都没有。
+
+祥子:我...... -fontSize=default;
+setTransform:{"position":{"x":-600,"y":-600},"scale":{"x":1.5,"y":1.5}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":1300,"y":0},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-300},"scale":{"x":1.5,"y":1.5},"alpha":1,"blur":25} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":0} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-1100,"y":-350},"scale":{"x":1.2,"y":1.2},"alpha":0} -target=taki -duration=1000 -next;
+:我张了张嘴，却什么也说不出来。那一瞬间，我仿佛看见了第一次遇见灯时的她，拘谨、腼腆，可又闪耀着星星般的光芒。
+:而现在，她的眼神里......竟然有和我一模一样的迷茫。
+setTransform:{"position":{"x":600,"y":-50},"scale":{"x":1,"y":1}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"y":50},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":400,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-1200,"y":-350},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=smile03 -expression=smile01;
+setTransform:{"position":{"x":-450,"y":-450},"scale":{"x":1.45,"y":1.45},"alpha":1} -target=soyo -duration=1000 -next;
+素世:小祥！你来了，太好了......怎么浑身都湿透了？你还好吗？
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=smile01 -expression=smile03;
+:她急忙拿出手帕，想要替我擦掉脸上的雨水。素世......总是这样，第一时间想着别人。
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -transform={"position":{"x":450,"y":-50},"scale":{"x":1,"y":1}} -next -motion=idle01 -expression=sad01 -zIndex=5;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -next -motion=nf01 -expression=default;
+:可是......不行。再犹豫下去，我就会动摇。我的心，会被她们轻易软化。
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=surprised01 -expression=surprised01;
+:我伸手挡开了素世的手，心一狠，把那句话从喉咙里挤了出来。
+祥子:今天，我来是有话要说。;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -transform={"position":{"x":-1100,"y":-350},"scale":{"x":1.2,"y":1.2}} -next -motion=nnf03 -expression=angry04 -zIndex=6;
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -transform={"position":{"x":450,"y":-50},"scale":{"x":1,"y":1}} -next -motion=sad02 -expression=sad01 -zIndex=5;
+祥子:请......允许我退出CRYCHIC。;
+
+:空气仿佛瞬间凝固了。
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -motion=serious02 -expression=sad01;
+素世:为什么，发生什么事了吗？不能对我们说吗？还是说原因在我们身上？有什么不好的地方我们都会改的。
+:她的声音几乎带着哀求。
+祥子:是我......自己的原因。;
+
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=sad01 -expression=soyo_sad02;
+素世:可是......之前的LIVE不是很开心吗？你明明说过，还想再开一次LIVE的啊。
+
+祥子:我......;
+:我低下头，攥紧了拳头。是啊，我也......真的很想再和大家一起站上那个舞台啊。可是...... -fontSize=default;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=nf04 -expression=surprised01;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -transform={"position":{"x":-1100,"y":-350},"scale":{"x":1.2,"y":1.2}} -next -motion=nnf01 -expression=pui01 -zIndex=6;
+祥子:我......从来没说过那样的话。
+setTransform:{"position":{"x":-450,"y":-350},"scale":{"x":1.45,"y":1.45},"alpha":1} -target=soyo -duration=1000 -next;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=nnf05 -expression=sad02;
+:素世的脸色瞬间变了，失落、心痛，全写在脸上。她低下头，仿佛在一瞬间被抽走了全部力气。
+:对不起，素世......如果这样能让你死心的话，那就这样吧。
+setTransform:{"position":{"x":550,"y":-400},"scale":{"x":1.45,"y":1.45},"alpha":1} -target=soyo -duration=1000 -next;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=nf_right01 -expression=cry01;
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -next -motion=tomori_sad03 -expression=tomori_sad03;
+setTransform:{"position":{"x":-700,"y":-550},"scale":{"x":1.5,"y":1.5}} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-1300,"y":-350},"scale":{"x":1.2,"y":1.2},"alpha":1} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1} -target=mutsumi -duration=1000 -next;
+灯:......真的，要退出吗？
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=nf_right01 -expression=sad01;
+:她的声音小得像蚊子一样，却像一根针扎进了我的心脏。
+setTransform:{"position":{"x":-1350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1} -target=taki -duration=1000 -next;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -next -motion=nf02 -expression=angry01;
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -transform={"position":{"x":400,"y":50},"scale":{"x":0.75,"y":0.75}} -next -motion=nnf_left01 -expression=sad01 -zIndex=2;
+立希:灯在问你话呢。而且这样也太不负责任了吧？为什么不说话？
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=nf_left01 -expression=sad01;
+素世:立希......别这样......;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -next -motion=angry02 -expression=taki_angry02;
+立希:你到底什么意思？今天也是，大家一直都在等祥子。
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -transform={"position":{"x":400,"y":50},"scale":{"x":0.75,"y":0.75}} -next -motion=sad01 -expression=sad01 -zIndex=2;
+祥子:就算我不在......你们也能做到吧。想练的话，自己练不就好了，又没人规定非得全员到齐才能开始。
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -next -motion=kandou01 -expression=sad04;
+灯:可是......可是如果没有小祥的话—— -fontSize=default;
+setTransform:{"position":{"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":20} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":550,"y":-400},"scale":{"x":1.45,"y":1.45},"alpha":1,"blur":20} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-700,"y":-550},"scale":{"x":1.5,"y":1.5},"blur":20} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":20} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-1350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1,"blur":20} -target=taki -duration=1000 -next;
+:那一瞬间，我的脑子“嗡”的一声空了。
+:我甚至觉得自己的灵魂已经从身体里剥离了出去。那个叫“丰川祥子”的人，不再受我控制地朝灯瞪了过去，连带着把手也狠狠甩开了。 -fontSize=default;
+setTransform:{"position":{"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":550,"y":-400},"scale":{"x":1.45,"y":1.45},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-700,"y":-550},"scale":{"x":1.5,"y":1.5},"blur":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":0} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-1350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1,"blur":0} -target=taki -duration=1000 -next;
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -next -motion=surprised01 -expression=cry01;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -next -motion=angry02 -expression=surprised01;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=serious02 -expression=sad01;
+setTransform:{"position":{"x":-550,"y":-450},"scale":{"x":1.4,"y":1.4},"blur":0} -target=tomori -duration=1000 -next;
+祥子:请不要说这种推卸责任的话。明明你才是最需要练习的人，可现在为止你都做了什么？
+setTransform:{"position":{"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":20} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":550,"y":-400},"scale":{"x":1.45,"y":1.45},"alpha":1,"blur":20} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-550,"y":-450},"scale":{"x":1.4,"y":1.4},"blur":20} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":20} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-1350,"y":-400},"scale":{"x":1.3,"y":1.3},"alpha":1,"blur":20} -target=taki -duration=1000 -next;
+:话一出口，我自己都愣住了。
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":-600,"y":-600},"scale":{"x":1.5,"y":1.5}} -next -motion=soyo_angry01 -expression=sakiko_cry04 -zIndex=10;
+:不......不对啊......我怎么能说出这种话？
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":-600,"y":-600},"scale":{"x":1.5,"y":1.5}} -next -motion=sakiko_cry03 -expression=sakiko_angry07 -zIndex=10;
+:可那个“我”已经停不下来了。为了让灯绝望，为了让立希厌恶，为了把自己逼到绝路上去——我竟然真的把所有的错，推给了灯。
+:我明明知道，灯一定会把这句话当真。她会觉得，是因为那场失误，是因为她的缘故，才导致了今天的这一切...... -fontSize=default;
+changeFigure:sakiko/casual/model.json -id=sakiko -transform={"position":{"x":-600,"y":-600},"scale":{"x":1.5,"y":1.5}} -next -motion=sakiko_cry04 -expression=soyo_angry01 -zIndex=10;
+:我恶心透了我自己。可“我”还在冷冷地站着，仿佛对此没有任何感触。
+changeFigure: -id=sakiko -next;
+setTransform:{"position":{"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":550,"y":-400},"scale":{"x":1.45,"y":1.45},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+setTransform:{"position":{"x":-900,"y":-350},"scale":{"x":1.3,"y":1.3},"blur":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":0} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-1000,"y":-800},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":0} -target=taki -duration=400 -next;
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -next -motion=sad02 -expression=sad04;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -next -motion=angry03 -expression=angry04;
+bgm:[240417] SPCD 01 Original Soundtrack Vol.1 (flac)/04. ぺートーヴェン「月光第3楽章」.flac -unlockname=月光3;
+立希:灯在等你来啊！！！ -fontSize=default -id -figureId=taki;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=nnf_left01 -expression=sad03;
+:“啪！”的一声，立希一把揪住了我的领口，怒火在她的眼睛里快要炸裂。仿佛下一秒，她真的会挥拳砸在我脸上。
+:那一瞬间，迷茫和恐惧一齐涌来，像是把我的灵魂生生拽回了身体里。
+setTransform:{"position":{"x":-400,"y":-150},"scale":{"x":1,"y":1},"blur":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-1600,"y":-600},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0} -target=taki -duration=700 -next;
+setTransform:{"position":{"x":-600,"y":-650},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":0} -target=soyo -duration=700 -next;
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -next -motion=serious01 -expression=sad01;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=nnf_left01 -expression=serious02;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -next -motion=angry04 -expression=angry01;
+素世:等一下！立希！有话好好说，可以吗？ -fontSize=default -id -figureId=soyo;
+:我努力抬头，直视着眼前的三个人——立希的怒火、灯的绝望、素世的慌乱和无助。
+setTransform:{"position":{"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":20} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":20} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-400,"y":-150},"scale":{"x":1,"y":1},"blur":20} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-1600,"y":-600},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":20} -target=taki -duration=700 -next;
+setTransform:{"position":{"x":-600,"y":-650},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":20} -target=soyo -duration=700 -next;
+:我的心好累，好痛，像被人用刀子一点点刮着。
+:已经快撑不下去了。
+setTransform:{"position":{"y":0},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":800,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":0} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-400,"y":-150},"scale":{"x":1,"y":1},"blur":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-1600,"y":-600},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-650},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -next -motion=nnf_left01 -expression=smile03;
+changeFigure:tomori/初中灯冬装/Tomori_初三_冬装_v1.model.json -id=tomori -next -motion=sad01 -expression=sad02;
+changeFigure:taki/椎名立希_羽丘冬装套装_v1.2.2/Taki_040_羽丘冬装_初三_v1.2.model.json -id=taki -next -motion=nf_right01 -expression=angry01;
+素世:明明一起演出的时候那么开心......睦也是这么想的，对吧？ -fontSize=default -id -figureId=soyo;
+setTransform:{"position":{"y":0},"scale":{"x":1.3,"y":1.3},"alpha":1,"blur":0} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":500,"y":50},"scale":{"x":0.75,"y":0.75},"alpha":1,"blur":0} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-600,"y":-150},"scale":{"x":1,"y":1},"blur":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-1800,"y":-600},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":0,"y":-650},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -motion=nnf02 -expression=sad01;
+setTransform:{"position":{"x":-200,"y":350},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":0} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":-350},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":0} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-1650,"y":-150},"scale":{"x":1,"y":1},"blur":0} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-2550,"y":-600},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":0} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":300,"y":-650},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":0} -target=soyo -duration=1000 -next;
+:我下意识地看向睦，像是溺水的人抓住了最后一根救命稻草。只要睦愿意帮我......帮我结束这一切......哪怕是狠狠地推开我也好。
+祥子:（求你了，睦......求你了......帮帮我......）
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -next -motion=nnf_right01 -expression=sad01;
+:睦抬起头，先是看了看素世，
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -next -motion=idle01 -expression=sad01;
+:又看了看我， -concat -fontSize=default;
+changeFigure:mutsumi/Mutsumi_jh_school_winter-2023_rip_v1/model.json -id=mutsumi -next -motion=nf_right01 -expression=sad01;
+:最后沉默了很久，把头转了回去。 -concat -fontSize=default;
+睦:我......从来没觉得组乐队开心过...... -fontSize=default -id -figureId=mutsumi;
+changeFigure:soyo/039_jh_school_winter-2023_rip_v2/model.json -id=soyo -motion=nnf_left01 -expression=surprised01;
+素世:诶？
+setTransform:{"position":{"x":-200,"y":350},"scale":{"x":1.7,"y":1.7},"alpha":1,"blur":30} -target=bg2 -duration=1000 -next;
+setTransform:{"position":{"x":-500,"y":-350},"scale":{"x":1.2,"y":1.2},"alpha":1,"blur":30} -target=mutsumi -duration=1000 -next;
+setTransform:{"position":{"x":-1650,"y":-150},"scale":{"x":1,"y":1},"blur":30} -target=tomori -duration=1000 -next;
+setTransform:{"position":{"x":-2550,"y":-600},"scale":{"x":1.6,"y":1.6},"alpha":1,"blur":30} -target=taki -duration=1000 -next;
+setTransform:{"position":{"x":300,"y":-650},"scale":{"x":1.8,"y":1.8},"alpha":1,"blur":30} -target=soyo -duration=1000 -next;
+:世界变得一片昏暗，黑色的淤泥从角落里渗了出来，将我一点点淹没。;
+:我的心脏像是在狂奔似的鼓动，强烈的让我快要昏厥...... -fontSize=default;
+:不行……停下——
+:浓重的窒息感仍在，耳边嗡嗡作响，像有人在低语，又像是琴弦被拉得太紧，发出不堪重负的哀鸣。
+:“砰！” -fontSize=default;
+bgm:none;
+:一阵剧烈的冲击——我猛地砸下琴键，整个身体几乎扑在了钢琴上。
+
+changeFigure: -id=soyo -next;
+changeFigure: -id=taki -next;
+changeFigure: -id=bg2 -next;
+changeFigure: -id=mutsumi -next;
+changeFigure: -id=tomori -next;
+changeBg:none;
+bgm:none;
+:刺耳的声音炸开，像是一道利刃，将这场突如其来的噩梦撕了个粉碎。
+changeScene:第二话/2.2.txt

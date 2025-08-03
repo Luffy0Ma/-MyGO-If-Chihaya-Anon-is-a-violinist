@@ -1,0 +1,66 @@
+changeBg:Z/station.png;
+:二人一起回到了代代木站。时间不知不觉已经很晚了，不过好在还是赶在了末班车之前。
+:站台上的电子屏显示着末班车的进站时间，空气中弥漫着夜晚特有的、混合着消毒水味的微凉气息。
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -transform={"position":{"x":200}} -next -motion=mutsumi_nnf_left01 -expression=mutsumi_default -zIndex=2;
+changeFigure:sakiko/casual/model.json -right -id=sakiko -next -motion=sakiko_sad01 -expression=sakiko_sad01 -zIndex=1;
+睦:……
+setTransform:{"position":{"x":-100}} -target=sakiko -duration=2000 -next;
+:睦安静地看着墙上的线路图，思考着如何换乘才能回家。
+setTransform:{"position":{"x":-400}} -target=sakiko -duration=2000 -next;
+changeFigure:mutsumi/school_winter/model.json -left -id=mutsumi -transform={"position":{"x":200}} -next -motion=mutsumi_nnf_left01 -expression=mutsumi_surprised01 -zIndex=2;
+在她将注意力完全集中在线路规划上时，一阵温柔的触感，从背后传来。 -concat;
+:祥子从身后，轻轻地、甚至有些笨拙地，环抱住了她。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_surprised01 -expression=mutsumi_surprised01 -id=mutsumi -next;
+睦:……？
+睦:祥……
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_smile06 -expression=sakiko_smile03;
+祥子:睦，谢谢你。
+祥子:今天……幸好有你在。
+睦:……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_smile02 -expression=mutsumi_smile02 -id=mutsumi -next;
+睦:（笑）
+setTransform:{"position":{"x":-200}} -target=sakiko -duration=2000 -next;
+bgm: -enter=2000;
+:几秒后，祥子松开了手，退后一步。她的脸上虽然还带着泪痕，但那双琥珀色的眼眸里，已经重新燃起了一丝微弱的、但无比坚定的光芒。;
+changeFigure:sakiko/casual/model.json -motion=sakiko_kime01 -expression=sakiko_serious02 -id=sakiko -next;
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_nnf04 -expression=mutsumi_default;
+bgm:Special/MANYO-祈り.mp3;
+祥子:我……明天会去见她。
+:睦安静地看着她，没有问“她是谁”。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_nf03 -expression=sakiko_sad01;
+祥子:前段时间……有一个很温柔的人拜托我伴奏，但是，我……我可能辜负了她。;
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_thinking01 -expression=mutsumi_default -id=mutsumi -next;
+睦:……
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=sakiko_sad01 -expression=soyo_serious02;
+祥子:我的手，背叛了我们的音乐。但是……睦，我们却赢了……
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+睦:祥的演奏，不会有问题。
+changeFigure:sakiko/casual/model.json -id=sakiko -next -motion=umiri_sad01 -expression=mana_sad01;
+祥子:不……那是因为她……是她一个人撑起了整个曲子。那份胜利……是她一个人的东西，我必须亲手还给她。
+changeFigure:mutsumi/school_winter/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -next;
+睦:……
+changeFigure:sakiko/casual/model.json -motion=sakiko_smile01 -expression=sakiko_smile01 -id=sakiko -next;
+祥子:抱歉，说了些不明所以的话，别在意。
+changeFigure:mutsumi/school_winter/model.json -id=mutsumi -next -motion=mutsumi_smile01 -expression=mutsumi_smile01;
+:睦看着祥子，看着她那双重新找回了焦距的眼睛，终于露出了一个发自内心的、极淡的微笑。
+changeFigure:none -id=mutsumi -next;
+changeFigure:none -id=sakiko -next;
+changeBg:医院/af5e8a02-a1d0-4ea5-8cd6-337194e56e1e.png -next;
+:第二天 · 午后 · 医院走廊
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_serious01 -expression=sakiko_sigh01;
+:祥子穿着一身整洁的校服，怀里抱着一束用牛皮纸精心包裹的白色洋甘菊，一步一步地，走在安静得能听见自己心跳的医院走廊里。
+:阳光从走廊尽头的窗户照射进来，将她的影子长长地投在身后。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_serious01 -expression=umiri_sigh01;
+:她最终，停在了一间病房的门前。
+:门牌上，清晰地写着——“千早爱音”。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_sad01;
+:她看着这个名字，想起了那天舞台上，那头耀眼的粉色长发，和那双在最后时刻，依旧燃烧着火焰的银灰色眼眸。;
+:她攥紧了抱着花束的手，手心因为紧张而渗出细微的汗珠。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_sigh01 -expression=sakiko_sigh01;
+:祥子闭上眼睛，深吸了一口气。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile03 -expression=umiri_serious01;
+:再次睁开时，眼神中只剩下一种决然的平静。
+:她的手，缓缓抬起，用指关节，在厚重的病房门上，轻轻地叩击了两下。
+changeFigure:none -id=sakiko -next;
+祥子:……那个……爱音同学。我是祥子。请问，现在……方便进来吗？
+:to be continued~;

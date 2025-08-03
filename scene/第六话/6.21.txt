@@ -1,0 +1,91 @@
+bgm:Special/悲伤类/ごめんね….mp3;
+changeBg:AI/cg1.png -next;
+:在小巷的尽头，爱音记忆中那个“蓝色招牌”的位置，充满生活气息的小店早已无迹可寻，取而代之的是一家装修时尚、风格冷淡的连锁咖啡厅。巨大的落地窗倒影着茫然的爱音，锃亮的金属桌椅在闪亮的灯光下显得格外冰冷。
+:爱音脸上的笑容，像被风吹散的蒲公英一样，消失在了风声中。祥子能感觉到，身边这个女孩身上那股雀跃的、像小太阳一样的温度，正在以惊人的速度流失，变得冰冷。
+爱音:……骗人的吧。
+:声音轻的像是凋谢的花瓣，随时会被风吹散一样。
+爱音:怎么会……怎么说不见就不见了呢……
+爱音:我……我还没来得及……和婆婆说再见啊……
+:祥子茫然地看着她，不知道能说些什么。
+changeBg:M（街道）/M5.png -next;
+changeFigure:BackGround/M5.png -id=bg -transform={"scale":{"x":1.78,"y":1.78}} -next -zIndex=1;
+changeFigure:sakiko/school_winter/model.json -left -id=sakiko -next -motion=sakiko_nf04 -expression=sakiko_sad01 -zIndex=2;
+changeFigure:anon/casual_large_dark/model.json -right -id=anon -next -motion=anon_sad01 -expression=sakiko_sad01 -zIndex=3;
+:爱音没有哭，但那双总是闪耀着光芒的眼睛，此时却像是蒙上了厚厚的一层雾，把所有的光都遮蔽了起来。脸色仿佛比哭了都难看。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_sad02 -expression=sakiko_sad02 -id=sakiko -next;
+祥子:爱音……
+:祥子只觉得自己的内心像是被刀子划了一道那样难受。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_cry01 -expression=sakiko_cry01 -id=sakiko -next;
+setTransform:{"position":{"x":500,"y":150},"scale":{"x":1.4,"y":1.4}} -target=sakiko -duration=1500 -next;
+setTransform:{"position":{"x":1000,"y":150},"scale":{"x":1.4,"y":1.4}} -target=anon -duration=1500 -next;
+setTransform:{"position":{"x":300},"scale":{"x":2.5,"y":2.5}} -target=bg -duration=1500 -next;
+祥子:（都是我的错……如果不是我，她现在还应该好端端地躺在床上，就不会看到这些了……我到底在干什么啊！明明是来道歉的，却让她变得更难过了！）
+:来自身旁的细微叹息声让空气都寒冷了几分。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_angry01 -expression=sakiko_cry03;
+祥子:（安慰她啊！赶快说点什么啊！）
+:但最终，没有任何话语从嘴里冒出来。祥子的大脑飞速运转，但任何她能想到的话语，在眼前这种巨大的失落面前，都显得那么苍白，渺小。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_cry04 -expression=sakiko_sad01;
+:她只能看着面前的小太阳一点点熄灭，什么都做不了。
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -target=sakiko -duration=1500 -next;
+setTransform:{"position":{"x":0,"y":0},"scale":{"x":1,"y":1}} -target=anon -duration=1500 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1.79,"y":1.79}} -target=bg -duration=1500 -next;
+changeFigure:anon/casual_large_dark/model.json -id=anon -next -motion=mutsumi_nf05 -expression=anon_bitter;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=tomori_nnf_right01 -expression=taki_sad01;
+爱音:对不起。我……什么都找不到了。
+changeFigure:anon/casual_large_dark/model.json -id=anon -next -motion=mutsumi_nf01 -expression=anon_bitter;
+爱音:……回去……吧。
+setTransform:{"position":{"x":200}} -target=anon -duration=1500 -next;
+:说完，她就准备转身，朝着来时的方向走回去。那小小的背影，写满了放弃和拒绝。
+setTransform:{"position":{"x":500,"y":150},"scale":{"x":1.4,"y":1.4}} -target=sakiko -duration=1500 -next;
+setTransform:{"position":{"x":1300,"y":150},"scale":{"x":1.4,"y":1.4}} -target=anon -duration=1500 -next;
+setTransform:{"position":{"x":300},"scale":{"x":2.5,"y":2.5}} -target=bg -duration=1500 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=nyamu_angry01 -expression=sakiko_surprised02;
+:不……不行。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=nyamu_nf01 -expression=sakiko_surprised02;
+:不能让爱音以这种状态回去，绝对不行！
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":1,"y":1}} -target=sakiko -duration=1500 -next;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":1,"y":1}} -target=anon -duration=1500 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1.79,"y":1.79}} -target=bg -duration=1500 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=nyamu_nf01 -expression=sakiko_surprised02;
+changeFigure:anon/casual_large_dark/model.json -id=anon -next -motion=uika_nnf_left01 -expression=anon_bitter;
+:一股从未有过的、混合着愧疚、焦躁和强烈保护欲的冲动，瞬间支配了祥子。在爱音反应过来之前，祥子已经一个箭步上前，紧紧抓住了她的手腕。
+changeFigure:sakiko/school_winter/model.json -motion=sakiko_kime01 -expression=sakiko_serious02 -id=sakiko -next;
+changeFigure:anon/casual_large_dark/model.json -id=anon -next -motion=uika_nnf_left01 -expression=anon_bitter;
+爱音:祥子……？
+setTransform:{"position":{"x":500,"y":150},"scale":{"x":1.4,"y":1.4}} -target=sakiko -duration=1500 -next;
+setTransform:{"position":{"x":600,"y":150},"scale":{"x":1.4,"y":1.4}} -target=anon -duration=1500 -next;
+setTransform:{"position":{"x":0},"scale":{"x":2.5,"y":2.5}} -target=bg -duration=1500 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_serious02;
+:祥子没有回答。她的视线开始在这条老旧的商业街上疯狂地扫视、搜寻。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_sad02;
+祥子:（音乐……一定有和音乐有关的地方……只要是音乐的话，一定能……）
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf_left01 -expression=sakiko_surprised01;
+:她的目光越过那些褪色的饭店招牌和紧闭的服装店卷帘门，最终，像找到了唯一的救命稻草般，死死地锁定在了街对面二楼窗户上，那个并不起眼、但对她来说却无比耀眼的金色招牌上。
+
+:上面，用优美的书法字体，清晰地写着——
+
+:「望月音楽教室」
+setTransform:{"position":{"x":400,"y":0},"scale":{"x":1,"y":1}} -target=sakiko -duration=1500 -next;
+setTransform:{"position":{"x":100,"y":0},"scale":{"x":1,"y":1}} -target=anon -duration=1500 -next;
+setTransform:{"position":{"x":0},"scale":{"x":1.79,"y":1.79}} -target=bg -duration=1500 -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=tomori_nf04 -expression=sakiko_kime01;
+祥子:庆功宴还没结束！
+:她转过头，脸上挤出了一个自己都觉得僵硬的、逞强的微笑，声音因为急切而有些发颤。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile01 -expression=sakiko_smile04;
+changeFigure:anon/casual_large_dark/model.json -id=anon -next -motion=uika_nnf_left01 -expression=mutsumi_surprised01;
+changeBg:M（街道）/M18.png -next;
+祥子:我……我来当你的专属演奏家！安可曲！现在开始！;
+bgm:none -enter=1500;
+setTransform:{"position":{"x":200,"y":0},"scale":{"x":1,"y":1}} -target=sakiko -duration=1500 -next;
+setTransform:{"position":{"x":-100,"y":0},"scale":{"x":1,"y":1}} -target=anon -duration=1500 -next;
+changeFigure:none -id=bg -next;
+:她就那样紧紧地、甚至有些用力地拉着爱音的手，不顾路人投来的诧异目光，径直朝着远处那家琴行的方向快步走去。;
+bgm:Special/温馨类/モノローグ (autumn ver.).mp3;
+changeFigure:anon/casual_large_dark/model.json -id=anon -next -motion=uika_nnf_left01 -expression=sakiko_smile03;
+:爱音被这突如其来的、近乎“绑架”的行为彻底搞懵了。她被动地、踉踉跄跄地被祥子拉着，手心里，能清晰地感觉到祥子那因为紧张和用力而微微有些汗湿的、却不容拒绝的温度。
+changeFigure:anon/casual_large_dark/model.json -id=anon -next -motion=tomori_nf04 -expression=taki_sad02;
+爱音:祥子……
+changeFigure:none -id=sakiko -next;
+changeFigure:none -id=anon -next;
+:最终，她也没能憋出任何拒绝的话语。看着二人紧紧握在一起的手，她的嘴角不受控制地向上弯起了一抹淡淡的笑容。;
+changeScene:第六话/6.3.txt

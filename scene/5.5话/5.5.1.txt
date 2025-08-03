@@ -1,0 +1,143 @@
+changeBg:bestdori/bg00072.png -next;
+bgm:Special/BanGDream/ましろの憂鬱.mp3;
+:微风拂过，生锈的秋千独自摇晃着，发出细微而固执的“吱呀”声，像一声悠长的叹息。几只流浪猫蜷缩在长椅的阴影下，对这个世界漠不关心。阳光穿过稀疏的梧桐树叶，在铺满落叶的地面上投下破碎的光斑，随着风的节奏轻轻晃动。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_sad01 -expression=mutsumi_sad01;
+:若叶睦独自一人，坐在公园的长椅上。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad01 -id=mutsumi -next;
+:她没有看手机，也没有看书，只是目光空洞地望着地面上的一条干裂的缝隙，仿佛要将自己的灵魂也一同埋进去。阳光温柔地拥抱着她，但她似乎感觉不到任何温度。
+changeFigure:none -id=mutsumi -next;
+睦:（……素世。）;
+changeBg:K（生活地点）/K27.png -next;
+changeFigure:mutsumi/casual/model.json -right -id=mutsumi1 -next -motion=mutsumi_sad02 -expression=sakiko_surprised02;
+changeFigure:soyo/casual/model.json -left -id=soyo -next -motion=soyo_smile04 -expression=soyo_sadsmile01;
+素世:所以，小睦不用再这么辛苦地演戏了。一直以来，为了不让我再去打扰小祥，才像这样费心陪在我身边……一定很辛苦吧？;
+changeFigure:none -id=soyo -next;
+changeFigure:none -id=mutsumi1 -next;
+:（“我们之间的戏……也该结束了。”）
+changeBg:bestdori/bg00072.png -next;
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_thinking01 -expression=mutsumi_sad01 -id=mutsumi -next;
+:（……什么戏？）
+:（我……演得很差吗？）
+:想不明白，空荡荡的公园里没有人能解答她的疑惑。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_nnf_left01 -expression=Down_look;
+:一只橘白相间的小猫不知何时凑到了她的脚边，用毛茸茸的头轻轻蹭着她的裤腿，发出讨好的呼噜声。睦缓缓地，像是被抽走了所有发条的玩偶般，抬起手，机械地在猫的背上抚摸了一下。指尖传来了生命的温热，也让她内心的寒冰消解了几分。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_nnf04 -expression=L_Boby_Down;
+睦:……喵。
+猫猫:喵~
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_nnf_left01 -expression=L_Boby;
+:就在这时，小猫抬头看向一侧，随即跑了出去。而且不止这一只猫，公园里原本隐藏着的许多猫猫都忽然蹿了出来，朝着那只橘白相间的小猫跑去的方向而去。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_surprised01 -expression=mutsumi_surprised01 -id=mutsumi -next;
+睦:……？
+changeFigure:rana/casual/model.json -right -id=rana -next -motion=rana_smile02 -expression=rana_default;
+setTransform:{"position":{"x":-500}} -target=mutsumi -duration=2000 -next;
+:这时，睦才看清猫咪们关注的对象究竟是何人。是那个昨天她在东京歌剧城外偶遇的喂猫的女孩子。她今天还一样穿着这一身十分休闲宽松的服装，背上背着吉他，手里捧着一大袋猫粮。
+猫猫:喵~
+changeFigure:rana/casual/model.json -motion=rana_smile01 -expression=rana_smile01 -id=rana -next;
+乐奈:嗯嗯，喵~;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_surprised01 -expression=mana_sad01;
+:不知为何，睦总觉得猫咪们见到这个女孩子时的叫声与和她相处是相比更加享受了许多，心里也随之升起一阵幼稚的嫉妒。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_smile01 -expression=mutsumi_surprised01;
+:只见那个少女把猫粮倒了出来，簇拥着她的猫咪们一拥而上，开始享用这从天而降的美食。而她本人也在长椅上坐了下来，拿出了吉他。
+猫猫:喵~;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_surprised01 -expression=mutsumi_sad01;
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_nf01 -expression=rana_smile01;
+乐奈:……今天…多了一个不认识的观众？没事的，那个女孩子不是坏人。;
+bgm:none -enter=2000;
+:说着，那女孩弹起了吉他。
+changeFigure:rana/casual/model.json -motion=rana_smile02 -expression=rana_smile02 -id=rana -next;
+bgm:Special/Guitar/Fly Me to The Moon.mp3;
+乐奈:（笑）~
+:睦的耳朵捕捉到了第一个和弦。那是一个温暖得有些不真实的、带着沙沙质感的爵士和弦，像一杯在冬日午后递到手边的热可可。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_surprised01 -expression=mutsumi_idle01;
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_smile04 -expression=rana_smile02;
+:她原本以为会是某种吵闹的、不成调的噪音，但这段旋律却意外地……温柔。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_thinking01 -expression=sakiko_sigh01;
+:睦那颗因为过度思考而变得僵硬的心，仿佛被这不请自来的旋律轻轻地、一点一点地揉开了。她紧绷的肩膀，在不知不觉中放松了下来。她忘记了素世，忘记了祥子，忘记了那些枯萎的黄瓜和断掉的弦。
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_nnf03 -expression=rana_smile01;
+:此刻，她的世界里，只剩下这段音乐。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_nf02 -expression=mutsumi_default -id=mutsumi -left -next;
+睦:……
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_smile01 -expression=mutsumi_smile01 -id=mutsumi -next;
+睦:（笑）
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_thinking01 -expression=mutsumi_default -id=mutsumi -next;
+睦:这首曲子，叫什么？
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_smile04 -expression=rana_default;
+乐奈:Fly Me to The Moon。想去月亮上看看吗？;
+:此时，一部分猫猫已经吃饱了，它们慵懒地躺在温暖的阳光下，在温柔的音乐中伸着懒腰，好不享受。
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_nnf05 -expression=anon_smile01;
+:睦看着那只之前蹭过她的橘白小猫，它此刻正满足地躺在乐奈的脚边。睦沉默了很久，然后用一种非常认真、不带任何感情起伏的语调，问出了一个奇怪的问题。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_thinking01 -expression=mutsumi_default;
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_nnf05 -expression=rana_surprised01;
+睦:……猫，会说谎吗？
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_thinking01 -expression=rana_thinking01;
+:乐奈听到这个问题，眼睛亮了一下，仿佛找到了失散多年的族人。她没有觉得奇怪，反而一本正经地思考了几秒。
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_smile01 -expression=rana_smile01;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_thinking01 -expression=mutsumi_surprised01;
+乐奈:不会。但是，它们会唱错歌词。
+:睦的眼神里第一次流露出一丝追问的欲望，声音比刚才更轻了一些。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_nf04 -expression=mutsumi_default;
+睦:……唱错了，会怎么样？
+changeFigure:rana/casual/model.json -motion=rana_serious01 -expression=rana_serious01 -id=rana -next;
+乐奈:唱错了，雨就不会停。天空会一直哭。
+:睦的瞳孔微不可查地收缩了一下。她的脑海里，不受控制地浮现出另一场雨，和雨中那个渐行渐远的、决绝的背影。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_surprised01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:（……雨。）
+睦:（那天的雨……）
+睦:（素世……在哭吗？……是我，唱错了吗？）
+:她的眉头轻轻蹙起，垂下眼帘，看着自己交叠在一起的、冰冷的手指。她觉得自己内心还有好多想不明白的问题，于是，她再次开口。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_thinking01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……如果，把黄瓜种在别人的田里……它还会……长出来吗？
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_smile04 -expression=rana_smile01;
+:乐奈听到这个问题，脸上露出了“原来是这样啊”的表情。她从口袋里摸出一把五颜六色的吉他拨片，像占卜师洗牌一样在手里哗啦啦地把玩着，然后摊开手心，展示给睦看。
+changeFigure:rana/casual/model.json -motion=rana_niya01 -expression=rana_niya01 -id=rana -next;
+乐奈:要看月亮。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_thinking01 -expression=mutsumi_default;
+睦:……月亮？
+changeFigure:rana/casual/model.json -motion=rana_smile01 -expression=rana_smile01 -id=rana -next;
+乐奈:嗯。如果是满月，黄瓜会以为自己是南瓜，然后迷路。如果是新月，黄瓜会以为自己是星星，然后躲起来不敢发芽。
+:睦的视线落在乐奈手心那些彩色的拨片上，像在寻找着唯一的、正确的答案。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_thinking01 -expression=mutsumi_sad01;
+睦:……那，什么时候，才是对的？
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_smile04 -expression=rana_smile02;
+:乐奈仿佛听到了她内心的疑问。她收起了所有拨片，只留下一片半透明的、月牙形状的蓝色拨片，然后轻轻地放在了睦的手心上。
+changeFigure:rana/casual/model.json -motion=rana_kime01 -expression=rana_kime01 -id=rana -next;
+乐奈:没有月亮的时候。因为，你自己，就是月亮。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_thinking01 -expression=mutsumi_surprised01;
+:一枚小小的、像一弯新月一样的蓝色拨片，静静地躺在她白皙的掌纹上。拨片冰凉的触感，从她的掌心传来，仿佛一股微弱的电流，让她混沌的思绪有了一瞬间的清明。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_surprised01 -expression=mutsumi_surprised01 -id=mutsumi -next;
+睦:（……我自己，是月亮？）
+睦:（……去照亮别人的田地？）
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_surprised01 -expression=mutsumi_sad01;
+睦:（祥的田里，现在……是黑色的吗？……没有月亮。）;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_odoodo01 -expression=L_Boby;
+:睦缓缓地、珍重地握紧了手里的拨片。
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_kime01 -expression=mutsumi_default;
+她再次抬起头，看向乐奈时，眼神中的空洞已经被一种微弱但清晰的、名为“决意”的东西所取代。 -concat;
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_kime01 -expression=mutsumi_serious01 -id=mutsumi -next;
+睦:……谢谢你的月亮。
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_smile01 -expression=sakiko_smile02;
+:乐奈露出了一个心满意足的微笑，点点头。
+changeFigure:rana/casual/model.json -id=rana -next -motion=rana_smile04 -expression=rana_smile01;
+bgm:none -enter=2000;
+乐奈:不客气。猫猫们说，想听你们乐队的现场。到时候，要给它留第一排中间最好的位置。
+bgm:Special/Guitar/Fly Me to The Moon.mp3;
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_sad01 -expression=mutsumi_sad01 -id=mutsumi -next;
+睦:……我们，已经没有乐队了。;
+:乐奈站起身，背上她的吉他包，准备离开。
+changeFigure:rana/casual/model.json -motion=rana_nf02 -expression=rana_default -id=rana -next;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_nf02 -expression=mutsumi_default;
+乐奈:会有的。星星，总是会回到天上去的。
+changeFigure:rana/casual/model.json -motion=rana_bye01 -expression=rana_bye01 -id=rana -next;
+:她说完，对着睦像猫一样挥了挥手，
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=mutsumi_bye01 -expression=mutsumi_default;
+changeFigure:none -id=rana -next;
+然后转身，迈着轻快的、没有一丝留恋的步伐，消失在了公园的小径尽头。 -concat;
+setTransform:{"position":{"x":0}} -target=mutsumi -duration=2000 -next;
+changeFigure:mutsumi/casual/model.json -id=mutsumi -next -motion=sakiko_nf04 -expression=Up_look;
+:睦独自一人坐在长椅上。她摊开手心，那枚月牙形的拨片在午后的阳光下，反射出一抹温柔而坚定的蓝色光芒。她静静地看了几秒，然后站起身，不再迷茫，朝着家的方向走去。
+changeFigure:mutsumi/casual/model.json -motion=mutsumi_nf01 -expression=mutsumi_default -id=mutsumi -next;
+:她需要先回去，给自己的黄瓜浇水。
+changeFigure:none -id=mutsumi -next;
+bgm:none;
+:然后，再去看看另一片田里，是不是也需要月光。
+changeScene:5.5话/5.5.2.txt

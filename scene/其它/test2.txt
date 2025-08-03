@@ -1,0 +1,2 @@
+changeFigure:Others/21miku_band_3.0_f_t01/21miku_band_3.0_f_t01.model3.json -id=1 -transform={"position":{"x":-500}} -next -motion=w-cute-nod02;
+changeFigure:thcb_l2d/alic/object_live2d_014_101.model3.json -id=2 -next -motion=LIVE2D_014_101_42;

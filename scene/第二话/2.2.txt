@@ -1,0 +1,152 @@
+changeBg:AI/pianoroom.png -next;
+changeFigure:Utensils/piano0001.png -id=piano -transform={"blur":5} -next -zIndex=3;
+bgm:[240417] SPCD 02 Original Soundtrack Vol.2 (flac)/06. 壁の先.flac -volume=100 -unlockname=bgm3;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=sakiko_angry02 -expression=sakiko_cry04 -zIndex=1;
+祥子:哈......哈......
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=sakiko_angry02 -expression=sakiko_sad01 -zIndex=1;
+:我用力喘息，像是刚从冰冷的水底挣扎出来。黑色的淤泥消散了，世界不再昏暗，眼前只有钢琴，只有这寂静无声的音乐教室。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=mutsumi_nnf02 -expression=sakiko_thinking02 -zIndex=1;
+祥子:我又陷进去了……
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=mutsumi_nnf02 -expression=sakiko_sigh01 -zIndex=1;
+:明明是我亲手斩断了一切——回忆也好，梦想也好。
+:为了父亲，为了不被怜悯，为了不让任何人可怜我。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=mutsumi_nnf02 -expression=sakiko_sad01 -zIndex=1;
+:是我自己选择了这条路，是我亲自逼自己走到这一步，我没有后悔，也不该后悔。可是……为什么？为什么那些被我亲手舍弃的东西，如今反而成了梦魇，夜夜缠绕着我，死死揪住不放？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=mutsumi_sad01 -expression=sakiko_sad01 -zIndex=1;
+:她们恨我吗？
+:还是说，被困在深渊中的，其实是我自己？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=mutsumi_nnf01 -expression=sakiko_sad01 -zIndex=1;
+:但这已经不重要了。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=mutsumi_nnf01 -expression=sakiko_sad02 -zIndex=1;
+:我选择了这条路，就没有回头的余地。
+:只是......有时候，那些熟悉的声音、那些一度紧握的羁绊，仍会透过缝隙钻进我的心里，像潮水一样冲刷着我的意识，提醒我过往的美好与诀别的痛苦。 -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=rana_angry02 -expression=mana_sad01 -zIndex=1;
+:但我不能被它们束缚。
+:唯一能让我暂时摆脱现实与回忆的方法，就只有这每天短短的一点时间。只有在钢琴前，只有在指尖与琴键的碰撞里，我才能勉强寻得片刻平静——哪怕是自欺欺人的假象也好。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=rana_angry02 -expression=anon_thinking03 -zIndex=1;
+:宁静……就够了。
+:友谊？未来？光明？
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=mana_nnf01 -expression=uika_serious01 -zIndex=1;
+:那些东西，不是我应该去奢望的。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=sakiko_nod01 -expression=sakiko_sigh01 -zIndex=1;
+:我只希望上天看在我拼命活下去的份上，能允许我在这短短的演奏时间里，换来一丝真正的安宁，仅此而已。 -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=sakiko_nod01 -expression=sakiko_sad02 -zIndex=1;
+bgm: -enter=3000;
+:我缓缓抬起手，指尖微微颤抖着落下，心中还有些许不安。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=soyo_nf04 -expression=sakiko_smile03 -zIndex=1;
+bgm:Special/混合演奏.wav -volume=100 -unlockname=debusy1;
+:音符缓缓流淌出来，三角钢琴发出悠扬而温柔的声音，像一只无形的手，轻轻拂去了方才弥漫在胸口的窒息感。梦魇似乎在这音符中逐渐远去。;
+:《亚麻色头发的少女》……我不知道为什么会选择这首曲子，或许是因为父亲曾经那么喜欢德彪西的音乐吧。;
+:德彪西……他的音乐，仿佛真的能织出梦境一般。;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -motion=sakiko_smile03 -expression=sakiko_smile05;
+:我沉浸在这旋律里，闭上眼睛，任由这旋律带着我慢慢走远——走出现实的囚笼，走向那个虚无缥缈的梦中花园。;
+:音符中的温暖像是涌入心头的泉水，滋润着我几近干涸的灵魂。全音音阶的流转间，现实的棱角被渐渐消解。那些曾经扎进我心头的利刺，也在这柔和的和弦里慢慢融化了。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_smile03 -expression=soyo_smile01;
+:这时候，脑海中仿佛浮现出了一首诗。;
+:我记得父亲曾在我小时候告诉我，德彪西的《亚麻色头发的少女》的创作灵感，源自法国诗人勒孔特·德·里尔的同名诗作。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_angry01 -expression=uika_smile01;
+:不知为何，琴音间竟浮现出一丝吟唱，仿佛从旋律深处轻轻溢出，又像是从心底某个遥远的角落被悄然唤起。
+:那声音最初模糊不清，若隐若现，仿佛被云雾遮掩。可当旋律流淌，云雾逐渐散去，它便愈发清晰，如瀑布自山崖倾泻，在韵律中激起层层涟漪，轻盈地跃动。
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=mutsumi_smile02 -expression=rana_thinking01;
+:我听见了……那是诗的吟诵，那首与曲子同名的诗作，它的诗行在音乐中潺潺流淌，如溪水般浸润在音符之中。
+:那旋律流淌着，而诗句便随之浮现。二者本就同源，皆诞生于一段朦胧而柔和的憧憬，如晨曦轻拂金色的麦田，一半化作诗行，一半流入乐音，最终共同交织成一片温柔的梦境。
+
+
+changeFigure: -id=piano -next;
+changeBg:AI/ComfyUI_00030_.png -next;
+:"在紫色苜蓿盛开的土地上";
+:"是谁在清晨低吟浅唱？";
+
+changeFigure: -id=sakiko -next;
+changeBg:AI/ComfyUI_00055_.png -next;
+:我仿佛看见一位少女，立于清晨的草地之上。她的长发被风吹起，嘴唇红得像熟透的樱桃，轻轻唱着这首情诗。 -fontSize=default;
+:她就是这首诗歌的主人公吗？
+:"是位亚麻色头发的少女";
+:"嘴唇红如樱桃将歌声轻放";
+:"爱就像夏日灿烂的骄阳";
+:"百灵鸟在枝头引吭";
+
+:音符和诗句交织在一起，这幅流动的画卷在我眼前徐徐展开......;
+changeBg:AI/ComfyUI_00074_new.png -next;
+
+:"你的唇色是天上的光，";
+:"我心所爱，将倩影珍藏！";
+:"你可愿与我同行在芳草地？";
+:"那卷曲的长发如野花含香";
+
+:"爱就像夏日灿烂的骄阳";
+:"百灵鸟在枝头引吭";
+
+
+:"多令人痛苦，你别这样讲！";
+:"别说'愿意'！我会痴狂";
+changeBg:AI/ComfyUI_00190_.png -next -transform={"blur":3};
+:"深沉望入眼中的秋水，";
+:"你粉色的嘴唇令人眼盲";
+
+:"爱就像夏日灿烂的骄阳";
+:"百灵鸟在枝头引吭";
+
+:"告别了小鹿，再见了野兔，";
+:"还有红鹧鸪！我多想";
+
+:"亲吻你的亚麻色头发，";
+:"用手指轻按你的红唇";
+:"爱就像夏日灿烂的骄阳，";
+:"百灵鸟在枝头引吭";
+
+changeBg:AI/pianoroom.png -next;
+changeFigure:Utensils/piano0001.png -id=piano -transform={"blur":5} -next -zIndex=3;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=sakiko_thinking01 -expression=sakiko_smile03 -zIndex=1;
+:一曲终了，余音尚在指尖微微颤抖。我从这场由音乐与诗交织而成的幻梦中缓缓醒来，仿佛从一场无人知晓的盛夏迷梦里走出。;
+:梦终究是要醒的……只是有些可惜罢了。;
+bgm:none;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"x":500,"y":200},"scale":{"x":0.6,"y":0.6}} -next -motion=mutsumi_nf_left01 -expression=sakiko_smile03 -zIndex=1;
+:我只是有些好奇，勒孔特写下这首诗的时候，是否也曾想过——若能与心之所爱共入一场幻梦，此生便无憾呢？;
+
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf01 -expression=mana_smile01;
+:我苦笑了一下，这样的念头太过天真了。毕竟，那不过是我在弹琴时做的一个幻梦罢了，没有任何分量。 -fontSize=default;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf01 -expression=rana_thinking01;
+bgm:[240417] SPCD 02 Original Soundtrack Vol.2 (flac)/24. 孤独な少女.flac;
+:我轻轻合上了琴盖，像是在关上一场梦的门。一厢情愿的感情，终究换不来什么。倒不如放下不必要的期待，或许活得轻松一些。;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=sakiko_nf01 -expression=sakiko_idle01;
+:只是——;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=soyo_ando01 -expression=sakiko_idle01;
+:我抬起头，顺着脑海里最后一丝余韵的方向看去。那个小提琴手，那个中途闯入了这场梦的人……她，究竟是谁呢？;
+
+:或许是管乐团的成员吧？看我占了教室太久，才用那样温柔的方式提醒我？;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -next -motion=rana_nnf_right01 -expression=sakiko_smile01;
+:真是体贴得过分了……我低头轻轻笑了一下，缓缓回过头去——;
+
+changeFigure: -id=piano -next;
+changeFigure:none -id=sakiko -next;
+changeBg:AI/image (1).png -next;
+changeFigure:anon/school_winter/model.json -id=anon -transform={"position":{"x":200,"y":-100},"scale":{"x":0.85,"y":0.85}} -next -motion=tomori_shame01 -expression=sakiko_serious01;
+:她红着脸，低着头，刚演奏完的小提琴被她轻轻提在手中，琴弓则随意地搭在另一只手上。;
+changeFigure:anon/school_winter/model.json -id=anon -transform={"position":{"x":200,"y":-100},"scale":{"x":0.85,"y":0.85}} -next -motion=tomori_shame01 -expression=sakiko_smile05;
+祥子:（……为什么要这样脸红呢？）;
+
+爱音:啊……啊，不好意思，因为实在太好听了所以……;
+changeFigure:anon/school_winter/model.json -id=anon -transform={"position":{"x":200,"y":-100},"scale":{"x":0.85,"y":0.85}} -next -motion=sakiko_shame02 -expression=anon_surprised01;
+:我不由自主地鼓起了掌。不管她是什么人，我都想谢谢她——谢谢她带我走进了这场梦境，也谢谢她的温柔。;
+
+祥子:精彩的演奏……你是吹奏乐社的吗？不过吹奏乐社好像没有小提琴……;
+changeFigure:anon/school_winter/model.json -id=anon -transform={"position":{"x":200,"y":-100},"scale":{"x":0.85,"y":0.85}} -next -motion=mutsumi_nf01 -expression=tomori_shame01;
+爱音:啊……不是！我就是单纯过来听听……;
+changeFigure:anon/school_winter/model.json -id=anon -transform={"position":{"x":200,"y":-100},"scale":{"x":0.85,"y":0.85}} -next -motion=anon_shame02 -expression=anon_surprised01;
+祥子:然后又擅自演奏起来呢。;
+:我其实不是想责怪她什么，毕竟我也不是吹奏乐社的。我们不过是"一丘之貉"罢了——;
+changeFigure:anon/school_winter/model.json -id=anon -transform={"position":{"x":200,"y":-100},"scale":{"x":0.85,"y":0.85}} -next -motion=sakiko_shame01 -expression=sakiko_shame01;
+:可话说出口的时候，我看到她明显怔了一下，慌张得像被吓到的小狗狗。;
+:或许我不应该把刚才那句玩笑话说出口的...？;
+changeFigure:anon/school_winter/model.json -id=anon -transform={"position":{"x":200,"y":-100},"scale":{"x":0.85,"y":0.85}} -next -motion=sakiko_shame01 -expression=soyo_serious01;
+祥子:啊！我没有责怪你的意思！我是B班的丰川祥子——;
+changeFigure: -id=anon -next;
+
+:还没来得及解释，她就跑了。跑之前还连连说着什么道歉的话，像是真的做错了什么事似的。;
+
+changeBg:F（羽丘）/F17.png -next;
+changeFigure:sakiko/school_winter/model.json -id=sakiko -transform={"position":{"y":-100},"scale":{"x":0.85,"y":0.85}} -next -motion=sakiko_surprised01 -expression=sakiko_surprised01;
+祥子:（我……我难道很吓人吗？怎么就这样跑掉了啊？？？）;
+playVideo:ED.mp4;

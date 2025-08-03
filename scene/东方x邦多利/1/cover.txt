@@ -1,0 +1,7 @@
+
+changeBg:学生会/bg00363.png -next;
+changeFigure:thcb_l2d/雾雨魔理沙/model.json -id=marisa -transform={"position":{"x":100,"y":100},"scale":{"x":1.3,"y":1.3}} -next -motion=sakuya_courteous -expression=surprise -zIndex=5;
+changeFigure:kokoro/school_winter-2023/model.json -id=kokoro -transform={"position":{"x":-650,"y":-100},"rotation":0.4} -next -motion=kime01 -expression=kime01;
+changeFigure:kaoru/casual_winter-2023/model.json -id=kaoru -transform={"position":{"x":700},"rotation":-0.3} -next -motion=kime03 -expression=kime02;
+changeFigure:Utensils/light.png -id=light -transform={"alpha":0.7} -next -zIndex=7;
+changeFigure:Utensils/ゴゴゴゴ.png -transform={"position":{"x":100}} -zIndex=9;
